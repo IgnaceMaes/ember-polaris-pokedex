@@ -1,4 +1,5 @@
 import Model, { attr } from '@ember-data/model';
+import { Type } from '@warp-drive/core-types/symbols';
 
 /**
  * Data:
@@ -60,5 +61,18 @@ import Model, { attr } from '@ember-data/model';
  */
 
 export default class PokemonModel extends Model {
-  @attr declare name: { english: string; japanese: string; chinese: string; french: string };
+  @attr declare name: {
+    english: string;
+    japanese: string;
+    chinese: string;
+    french: string;
+  };
+
+  @attr declare image: {
+    sprite: string;
+    thumbnail: string;
+    hires: string;
+  };
+
+  [Type] = 'pokemon' as const;
 }

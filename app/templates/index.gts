@@ -4,14 +4,24 @@ import Pokemon from 'ember-embroider-pokedex/components/pokemon';
 
 export default RouteTemplate(
   <template>
-    {{pageTitle "Overview"}}
+    {{pageTitle 'Overview'}}
 
     <h3>Overview</h3>
 
-    {{#each @model as |pokemon|}}
-      <Pokemon @pokemon={{pokemon}} />
-    {{/each}}
+    <div class="grid">
+      {{#each @model as |pokemon|}}
+        <Pokemon @pokemon={{pokemon}} />
+      {{/each}}
+    </div>
 
     {{outlet}}
-  </template>
+
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1rem;
+      }
+    </style>
+  </template>,
 );
