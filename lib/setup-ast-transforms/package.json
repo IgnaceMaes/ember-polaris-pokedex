@@ -1,0 +1,9 @@
+{
+  "name": "setup-ast-transforms",
+  "keywords": [
+    "ember-addon"
+  ],
+  "dependencies": {
+    "glimmer-scoped-css": "*"
+  }
+}

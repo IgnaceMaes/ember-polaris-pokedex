@@ -10,6 +10,10 @@ module.exports = function (defaults) {
   });
 
   const { Webpack } = require('@embroider/webpack');
+  const {
+    GlimmerScopedCSSWebpackPlugin,
+  } = require('glimmer-scoped-css/webpack');
+
   return require('@embroider/compat').compatBuild(app, Webpack, {
     staticAddonTestSupportTrees: true,
     staticAddonTrees: true,
@@ -22,5 +26,10 @@ module.exports = function (defaults) {
         package: 'qunit',
       },
     ],
+    packagerOptions: {
+      webpackConfig: {
+        plugins: [new GlimmerScopedCSSWebpackPlugin()],
+      },
+    },
   });
 };
