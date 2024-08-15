@@ -1,3 +1,4 @@
+import 'ember-source/types';
 import '@glint/environment-ember-loose';
 import { ComponentLike } from '@glint/template';
 import type EmberPageTitleTemplateRegistry from 'ember-page-title/template-registry';

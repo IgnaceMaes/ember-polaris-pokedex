@@ -5,8 +5,10 @@ export default RouteTemplate(
   <template>
     {{pageTitle 'Ember Pokedex'}}
 
-    <h2 id='title'>Ember Pokedex</h2>
+    <main class="container m-auto py-8">
+      <h2 class="text-4xl font-bold mb-4">Ember Pokedex</h2>
 
-    {{outlet}}
+      {{outlet}}
+    </main>
   </template>,
 );

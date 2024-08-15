@@ -29,6 +29,23 @@ module.exports = function (defaults) {
     packagerOptions: {
       webpackConfig: {
         plugins: [new GlimmerScopedCSSWebpackPlugin()],
+        module: {
+          rules: [
+            {
+              test: /.css$/i,
+              use: [
+                {
+                  loader: 'postcss-loader',
+                  options: {
+                    postcssOptions: {
+                      config: 'config/postcss.config.js',
+                    },
+                  },
+                },
+              ],
+            },
+          ],
+        },
       },
     },
   });
