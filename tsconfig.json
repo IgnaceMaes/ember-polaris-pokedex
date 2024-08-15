@@ -11,4 +11,9 @@
       "*": ["types/*"]
     }
   }
-}
+,
+    "glint": {
+      "environment": ["ember-loose", "ember-template-imports"]
+    },
+    "exclude": ["blueprints"],
+  }
