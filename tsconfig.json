@@ -20,6 +20,7 @@
       "./node_modules/@ember-data-types/adapter/unstable-preview-types",
       "./node_modules/@ember-data-types/graph/unstable-preview-types",
       "./node_modules/@ember-data-types/json-api/unstable-preview-types",
+      "./node_modules/@ember-data-types/rest/unstable-preview-types",
       "./node_modules/@ember-data-types/legacy-compat/unstable-preview-types",
       "./node_modules/@ember-data-types/model/unstable-preview-types",
       "./node_modules/@ember-data-types/request-utils/unstable-preview-types",

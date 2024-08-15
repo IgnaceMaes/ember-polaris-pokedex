@@ -1,4 +1,6 @@
-export const JsonSuffixHandler = {
+import type { Handler } from "@ember-data/request";
+
+export const JsonSuffixHandler: Handler = {
   request(context, next) {
     const { request } = context;
     const updatedRequest = Object.assign({}, request, {
