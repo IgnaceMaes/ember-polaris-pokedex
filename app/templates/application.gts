@@ -10,5 +10,8 @@ export default RouteTemplate(
 
       {{outlet}}
     </main>
+    <footer class="container m-auto py-8">
+      Pokémon and all elements of the Pokémon franchise are © 1995-2024 Nintendo, GAME FREAK inc. TM © and Creatures Inc.
+    </footer>
   </template>,
 );
