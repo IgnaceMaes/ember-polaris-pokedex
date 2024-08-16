@@ -86,6 +86,7 @@ export default class PokemonModel extends Model {
   @attr declare species: string;
 
   @attr declare evolution: {
+    prev: [string, string];
     next: [string, string][];
   };
 

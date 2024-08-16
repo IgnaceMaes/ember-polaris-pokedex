@@ -32,7 +32,7 @@ const emojiForType = {
   Dragon: '🐉',
   Dark: '🖤',
   Fairy: '🧚',
-};
+} as const;
 
 export const tailwindColorForPokemonType = {
   Normal: 'bg-blue-500',
@@ -80,7 +80,7 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
   <template>
     <LinkTo
       @route='index'
-      class='relative inline-flex items-center justify-center p-0.5 mb-8 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white focus:ring-4 focus:outline-none focus:ring-pink-200'
+      class='relative inline-flex items-center justify-center p-0.5 mb-16 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white focus:ring-4 focus:outline-none focus:ring-pink-200'
     >
       <span
         class='relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0'
@@ -92,8 +92,8 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
         {{#let (this.currentPokemon PokemonContent.data) as |pokemon|}}
           {{pageTitle pokemon.name.english}}
 
-          <div class="flex gap-16">
-            <img class="animate-wiggle drop-shadow-2xl size-96" src={{pokemon.image.hires}} alt={{pokemon.name.english}} />
+          <div class="flex gap-16 justify-center">
+            <img class="animate-wiggle [animation-delay:_0.2s] drop-shadow-2xl size-96" src={{pokemon.image.hires}} alt={{pokemon.name.english}} />
             <div class="max-w-96">
               <h2 class="font-medium text-4xl">{{pokemon.name.english}}</h2>
               <p class='my-2 text-slate-700 text-lg italic'>
@@ -114,6 +114,45 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
               </div>
             </div>
           </div>
+
+          {{#if pokemon.evolution}}
+            <section class="max-w-3xl m-auto">
+              <h3 class="text-2xl mt-12">Evolutions</h3>
+
+              <div class="grid grid-cols-2 gap-8">
+                <div>
+                  {{#if pokemon.evolution.prev}}
+                    <LinkTo
+                      @route='pokemon.pokemon'
+                      @model={{get pokemon.evolution.prev 0}}
+                      class='bg-gradient-to-br from-pink-100 to-yellow-100 rounded-xl p-4 shadow hover:shadow-md transition-shadow flex flex-col items-center group cursor-pointer'
+                    >
+                      ⏪ Previous
+                    </LinkTo>
+                  {{else}}
+                    <div class='bg-gradient-to-br from-gray-100 to-slate-100 rounded-xl p-4 shadow flex flex-col items-center group cursor-not-allowed opacity-50'>
+                      ⏪ Previous
+                    </div>
+                  {{/if}}
+                </div>
+                <div>
+                  {{#each pokemon.evolution.next as |next|}}
+                    <LinkTo
+                      @route='pokemon.pokemon'
+                      @model={{get next 0}}
+                      class='bg-gradient-to-br from-pink-100 to-yellow-100 rounded-xl p-4 shadow hover:shadow-md transition-shadow flex flex-col items-center group cursor-pointer'
+                    >
+                      Next ⏩
+                    </LinkTo>
+                  {{else}}
+                    <div class='bg-gradient-to-br from-gray-100 to-slate-100 rounded-xl p-4 shadow flex flex-col items-center group cursor-not-allowed opacity-50'>
+                      Next ⏩
+                    </div>
+                  {{/each}}
+                </div>
+              </div>
+            </section>
+          {{/if}}
         {{/let}}
       </:content>
       <:loading>
