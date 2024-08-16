@@ -1,7 +1,7 @@
-import { PokemonType } from 'ember-embroider-pokedex/models/pokemon';
+import type { PokemonType } from 'ember-embroider-pokedex/models/pokemon';
 import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
-import type PokemonRoute from 'ember-embroider-pokedex/routes/pokemon';
+import type PokemonRoute from 'ember-embroider-pokedex/routes/pokemon/pokemon';
 import {
   RouteTemplate,
   type RouteTemplateSignature,
@@ -72,10 +72,10 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
   currentPokemon = (
     pokemons: Awaited<
       PokemonTemplateSignature['Args']['model']['pokemonRequest']
-    >,
+    >['content']['data'],
   ) => {
     return pokemons.find(
-      (pokemon) => pokemon.id.toString() === this.args.model.pokemonId,
+      (pokemon) => pokemon.id!.toString() === this.args.model.pokemonId,
     );
   };
 
