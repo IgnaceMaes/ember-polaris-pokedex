@@ -1,38 +1,9 @@
 import RouteTemplate from 'ember-route-template';
 import { pageTitle } from 'ember-page-title';
 import Pokemon from 'ember-embroider-pokedex/components/pokemon';
-import Component from '@glimmer/component';
-import type Route from '@ember/routing/route';
 import type IndexRoute from 'ember-embroider-pokedex/routes';
-import type Controller from '@ember/controller';
 import { Request } from '@warp-drive/ember';
-
-type ModelFrom<R extends Route> = Awaited<ReturnType<R['model']>>;
-
-type RouteTemplateSignature<
-  R extends Route,
-  C extends Controller | undefined = undefined,
-> = C extends Controller
-  ? {
-      Args: {
-        model: ModelFrom<R>;
-        controller: C;
-      };
-    }
-  : {
-      Args: {
-        model: ModelFrom<R>;
-      };
-    };
-
-declare module 'ember-route-template' {
-  export default function RouteTemplate(Component: object): void;
-}
-
-class RouteComponent<
-  R extends Route,
-  C extends Controller | undefined = undefined,
-> extends Component<RouteTemplateSignature<R, C>> {}
+import { RouteComponent } from 'ember-embroider-pokedex/utils/ember-route-template';
 
 @RouteTemplate
 export default class IndexTemplate extends RouteComponent<IndexRoute> {
