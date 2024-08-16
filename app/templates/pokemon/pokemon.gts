@@ -7,7 +7,6 @@ import {
   type RouteTemplateSignature,
 } from 'ember-embroider-pokedex/utils/ember-route-template';
 import Component from '@glimmer/component';
-import Pokemon from 'ember-embroider-pokedex/components/pokemon';
 import { Request } from '@warp-drive/ember';
 import { get } from '@ember/helper';
 import type { TOC } from '@ember/component/template-only';
@@ -48,7 +47,7 @@ export const tailwindColorForPokemonType = {
   Fire: 'bg-red-500',
   Water: 'bg-blue-500',
   Grass: 'bg-green-500',
-  Electric: 'bg-yellow-500',
+  Electric: 'bg-yellow-300',
   Psychic: 'bg-purple-500',
   Ice: 'bg-blue-200',
   Dragon: 'bg-purple-800',
@@ -59,7 +58,7 @@ export const tailwindColorForPokemonType = {
 const PokemonTypeBadge: TOC<{ Args: { type: PokemonType } }> =
   <template>
     <span
-      class='text-2xl rounded-lg {{get tailwindColorForPokemonType @type}} p-4 shadow border'
+      class='w-16 h-16 flex items-center justify-center text-2xl rounded-lg {{get tailwindColorForPokemonType @type}} shadow border'
       title={{@type}}
     >
       {{get emojiForType @type}}
@@ -79,32 +78,35 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
   };
 
   <template>
-    {{pageTitle 'Dynamic'}}
-
     <LinkTo
       @route='index'
-      class='relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white focus:ring-4 focus:outline-none focus:ring-pink-200'
+      class='relative inline-flex items-center justify-center p-0.5 mb-8 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white focus:ring-4 focus:outline-none focus:ring-pink-200'
     >
       <span
         class='relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0'
       >⬅️ back
       </span>
     </LinkTo>
-
-    <h3 class='text-xl font-medium mb-2'>Pokemon</h3>
-
     <Request @request={{@model.pokemonRequest}}>
       <:content as |PokemonContent|>
         {{#let (this.currentPokemon PokemonContent.data) as |pokemon|}}
-          <Pokemon @pokemon={{pokemon}} />
+          {{pageTitle pokemon.name.english}}
 
-          <p
-            class='my-2 text-slate-700 text-lg italic'
-          >{{pokemon.description}}</p>
+          <div class="flex gap-16">
+            <img class="animate-wiggle drop-shadow-2xl w-96 h-96" src={{pokemon.image.hires}} alt={{pokemon.name.english}} />
+            <div>
+              <h2 class="font-medium text-2xl">{{pokemon.name.english}}</h2>
+              <p class='my-2 text-slate-700 text-lg italic'>
+                {{pokemon.description}}
+              </p>
 
-          {{#each pokemon.type as |type|}}
-            <PokemonTypeBadge @type={{type}} />
-          {{/each}}
+              <div class="flex gap-2">
+                {{#each pokemon.type as |type|}}
+                  <PokemonTypeBadge @type={{type}} />
+                {{/each}}
+              </div>
+            </div>
+          </div>
         {{/let}}
       </:content>
       <:loading>

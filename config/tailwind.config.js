@@ -18,8 +18,17 @@ module.exports = {
     ),
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        wiggle: 'wiggle 0.5s ease-out',
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 50%, 100%': { transform: 'rotate(-3deg)' },
+          '25%, 75%': { transform: 'rotate(3deg)' },
+        },
+      },
+    },
   },
   plugins: [],
-}
-
+};
