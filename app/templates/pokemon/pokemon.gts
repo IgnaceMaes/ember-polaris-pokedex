@@ -135,7 +135,7 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
                     </div>
                   {{/if}}
                 </div>
-                <div>
+                <div class="flex flex-col gap-2">
                   {{#each pokemon.evolution.next as |next|}}
                     <LinkTo
                       @route='pokemon.pokemon'
