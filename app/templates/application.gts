@@ -8,7 +8,7 @@ export default class ApplicationTemplate extends Component {
   <template>
     {{pageTitle 'Ember Pokedex'}}
 
-    <main class='container m-auto py-8'>
+    <main class='container m-auto py-8 min-h-screen'>
       <h2 class='text-5xl mb-4 font-extrabold'>
         <span
           class='text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-pink-600'

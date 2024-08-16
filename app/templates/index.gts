@@ -1,8 +1,12 @@
 import Pokemon from 'ember-embroider-pokedex/components/pokemon';
 import type IndexRoute from 'ember-embroider-pokedex/routes';
 import { Request } from '@warp-drive/ember';
-import { RouteTemplate, type RouteTemplateSignature } from 'ember-embroider-pokedex/utils/ember-route-template';
+import {
+  RouteTemplate,
+  type RouteTemplateSignature,
+} from 'ember-embroider-pokedex/utils/ember-route-template';
 import Component from '@glimmer/component';
+import LoadingBar from 'ember-embroider-pokedex/components/loading-bar';
 
 type IndexTemplateSignature = RouteTemplateSignature<IndexRoute>;
 
@@ -19,7 +23,7 @@ export default class IndexTemplate extends Component<IndexTemplateSignature> {
         </div>
       </:content>
       <:loading>
-        <div>Loading...</div>
+        <LoadingBar />
       </:loading>
     </Request>
 

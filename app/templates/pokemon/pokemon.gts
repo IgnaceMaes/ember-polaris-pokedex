@@ -10,6 +10,7 @@ import Component from '@glimmer/component';
 import { Request } from '@warp-drive/ember';
 import { get } from '@ember/helper';
 import type { TOC } from '@ember/component/template-only';
+import LoadingBar from 'ember-embroider-pokedex/components/loading-bar';
 
 type PokemonTemplateSignature = RouteTemplateSignature<PokemonRoute>;
 
@@ -55,15 +56,16 @@ export const tailwindColorForPokemonType = {
   Fairy: 'bg-pink-500',
 } as const;
 
-const PokemonTypeBadge: TOC<{ Args: { type: PokemonType } }> =
-  <template>
-    <span
-      class='w-16 h-16 flex items-center justify-center text-2xl rounded-lg {{get tailwindColorForPokemonType @type}} shadow border'
-      title={{@type}}
-    >
-      {{get emojiForType @type}}
-    </span>
-  </template>;
+const PokemonTypeBadge: TOC<{ Args: { type: PokemonType } }> = <template>
+  <span
+    class='w-16 h-16 flex items-center justify-center text-2xl rounded-lg
+      {{get tailwindColorForPokemonType @type}}
+      shadow border'
+    title={{@type}}
+  >
+    {{get emojiForType @type}}
+  </span>
+</template>;
 
 @RouteTemplate
 export default class PokemonTemplate extends Component<PokemonTemplateSignature> {
@@ -92,22 +94,26 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
         {{#let (this.currentPokemon PokemonContent.data) as |pokemon|}}
           {{pageTitle pokemon.name.english}}
 
-          <div class="flex gap-16 justify-center">
-            <img class="animate-wiggle [animation-delay:_0.2s] drop-shadow-2xl size-96" src={{pokemon.image.hires}} alt={{pokemon.name.english}} />
-            <div class="max-w-96">
-              <h2 class="font-medium text-4xl">{{pokemon.name.english}}</h2>
+          <div class='flex gap-16 justify-center'>
+            <img
+              class='animate-wiggle [animation-delay:_0.2s] drop-shadow-2xl size-96'
+              src={{pokemon.image.hires}}
+              alt={{pokemon.name.english}}
+            />
+            <div class='max-w-96'>
+              <h2 class='font-medium text-4xl'>{{pokemon.name.english}}</h2>
               <p class='my-2 text-slate-700 text-lg italic'>
                 {{pokemon.description}}
               </p>
 
-              <div class="grid grid-cols-2 my-8 text-lg">
+              <div class='grid grid-cols-2 my-8 text-lg'>
                 <p>❤️ HP: {{pokemon.base.HP}}</p>
                 <p>⚔️ Attack: {{pokemon.base.Attack}}</p>
                 <p>🛡️ Defense: {{pokemon.base.Defense}}</p>
                 <p>💨 Speed: {{pokemon.base.Speed}}</p>
               </div>
 
-              <div class="flex gap-2">
+              <div class='flex gap-2'>
                 {{#each pokemon.type as |type|}}
                   <PokemonTypeBadge @type={{type}} />
                 {{/each}}
@@ -116,10 +122,10 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
           </div>
 
           {{#if pokemon.evolution}}
-            <section class="max-w-3xl m-auto">
-              <h3 class="text-2xl mt-12">Evolutions</h3>
+            <section class='max-w-3xl m-auto'>
+              <h3 class='text-2xl mt-12'>Evolutions</h3>
 
-              <div class="grid grid-cols-2 gap-8">
+              <div class='grid grid-cols-2 gap-8'>
                 <div>
                   {{#if pokemon.evolution.prev}}
                     <LinkTo
@@ -130,12 +136,14 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
                       ⏪ Previous
                     </LinkTo>
                   {{else}}
-                    <div class='bg-gradient-to-br from-gray-100 to-slate-100 rounded-xl p-4 shadow flex flex-col items-center group cursor-not-allowed opacity-50'>
+                    <div
+                      class='bg-gradient-to-br from-gray-100 to-slate-100 rounded-xl p-4 shadow flex flex-col items-center group cursor-not-allowed opacity-50'
+                    >
                       ⏪ Previous
                     </div>
                   {{/if}}
                 </div>
-                <div class="flex flex-col gap-2">
+                <div class='flex flex-col gap-2'>
                   {{#each pokemon.evolution.next as |next|}}
                     <LinkTo
                       @route='pokemon.pokemon'
@@ -145,7 +153,9 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
                       Next ⏩
                     </LinkTo>
                   {{else}}
-                    <div class='bg-gradient-to-br from-gray-100 to-slate-100 rounded-xl p-4 shadow flex flex-col items-center group cursor-not-allowed opacity-50'>
+                    <div
+                      class='bg-gradient-to-br from-gray-100 to-slate-100 rounded-xl p-4 shadow flex flex-col items-center group cursor-not-allowed opacity-50'
+                    >
                       Next ⏩
                     </div>
                   {{/each}}
@@ -156,7 +166,7 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
         {{/let}}
       </:content>
       <:loading>
-        <div>Loading...</div>
+        <LoadingBar />
       </:loading>
     </Request>
 
