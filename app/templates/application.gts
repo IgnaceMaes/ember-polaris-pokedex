@@ -9,7 +9,7 @@ export default class ApplicationTemplate extends Component {
     {{pageTitle 'Ember Pokedex'}}
 
     <main class="container m-auto py-8">
-      <h2 class="text-4xl font-bold mb-4">Ember Pokedex</h2>
+      <h2 class="text-4xl font-bold mb-4">Ember Pokedex 📕🔍✨</h2>
 
       {{outlet}}
     </main>

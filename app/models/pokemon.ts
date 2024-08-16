@@ -74,5 +74,9 @@ export default class PokemonModel extends Model {
     hires: string;
   };
 
+  @attr('string') declare description: string;
+
+  @attr declare type: string[];
+
   [Type] = 'pokemon' as const;
 }
