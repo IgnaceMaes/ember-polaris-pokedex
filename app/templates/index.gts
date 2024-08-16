@@ -1,9 +1,8 @@
-import RouteTemplate from 'ember-route-template';
 import { pageTitle } from 'ember-page-title';
 import Pokemon from 'ember-embroider-pokedex/components/pokemon';
 import type IndexRoute from 'ember-embroider-pokedex/routes';
 import { Request } from '@warp-drive/ember';
-import { RouteComponent } from 'ember-embroider-pokedex/utils/ember-route-template';
+import { RouteComponent, RouteTemplate } from 'ember-embroider-pokedex/utils/ember-route-template';
 
 @RouteTemplate
 export default class IndexTemplate extends RouteComponent<IndexRoute> {

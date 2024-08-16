@@ -1,7 +1,8 @@
 import { pageTitle } from 'ember-page-title';
-import RouteTemplate from 'ember-route-template';
+import { RouteComponent, RouteTemplate } from 'ember-embroider-pokedex/utils/ember-route-template';
 
-export default RouteTemplate(
+@RouteTemplate
+export default class ApplicationTemplate extends RouteComponent {
   <template>
     {{pageTitle 'Ember Pokedex'}}
 
@@ -13,5 +14,5 @@ export default RouteTemplate(
     <footer class="container m-auto py-8">
       Pokémon and all elements of the Pokémon franchise are © 1995-2024 Nintendo, GAME FREAK inc. TM © and Creatures Inc.
     </footer>
-  </template>,
-);
+  </template>
+}
