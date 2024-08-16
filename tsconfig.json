@@ -29,6 +29,7 @@
       "./node_modules/@ember-data-types/store/unstable-preview-types",
       "./node_modules/@ember-data-types/tracking/unstable-preview-types",
       "./node_modules/@warp-drive-types/core-types/unstable-preview-types",
+      "./node_modules/@warp-drive/ember/unstable-preview-types",
       "./node_modules/ember-data-types/unstable-preview-types",
       "ember-source/types"
     ]

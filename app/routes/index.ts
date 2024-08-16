@@ -7,11 +7,13 @@ import PokemonModel from 'ember-embroider-pokedex/models/pokemon';
 
 export default class IndexRoute extends Route {
   @service declare store: StoreService;
-  // @service declare requestManager: RequestManager;
 
-  async model() {
+  model() {
     // return this.store.findAll<PokemonModel>('pokemon');
-    const { content } = await this.store.request(query<PokemonModel>('pokemon'));
-    return content.data;
+    // const { content } = await this.store.request(query<PokemonModel>('pokemon'));
+    // return content.data;
+    return {
+      pokemonRequest: this.store.request(query<PokemonModel>('pokemon'))
+    };
   }
 }

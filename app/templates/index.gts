@@ -5,6 +5,7 @@ import Component from '@glimmer/component';
 import type Route from '@ember/routing/route';
 import type IndexRoute from 'ember-embroider-pokedex/routes';
 import type Controller from '@ember/controller';
+import { Request } from '@warp-drive/ember';
 
 type ModelFrom<R extends Route> = Awaited<ReturnType<R['model']>>;
 
@@ -40,11 +41,18 @@ export default class IndexTemplate extends RouteComponent<IndexRoute> {
 
     <h3 class='text-2xl font-medium mb-2'>Overview</h3>
 
-    <div class='grid grid-cols-8 gap-4'>
-      {{#each @model as |pokemon|}}
-        <Pokemon @pokemon={{pokemon}} />
-      {{/each}}
-    </div>
+    <Request @request={{@model.pokemonRequest}}>
+      <:content as |PokemonContent|>
+        <div class='grid grid-cols-8 gap-4'>
+          {{#each PokemonContent.data as |pokemon|}}
+            <Pokemon @pokemon={{pokemon}} />
+          {{/each}}
+        </div>
+      </:content>
+      <:loading>
+        <div>Loading...</div>
+      </:loading>
+    </Request>
 
     {{outlet}}
   </template>
