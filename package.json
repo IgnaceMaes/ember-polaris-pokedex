@@ -127,6 +127,7 @@
     "@ember-data/tracking": "5.4.0-alpha.98",
     "@warp-drive/core-types": "0.0.0-alpha.84",
     "@warp-drive/ember": "0.0.0-alpha.60",
-    "ember-data": "5.4.0-alpha.98"
+    "ember-data": "5.4.0-alpha.98",
+    "ember-router-scroll": "^4.1.2"
   }
 }
