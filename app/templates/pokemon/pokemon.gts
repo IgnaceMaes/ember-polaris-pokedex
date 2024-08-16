@@ -9,29 +9,40 @@ import Component from '@glimmer/component';
 import Pokemon from 'ember-embroider-pokedex/components/pokemon';
 import { Request } from '@warp-drive/ember';
 import { get } from '@ember/helper';
+import type { TOC } from '@ember/component/template-only';
 
 type PokemonTemplateSignature = RouteTemplateSignature<PokemonRoute>;
 
 const emojiForType = {
   Normal: '🟦',
   Fighting: '🔴',
-  Flying: '🔵',
+  Flying: '🪽',
   Poison: '🟣',
   Ground: '🟤',
-  Rock: '🟪',
-  Bug: '🟡',
+  Rock: '🪨',
+  Bug: '🐛',
   Ghost: '👻',
   Steel: '⚙️',
   Fire: '🔥',
   Water: '💧',
   Grass: '🍃',
-  Electric: '⚡',
+  Electric: '⚡️',
   Psychic: '🔮',
   Ice: '❄️',
   Dragon: '🐉',
   Dark: '🖤',
   Fairy: '🧚',
 };
+
+const PokemonType: TOC<{ Args: { type: keyof typeof emojiForType } }> =
+  <template>
+    <span
+      class='text-2xl rounded-lg bg-white p-4 shadow border'
+      title={{@type}}
+    >
+      {{get emojiForType @type}}
+    </span>
+  </template>;
 
 @RouteTemplate
 export default class PokemonTemplate extends Component<PokemonTemplateSignature> {
@@ -48,7 +59,15 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
   <template>
     {{pageTitle 'Dynamic'}}
 
-    <LinkTo @route='index'>⬅️ back</LinkTo>
+    <LinkTo
+      @route='index'
+      class='relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white focus:ring-4 focus:outline-none focus:ring-pink-200'
+    >
+      <span
+        class='relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0'
+      >⬅️ back
+      </span>
+    </LinkTo>
 
     <h3 class='text-xl font-medium mb-2'>Pokemon</h3>
 
@@ -62,10 +81,7 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
           >{{pokemon.description}}</p>
 
           {{#each pokemon.type as |type|}}
-            <span
-              class='text-4xl'
-              title={{type}}
-            >{{get emojiForType type}}</span>
+            <PokemonType @type={{type}} />
           {{/each}}
         {{/let}}
       </:content>

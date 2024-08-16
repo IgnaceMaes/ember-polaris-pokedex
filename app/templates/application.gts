@@ -8,13 +8,21 @@ export default class ApplicationTemplate extends Component {
   <template>
     {{pageTitle 'Ember Pokedex'}}
 
-    <main class="container m-auto py-8">
-      <h2 class="text-4xl font-bold mb-4">Ember Pokedex 📕🔍✨</h2>
+    <main class='container m-auto py-8'>
+      <h2 class='text-4xl mb-4 font-extrabold'>
+        <span
+          class='text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-pink-600'
+        >
+          Ember Pokedex
+        </span>
+        📕🔍✨
+      </h2>
 
       {{outlet}}
     </main>
-    <footer class="container m-auto py-8">
-      Pokémon and all elements of the Pokémon franchise are © 1995-2024 Nintendo, GAME FREAK inc. TM © and Creatures Inc.
+    <footer class='container m-auto py-8'>
+      Pokémon and all elements of the Pokémon franchise are © 1995-2024
+      Nintendo, GAME FREAK inc. TM © and Creatures Inc.
     </footer>
   </template>
 }
