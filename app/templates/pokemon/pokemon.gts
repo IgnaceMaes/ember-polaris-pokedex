@@ -1,3 +1,4 @@
+import { PokemonType } from 'ember-embroider-pokedex/models/pokemon';
 import { pageTitle } from 'ember-page-title';
 import { LinkTo } from '@ember/routing';
 import type PokemonRoute from 'ember-embroider-pokedex/routes/pokemon';
@@ -34,10 +35,31 @@ const emojiForType = {
   Fairy: '🧚',
 };
 
-const PokemonType: TOC<{ Args: { type: keyof typeof emojiForType } }> =
+export const tailwindColorForPokemonType = {
+  Normal: 'bg-blue-500',
+  Fighting: 'bg-red-500',
+  Flying: 'bg-blue-300',
+  Poison: 'bg-purple-500',
+  Ground: 'bg-yellow-500',
+  Rock: 'bg-gray-500',
+  Bug: 'bg-green-500',
+  Ghost: 'bg-purple-800',
+  Steel: 'bg-gray-300',
+  Fire: 'bg-red-500',
+  Water: 'bg-blue-500',
+  Grass: 'bg-green-500',
+  Electric: 'bg-yellow-500',
+  Psychic: 'bg-purple-500',
+  Ice: 'bg-blue-200',
+  Dragon: 'bg-purple-800',
+  Dark: 'bg-gray-800',
+  Fairy: 'bg-pink-500',
+} as const;
+
+const PokemonTypeBadge: TOC<{ Args: { type: PokemonType } }> =
   <template>
     <span
-      class='text-2xl rounded-lg bg-white p-4 shadow border'
+      class='text-2xl rounded-lg {{get tailwindColorForPokemonType @type}} p-4 shadow border'
       title={{@type}}
     >
       {{get emojiForType @type}}
@@ -81,7 +103,7 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
           >{{pokemon.description}}</p>
 
           {{#each pokemon.type as |type|}}
-            <PokemonType @type={{type}} />
+            <PokemonTypeBadge @type={{type}} />
           {{/each}}
         {{/let}}
       </:content>
