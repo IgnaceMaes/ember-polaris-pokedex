@@ -93,12 +93,19 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
           {{pageTitle pokemon.name.english}}
 
           <div class="flex gap-16">
-            <img class="animate-wiggle drop-shadow-2xl w-96 h-96" src={{pokemon.image.hires}} alt={{pokemon.name.english}} />
-            <div>
-              <h2 class="font-medium text-2xl">{{pokemon.name.english}}</h2>
+            <img class="animate-wiggle drop-shadow-2xl size-96" src={{pokemon.image.hires}} alt={{pokemon.name.english}} />
+            <div class="max-w-96">
+              <h2 class="font-medium text-4xl">{{pokemon.name.english}}</h2>
               <p class='my-2 text-slate-700 text-lg italic'>
                 {{pokemon.description}}
               </p>
+
+              <div class="grid grid-cols-2 my-8 text-lg">
+                <p>❤️ HP: {{pokemon.base.HP}}</p>
+                <p>⚔️ Attack: {{pokemon.base.Attack}}</p>
+                <p>🛡️ Defense: {{pokemon.base.Defense}}</p>
+                <p>💨 Speed: {{pokemon.base.Speed}}</p>
+              </div>
 
               <div class="flex gap-2">
                 {{#each pokemon.type as |type|}}
