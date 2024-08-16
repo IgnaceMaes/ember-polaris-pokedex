@@ -2,10 +2,14 @@ import { pageTitle } from 'ember-page-title';
 import Pokemon from 'ember-embroider-pokedex/components/pokemon';
 import type IndexRoute from 'ember-embroider-pokedex/routes';
 import { Request } from '@warp-drive/ember';
-import { RouteComponent, RouteTemplate } from 'ember-embroider-pokedex/utils/ember-route-template';
+import { RouteTemplate, type RouteTemplateSignature } from 'ember-embroider-pokedex/utils/ember-route-template';
+import Component from '@glimmer/component';
+
+type IndexTemplateSignature = RouteTemplateSignature<IndexRoute>;
 
 @RouteTemplate
-export default class IndexTemplate extends RouteComponent<IndexRoute> {
+// eslint-disable-next-line ember/no-empty-glimmer-component-classes
+export default class IndexTemplate extends Component<IndexTemplateSignature> {
   <template>
     {{pageTitle 'Overview'}}
 

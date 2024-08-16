@@ -3,7 +3,6 @@ import { service } from '@ember/service';
 import { query } from '@ember-data/rest/request';
 import type StoreService from '@ember-data/store';
 import PokemonModel from 'ember-embroider-pokedex/models/pokemon';
-// import type RequestManager from '@ember-data/request';
 
 export default class IndexRoute extends Route {
   @service declare store: StoreService;

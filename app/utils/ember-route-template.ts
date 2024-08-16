@@ -1,4 +1,3 @@
-import Component from '@glimmer/component';
 import Route from '@ember/routing/route';
 import type Controller from '@ember/controller';
 
@@ -19,10 +18,5 @@ export type RouteTemplateSignature<
         model: ModelFrom<R>;
       };
     };
-
-export class RouteComponent<
-  R extends Route = Route,
-  C extends Controller | undefined = undefined,
-> extends Component<RouteTemplateSignature<R, C>> {}
 
 export { default as RouteTemplate } from 'ember-route-template';

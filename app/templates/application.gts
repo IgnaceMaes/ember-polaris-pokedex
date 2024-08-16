@@ -1,8 +1,10 @@
 import { pageTitle } from 'ember-page-title';
-import { RouteComponent, RouteTemplate } from 'ember-embroider-pokedex/utils/ember-route-template';
+import { RouteTemplate } from 'ember-embroider-pokedex/utils/ember-route-template';
+import Component from '@glimmer/component';
 
 @RouteTemplate
-export default class ApplicationTemplate extends RouteComponent {
+// eslint-disable-next-line ember/no-empty-glimmer-component-classes
+export default class ApplicationTemplate extends Component {
   <template>
     {{pageTitle 'Ember Pokedex'}}
 
