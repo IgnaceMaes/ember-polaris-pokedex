@@ -129,6 +129,9 @@ importers:
       '@tsconfig/ember':
         specifier: ^3.0.8
         version: 3.0.8
+      '@types/dom-view-transitions':
+        specifier: ^1.0.5
+        version: 1.0.5
       '@types/ember__polyfills':
         specifier: ^4.0.6
         version: 4.0.6
@@ -1489,6 +1492,9 @@ packages:
 
   '@types/cors@2.8.17':
     resolution: {integrity: sha512-8CGDvrBj1zgo2qE+oS3pOCyYNqCPryMWY2bGfwA0dcfopWGgxs+78df0Rs3rc9THP4JkOhLsAa+15VdpAqkcUA==}
+
+  '@types/dom-view-transitions@1.0.5':
+    resolution: {integrity: sha512-N2sILR7fxSMnaFaAPwGj4DtHCXjIyQTHt+xJyf9jATpzUsTkMNM0DWtqZB6W7f501B/Y0tq3uqat/VlbjuTpMA==}
 
   '@types/ember@3.16.14':
     resolution: {integrity: sha512-m3fM87W1J75ri9Uu79hzKimiAhxdAF3dZyzmwGrf4OPPQp3yt2L9uHAkwmMIxstk4F1rBWG/SHJOnvlqif23Rw==}
@@ -9015,6 +9021,8 @@ snapshots:
   '@types/cors@2.8.17':
     dependencies:
       '@types/node': 22.3.0
+
+  '@types/dom-view-transitions@1.0.5': {}
 
   '@types/ember@3.16.14':
     dependencies:

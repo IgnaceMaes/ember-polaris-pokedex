@@ -18,7 +18,6 @@ export default class Pokemon extends Component<PokemonSignature> {
   @service declare router: RouterService;
 
   transitionToPokemonDetails = (pokemon: PokemonModel, event: MouseEvent) => {
-    // @ts-expect-error: no types for this API
     // Fallback for browsers that don't support this API:
     if (!document.startViewTransition) {
       this.router.transitionTo('pokemon.pokemon', pokemon);
@@ -30,13 +29,10 @@ export default class Pokemon extends Component<PokemonSignature> {
       : ((event.target as HTMLElement).querySelector(
           'img[data-pokemon-thumbnail]',
         ) as HTMLImageElement);
-    // @ts-expect-error: no types for this API
     thumbnail.style.viewTransitionName = 'full-embed';
 
-    // @ts-expect-error: no types for this API
     // With a transition:
     document.startViewTransition(() => {
-      // @ts-expect-error: no types for this API
       thumbnail.style.viewTransitionName = '';
       this.router.transitionTo('pokemon.pokemon', pokemon);
     });
