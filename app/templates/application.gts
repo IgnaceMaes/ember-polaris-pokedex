@@ -16,7 +16,7 @@ export default class ApplicationTemplate extends Component {
             @route='index'
             class='text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-pink-600'
           >
-            Ember Pokedex
+            Ember Polaris Pokedex
           </LinkTo>
           📕🔍✨
         </h2>

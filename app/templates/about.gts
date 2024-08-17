@@ -11,9 +11,11 @@ export default class ApplicationTemplate extends Component {
 
     <HomeButton />
     <h2 class='font-medium text-4xl mb-4'>About</h2>
-    <p class='text-lg mb-2'>Ember Polaris Pokedex is built with the latest
-      bleeding-edge technologies available in the Ember world.</p>
-    <ul class='text-lg list-disc list-inside'>
+    <p class='text-xl mb-4 text-slate-700'>Ember Polaris Pokedex is a reference
+      application to showcase modern Ember developments.</p>
+    <p class='text-xl mb-2 text-slate-700'>It is built using the latest
+      bleeding-edge technologies available:</p>
+    <ul class='text-xl list-disc list-inside text-slate-700 space-y-1'>
       <li>
         <a
           href='https://vitejs.dev/'
@@ -53,25 +55,31 @@ export default class ApplicationTemplate extends Component {
           target='_blank'
           class='hover:underline'
           rel='noopener noreferrer'
-        >📦 Template-tag components ('.gjs', '.gts')</a></li>
-      <li>——
-        <a
-          href='https://github.com/discourse/ember-route-template'
-          target='_blank'
-          class='hover:underline'
-          rel='noopener noreferrer'
-        >ember-route-template</a>
-        for template tag as route templates</li>
+        >📦 Template-tag components ('.gjs', '.gts')</a>
+        <ul class='list-inside ps-5 mt-2 space-y-1 list-[circle]'>
+          <li>
+            <a
+              href='https://github.com/discourse/ember-route-template'
+              target='_blank'
+              class='hover:underline'
+              rel='noopener noreferrer'
+            >ember-route-template</a>
+            for template tag as route templates</li>
+        </ul>
+      </li>
       <li>
         <a
           href='https://warp-drive.io/'
           target='_blank'
           class='hover:underline'
           rel='noopener noreferrer'
-        >🚀 Warp Drive</a></li>
-      <li>—— '@warp-drive/ember' Request component</li>
-      <li>—— Ember Data request builders</li>
-      <li>—— Native TypeScript types</li>
+        >🚀 Warp Drive</a>
+        <ul class='list-inside ps-5 mt-2 space-y-1 list-[circle]'>
+          <li>'@warp-drive/ember' Request component</li>
+          <li>Ember Data request builders</li>
+          <li>Native TypeScript types</li>
+        </ul>
+      </li>
     </ul>
   </template>
 }
