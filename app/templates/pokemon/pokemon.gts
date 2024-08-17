@@ -12,50 +12,10 @@ import { get } from '@ember/helper';
 import type { TOC } from '@ember/component/template-only';
 import LoadingBar from 'ember-embroider-pokedex/components/loading-bar';
 import HomeButton from 'ember-embroider-pokedex/components/home-button';
+import type PokemonModel from 'ember-embroider-pokedex/models/pokemon';
+import { emojiForType, tailwindColorForPokemonType } from 'ember-embroider-pokedex/utils/pokemon-type-mappings';
 
 type PokemonTemplateSignature = RouteTemplateSignature<PokemonRoute>;
-
-const emojiForType = {
-  Normal: '🟦',
-  Fighting: '🔴',
-  Flying: '🪽',
-  Poison: '🟣',
-  Ground: '🟤',
-  Rock: '🪨',
-  Bug: '🐛',
-  Ghost: '👻',
-  Steel: '⚙️',
-  Fire: '🔥',
-  Water: '💧',
-  Grass: '🍃',
-  Electric: '⚡️',
-  Psychic: '🔮',
-  Ice: '❄️',
-  Dragon: '🐉',
-  Dark: '🖤',
-  Fairy: '🧚',
-} as const;
-
-export const tailwindColorForPokemonType = {
-  Normal: 'bg-blue-500',
-  Fighting: 'bg-red-500',
-  Flying: 'bg-blue-300',
-  Poison: 'bg-purple-500',
-  Ground: 'bg-yellow-500',
-  Rock: 'bg-gray-500',
-  Bug: 'bg-green-500',
-  Ghost: 'bg-purple-800',
-  Steel: 'bg-gray-300',
-  Fire: 'bg-red-500',
-  Water: 'bg-blue-500',
-  Grass: 'bg-green-500',
-  Electric: 'bg-yellow-300',
-  Psychic: 'bg-purple-500',
-  Ice: 'bg-blue-200',
-  Dragon: 'bg-purple-800',
-  Dark: 'bg-gray-800',
-  Fairy: 'bg-pink-500',
-} as const;
 
 const PokemonTypeBadge: TOC<{ Args: { type: PokemonType } }> = <template>
   <div class='group relative'>
@@ -72,6 +32,84 @@ const PokemonTypeBadge: TOC<{ Args: { type: PokemonType } }> = <template>
   </div>
 </template>;
 
+const PokemonCard: TOC<{ Args: { pokemon: PokemonModel } }> = <template>
+  {{pageTitle @pokemon.name.english}}
+
+  <div class='flex gap-16 justify-center flex-col md:flex-row'>
+    <img
+      class='animate-wiggle [animation-delay:_0.2s] drop-shadow-2xl size-96 max-size-96 aspect-square full-embed'
+      src={{@pokemon.image.hires}}
+      alt={{@pokemon.name.english}}
+    />
+    <div class='max-w-96'>
+      <h2 class='font-medium text-4xl'>{{@pokemon.name.english}}</h2>
+      <p class='my-2 text-slate-700 text-lg italic'>
+        {{@pokemon.description}}
+      </p>
+
+      <div class='grid md:grid-cols-2 my-8 text-lg'>
+        <p>❤️ HP: {{@pokemon.base.HP}}</p>
+        <p>⚔️ Attack: {{@pokemon.base.Attack}}</p>
+        <p>🛡️ Defense: {{@pokemon.base.Defense}}</p>
+        <p>💨 Speed: {{@pokemon.base.Speed}}</p>
+      </div>
+
+      <div class='flex gap-2'>
+        {{#each @pokemon.type as |type|}}
+          <PokemonTypeBadge @type={{type}} />
+        {{/each}}
+      </div>
+    </div>
+  </div>
+
+  {{#if @pokemon.evolution}}
+    <section class='max-w-3xl m-auto'>
+      <h3 class='text-2xl mt-12'>Evolutions</h3>
+
+      <div class='grid grid-cols-2 gap-8'>
+        <div>
+          {{#if @pokemon.evolution.prev}}
+            <LinkTo
+              @route='pokemon.pokemon'
+              @model={{get @pokemon.evolution.prev 0}}
+              class='bg-gradient-to-br from-pink-100 to-yellow-100 rounded-xl p-4 shadow hover:shadow-md transition-shadow flex flex-col items-center group cursor-pointer'
+            >
+              ⏪ Previous
+            </LinkTo>
+          {{else}}
+            <div
+              class='bg-gradient-to-br from-gray-100 to-slate-100 rounded-xl p-4 shadow flex flex-col items-center group cursor-not-allowed opacity-50'
+            >
+              ⏪ Previous
+            </div>
+          {{/if}}
+        </div>
+        <div class='flex flex-col gap-2'>
+          {{#each @pokemon.evolution.next as |next|}}
+            <LinkTo
+              @route='pokemon.pokemon'
+              @model={{get next 0}}
+              class='bg-gradient-to-br from-pink-100 to-yellow-100 rounded-xl p-4 shadow hover:shadow-md transition-shadow flex flex-col items-center group cursor-pointer'
+            >
+              Next ⏩
+            </LinkTo>
+          {{else}}
+            <div
+              class='bg-gradient-to-br from-gray-100 to-slate-100 rounded-xl p-4 shadow flex flex-col items-center group cursor-not-allowed opacity-50'
+            >
+              Next ⏩
+            </div>
+          {{/each}}
+        </div>
+      </div>
+    </section>
+  {{/if}}
+
+  <style>
+    .full-embed { view-transition-name: full-embed; }
+  </style>
+</template>;
+
 @RouteTemplate
 export default class PokemonTemplate extends Component<PokemonTemplateSignature> {
   currentPokemon = (
@@ -86,86 +124,26 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
 
   <template>
     <HomeButton />
-    <Request @request={{@model.pokemonRequest}}>
-      <:content as |PokemonContent|>
-        {{#let (this.currentPokemon PokemonContent.data) as |pokemon|}}
-          {{pageTitle pokemon.name.english}}
 
-          <div class='flex gap-16 justify-center flex-col md:flex-row'>
-            <img
-              class='animate-wiggle [animation-delay:_0.2s] drop-shadow-2xl size-96 max-size-96 aspect-square'
-              src={{pokemon.image.hires}}
-              alt={{pokemon.name.english}}
-            />
-            <div class='max-w-96'>
-              <h2 class='font-medium text-4xl'>{{pokemon.name.english}}</h2>
-              <p class='my-2 text-slate-700 text-lg italic'>
-                {{pokemon.description}}
-              </p>
-
-              <div class='grid md:grid-cols-2 my-8 text-lg'>
-                <p>❤️ HP: {{pokemon.base.HP}}</p>
-                <p>⚔️ Attack: {{pokemon.base.Attack}}</p>
-                <p>🛡️ Defense: {{pokemon.base.Defense}}</p>
-                <p>💨 Speed: {{pokemon.base.Speed}}</p>
-              </div>
-
-              <div class='flex gap-2'>
-                {{#each pokemon.type as |type|}}
-                  <PokemonTypeBadge @type={{type}} />
-                {{/each}}
-              </div>
-            </div>
-          </div>
-
-          {{#if pokemon.evolution}}
-            <section class='max-w-3xl m-auto'>
-              <h3 class='text-2xl mt-12'>Evolutions</h3>
-
-              <div class='grid grid-cols-2 gap-8'>
-                <div>
-                  {{#if pokemon.evolution.prev}}
-                    <LinkTo
-                      @route='pokemon.pokemon'
-                      @model={{get pokemon.evolution.prev 0}}
-                      class='bg-gradient-to-br from-pink-100 to-yellow-100 rounded-xl p-4 shadow hover:shadow-md transition-shadow flex flex-col items-center group cursor-pointer'
-                    >
-                      ⏪ Previous
-                    </LinkTo>
-                  {{else}}
-                    <div
-                      class='bg-gradient-to-br from-gray-100 to-slate-100 rounded-xl p-4 shadow flex flex-col items-center group cursor-not-allowed opacity-50'
-                    >
-                      ⏪ Previous
-                    </div>
-                  {{/if}}
-                </div>
-                <div class='flex flex-col gap-2'>
-                  {{#each pokemon.evolution.next as |next|}}
-                    <LinkTo
-                      @route='pokemon.pokemon'
-                      @model={{get next 0}}
-                      class='bg-gradient-to-br from-pink-100 to-yellow-100 rounded-xl p-4 shadow hover:shadow-md transition-shadow flex flex-col items-center group cursor-pointer'
-                    >
-                      Next ⏩
-                    </LinkTo>
-                  {{else}}
-                    <div
-                      class='bg-gradient-to-br from-gray-100 to-slate-100 rounded-xl p-4 shadow flex flex-col items-center group cursor-not-allowed opacity-50'
-                    >
-                      Next ⏩
-                    </div>
-                  {{/each}}
-                </div>
-              </div>
-            </section>
-          {{/if}}
-        {{/let}}
-      </:content>
-      <:loading>
-        <LoadingBar />
-      </:loading>
-    </Request>
+    {{#if @model.pokemonRequest}}
+      <Request @request={{@model.pokemonRequest}}>
+        <:content as |PokemonContent|>
+          {{#let (this.currentPokemon PokemonContent.data) as |pokemon|}}
+            {{#if pokemon}}
+              <PokemonCard @pokemon={{pokemon}} />
+            {{else}}
+              <p>Couldn't find that Pokémon!</p>
+            {{/if}}
+          {{/let}}
+        </:content>
+        <:loading>
+          <LoadingBar />
+        </:loading>
+      </Request>
+    {{else}}
+      {{! @glint-expect-error: model is of type PokemonModel if it's passed in the transition }}
+      <PokemonCard @pokemon={{@model}} />
+    {{/if}}
 
     {{outlet}}
   </template>
