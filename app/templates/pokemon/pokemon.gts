@@ -57,14 +57,18 @@ export const tailwindColorForPokemonType = {
 } as const;
 
 const PokemonTypeBadge: TOC<{ Args: { type: PokemonType } }> = <template>
-  <span
-    class='w-16 h-16 flex items-center justify-center text-2xl rounded-lg
-      {{get tailwindColorForPokemonType @type}}
-      shadow border'
-    title={{@type}}
-  >
-    {{get emojiForType @type}}
-  </span>
+  <div class='group relative'>
+    <span
+      class='w-16 h-16 flex items-center justify-center text-2xl rounded-lg
+        {{get tailwindColorForPokemonType @type}}
+        shadow border'
+    >
+      {{get emojiForType @type}}
+    </span>
+    <span
+      class='pointer-events-none absolute -top-8 left-0 w-max rounded bg-gray-900 px-2 py-1 text-sm font-medium text-gray-50 opacity-0 shadow transition-opacity group-hover:opacity-100'
+    >{{@type}}</span>
+  </div>
 </template>;
 
 @RouteTemplate
