@@ -9,7 +9,7 @@ export default class ApplicationTemplate extends Component {
   <template>
     {{pageTitle 'Ember Pokedex'}}
 
-    <main class='container m-auto py-8 min-h-screen'>
+    <main class='container m-auto py-8 min-h-screen px-4'>
       <div class='flex justify-between text-5xl mb-6 font-extrabold'>
         <h2>
           <LinkTo
@@ -27,9 +27,9 @@ export default class ApplicationTemplate extends Component {
 
       {{outlet}}
     </main>
-    <footer class='container m-auto py-8'>
-      Pokémon and all elements of the Pokémon franchise are © 1995-2024
-      Nintendo, GAME FREAK inc. TM © and Creatures Inc.
+    <footer class='container m-auto py-8 px-4 text-slate-700 text-sm'>
+      © 2024 Ember Pokedex.
+      <p>Pokémon and all related trademarks, characters, and images are ©1995-2024 Nintendo, Creatures, GAME FREAK, and The Pokémon Company. This fan site is not affiliated with or endorsed by any of these entities.</p>
     </footer>
   </template>
 }

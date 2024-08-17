@@ -98,7 +98,7 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
         {{#let (this.currentPokemon PokemonContent.data) as |pokemon|}}
           {{pageTitle pokemon.name.english}}
 
-          <div class='flex gap-16 justify-center'>
+          <div class='flex gap-16 justify-center flex-col md:flex-row'>
             <img
               class='animate-wiggle [animation-delay:_0.2s] drop-shadow-2xl size-96'
               src={{pokemon.image.hires}}
