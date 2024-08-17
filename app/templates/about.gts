@@ -12,8 +12,8 @@ export default class ApplicationTemplate extends Component {
     <HomeButton />
     <h2 class='font-medium text-4xl mb-4'>About</h2>
     <p class='text-xl mb-4 text-slate-700'>Ember Polaris Pokedex is a reference
-      application to showcase modern Ember developments.</p>
-    <p class='text-xl mb-2 text-slate-700'>It is built using the latest
+      application to showcase what modern Ember looks like. The source code is available on GitHub.</p>
+    <p class='text-xl mb-2 text-slate-700'>The app is built using the latest
       bleeding-edge technologies available:</p>
     <ul class='text-xl list-disc list-inside text-slate-700 space-y-1'>
       <li>
