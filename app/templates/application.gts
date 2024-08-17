@@ -4,7 +4,6 @@ import Component from '@glimmer/component';
 import { LinkTo } from '@ember/routing';
 
 @RouteTemplate
-// eslint-disable-next-line ember/no-empty-glimmer-component-classes
 export default class ApplicationTemplate extends Component {
   <template>
     {{pageTitle 'Ember Pokedex'}}

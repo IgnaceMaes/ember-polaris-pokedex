@@ -17,7 +17,7 @@ function preloadImage(imageUrl: string) {
 export default class Pokemon extends Component<PokemonSignature> {
   @service declare router: RouterService;
 
-  spaNavigate = (pokemon: PokemonModel, event: MouseEvent) => {
+  transitionToPokemonDetails = (pokemon: PokemonModel, event: MouseEvent) => {
     // @ts-expect-error: no types for this API
     // Fallback for browsers that don't support this API:
     if (!document.startViewTransition) {
@@ -25,7 +25,11 @@ export default class Pokemon extends Component<PokemonSignature> {
       return;
     }
 
-    const thumbnail = (event.target as HTMLElement).attributes.length ? event.target as HTMLImageElement : (event.target as HTMLElement).querySelector('img[data-pokemon-thumbnail]') as HTMLImageElement;
+    const thumbnail = (event.target as HTMLElement).attributes.length
+      ? (event.target as HTMLImageElement)
+      : ((event.target as HTMLElement).querySelector(
+          'img[data-pokemon-thumbnail]',
+        ) as HTMLImageElement);
     // @ts-expect-error: no types for this API
     thumbnail.style.viewTransitionName = 'full-embed';
 
@@ -42,7 +46,7 @@ export default class Pokemon extends Component<PokemonSignature> {
     <button
       class='revealing-image bg-gradient-to-br from-pink-100 to-yellow-100 rounded-xl p-4 shadow hover:shadow-md transition-shadow flex flex-col items-center group cursor-pointer'
       {{on 'mouseenter' (fn preloadImage @pokemon.image.hires)}}
-      {{on 'click' (fn this.spaNavigate @pokemon)}}
+      {{on 'click' (fn this.transitionToPokemonDetails @pokemon)}}
     >
       <img
         data-pokemon-thumbnail
@@ -59,12 +63,10 @@ export default class Pokemon extends Component<PokemonSignature> {
         from {
           opacity: 0;
           transform: scale(0.75);
-          /* clip-path: inset(45% 20% 45% 20%); */
         }
         to {
           opacity: 1;
           transform: scale(1);
-          /* clip-path: inset(0% 0% 0% 0%); */
         }
       }
       .revealing-image {

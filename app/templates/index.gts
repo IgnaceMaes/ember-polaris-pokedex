@@ -11,7 +11,6 @@ import LoadingBar from 'ember-embroider-pokedex/components/loading-bar';
 type IndexTemplateSignature = RouteTemplateSignature<IndexRoute>;
 
 @RouteTemplate
-// eslint-disable-next-line ember/no-empty-glimmer-component-classes
 export default class IndexTemplate extends Component<IndexTemplateSignature> {
   <template>
     <Request @request={{@model.pokemonRequest}}>

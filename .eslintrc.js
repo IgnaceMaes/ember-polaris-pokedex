@@ -11,8 +11,8 @@ module.exports = {
       ],
       rules: {
         // override / enable optional rules
-        'ember/no-replace-test-comments': 'error'
-      }
+        'ember/no-replace-test-comments': 'error',
+      },
     },
     {
       files: ['**/*.gts'],
@@ -24,6 +24,10 @@ module.exports = {
         'plugin:ember/recommended',
         'plugin:ember/recommended-gts',
       ],
+      rules: {
+        // To use the @RouteTemplate decorator on Glimmer components in `/templates`
+        'ember/no-empty-glimmer-component-classes': 'off',
+      },
     },
     {
       files: ['**/*.gjs'],
@@ -39,8 +43,8 @@ module.exports = {
       files: ['tests/**/*.{js,ts,gjs,gts}'],
       rules: {
         // override / enable optional rules
-        'ember/no-replace-test-comments': 'error'
-      }
+        'ember/no-replace-test-comments': 'error',
+      },
     },
   ],
 };
