@@ -11,6 +11,7 @@ import { Request } from '@warp-drive/ember';
 import { get } from '@ember/helper';
 import type { TOC } from '@ember/component/template-only';
 import LoadingBar from 'ember-embroider-pokedex/components/loading-bar';
+import HomeButton from 'ember-embroider-pokedex/components/home-button';
 
 type PokemonTemplateSignature = RouteTemplateSignature<PokemonRoute>;
 
@@ -84,15 +85,7 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
   };
 
   <template>
-    <LinkTo
-      @route='index'
-      class='relative inline-flex items-center justify-center p-0.5 mb-16 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white focus:ring-4 focus:outline-none focus:ring-pink-200'
-    >
-      <span
-        class='relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0'
-      >⬅️ back
-      </span>
-    </LinkTo>
+    <HomeButton />
     <Request @request={{@model.pokemonRequest}}>
       <:content as |PokemonContent|>
         {{#let (this.currentPokemon PokemonContent.data) as |pokemon|}}
@@ -100,7 +93,7 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
 
           <div class='flex gap-16 justify-center flex-col md:flex-row'>
             <img
-              class='animate-wiggle [animation-delay:_0.2s] drop-shadow-2xl size-96'
+              class='animate-wiggle [animation-delay:_0.2s] drop-shadow-2xl size-96 max-size-96 aspect-square'
               src={{pokemon.image.hires}}
               alt={{pokemon.name.english}}
             />
@@ -110,7 +103,7 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
                 {{pokemon.description}}
               </p>
 
-              <div class='grid grid-cols-2 my-8 text-lg'>
+              <div class='grid md:grid-cols-2 my-8 text-lg'>
                 <p>❤️ HP: {{pokemon.base.HP}}</p>
                 <p>⚔️ Attack: {{pokemon.base.Attack}}</p>
                 <p>🛡️ Defense: {{pokemon.base.Defense}}</p>

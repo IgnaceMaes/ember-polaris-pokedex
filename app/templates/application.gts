@@ -28,7 +28,7 @@ export default class ApplicationTemplate extends Component {
       {{outlet}}
     </main>
     <footer class='container m-auto py-8 px-4 text-slate-700 text-sm'>
-      © 2024 Ember Pokedex.
+      <p class="font-bold">© 2024 Ember Pokedex.</p>
       <p>Pokémon and all related trademarks, characters, and images are ©1995-2024 Nintendo, Creatures, GAME FREAK, and The Pokémon Company. This fan site is not affiliated with or endorsed by any of these entities.</p>
     </footer>
   </template>

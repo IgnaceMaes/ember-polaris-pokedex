@@ -1,7 +1,7 @@
 import { pageTitle } from 'ember-page-title';
 import { RouteTemplate } from 'ember-embroider-pokedex/utils/ember-route-template';
 import Component from '@glimmer/component';
-import { LinkTo } from '@ember/routing';
+import HomeButton from 'ember-embroider-pokedex/components/home-button';
 
 @RouteTemplate
 // eslint-disable-next-line ember/no-empty-glimmer-component-classes
@@ -9,15 +9,7 @@ export default class ApplicationTemplate extends Component {
   <template>
     {{pageTitle 'About'}}
 
-    <LinkTo
-      @route='index'
-      class='relative inline-flex items-center justify-center p-0.5 mb-16 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white focus:ring-4 focus:outline-none focus:ring-pink-200'
-    >
-      <span
-        class='relative px-5 py-2.5 transition-all ease-in duration-75 bg-white rounded-md group-hover:bg-opacity-0'
-      >⬅️ back
-      </span>
-    </LinkTo>
+    <HomeButton />
     <h2 class='font-medium text-4xl mb-4'>About</h2>
     <p class='text-lg mb-2'>Ember Polaris Pokedex is built with the latest
       bleeding-edge technologies available in the Ember world.</p>
