@@ -20,6 +20,11 @@ import type RouterService from '@ember/routing/router-service';
 import { service } from '@ember/service';
 import { fn } from '@ember/helper';
 import { on } from '@ember/modifier';
+import { preloadImage } from 'ember-embroider-pokedex/components/pokemon';
+
+function getPokemonById(pokemons: PokemonModel[], id: string) {
+  return pokemons.find((pokemon) => pokemon.id!.toString() === id);
+}
 
 type PokemonTemplateSignature = RouteTemplateSignature<PokemonRoute>;
 
@@ -67,6 +72,13 @@ class PokemonCard extends Component<{
       },
       types: ['slide', direction],
     });
+  };
+
+  preloadImageForPokemonId = (pokemonId: string) => {
+    const pokemon = getPokemonById(this.args.allPokemon, pokemonId);
+    if (pokemon) {
+      preloadImage(pokemon.image.hires);
+    }
   };
 
   <template>
@@ -118,6 +130,13 @@ class PokemonCard extends Component<{
                     'backwards'
                   )
                 }}
+                {{on
+                  'mouseenter'
+                  (fn
+                    this.preloadImageForPokemonId
+                    (get @pokemon.evolution.prev 0)
+                  )
+                }}
               >
                 ⏪ Previous
               </button>
@@ -136,6 +155,10 @@ class PokemonCard extends Component<{
                 {{on
                   'click'
                   (fn this.transitionToPokemonDetails (get next 0) 'forwards')
+                }}
+                {{on
+                  'mouseenter'
+                  (fn this.preloadImageForPokemonId (get next 0))
                 }}
               >
                 Next ⏩
@@ -219,9 +242,7 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
       PokemonTemplateSignature['Args']['model']['pokemonRequest']
     >['content']['data'],
   ) => {
-    return pokemons.find(
-      (pokemon) => pokemon.id!.toString() === this.args.model.id,
-    );
+    return getPokemonById(pokemons, this.args.model.id);
   };
 
   <template>
@@ -232,7 +253,10 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
         <:content as |PokemonContent|>
           {{#let (this.currentPokemon PokemonContent.data) as |pokemon|}}
             {{#if pokemon}}
-              <PokemonCard @pokemon={{pokemon}} @allPokemon={{PokemonContent.data}} />
+              <PokemonCard
+                @pokemon={{pokemon}}
+                @allPokemon={{PokemonContent.data}}
+              />
             {{else}}
               <p>Couldn't find that Pokémon!</p>
             {{/if}}

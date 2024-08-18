@@ -9,7 +9,7 @@ interface PokemonSignature {
   Args: { pokemon: PokemonModel; allPokemon: PokemonModel[] };
 }
 
-function preloadImage(imageUrl: string) {
+export function preloadImage(imageUrl: string) {
   const img = new Image();
   img.src = imageUrl;
 }
