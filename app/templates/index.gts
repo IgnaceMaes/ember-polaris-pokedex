@@ -29,5 +29,31 @@ export default class IndexTemplate extends Component<IndexTemplateSignature> {
     </Request>
 
     {{outlet}}
+
+    {{! prettier-ignore }}
+    <style>
+      @keyframes reveal {
+        from {
+          opacity: 0;
+          transform: scale(0.75);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+      .revealing-image {
+        /* Create View Timeline */
+        view-timeline-name: --revealing-image;
+        view-timeline-axis: block;
+
+        /* Attach animation, linked to the  View Timeline */
+        animation: linear reveal both;
+        animation-timeline: --revealing-image;
+
+        /* Tweak range when effect should run*/
+        animation-range: entry 0% cover 25%;
+      }
+    </style>
   </template>
 }

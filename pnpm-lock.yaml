@@ -234,9 +234,6 @@ importers:
       eslint-plugin-qunit:
         specifier: ^8.1.1
         version: 8.1.1(eslint@8.57.0)
-      glimmer-scoped-css:
-        specifier: ^0.4.1
-        version: 0.4.1
       loader.js:
         specifier: ^4.7.0
         version: 4.7.0
@@ -2059,9 +2056,6 @@ packages:
 
   '@types/minimatch@5.1.2':
     resolution: {integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==}
-
-  '@types/node@20.14.15':
-    resolution: {integrity: sha512-Fz1xDMCF/B00/tYSVMlmK7hVeLh7jE5f3B7X1/hmV0MJBwE27KlS7EvD/Yp+z1lm8mVhwV5w+n8jOZG8AfTlKw==}
 
   '@types/node@22.3.0':
     resolution: {integrity: sha512-nrWpWVaDZuaVc5X84xJ0vNrLvomM205oQyLsRt7OHNZbSHslcWsvgFR7O7hire2ZonjLrWBbedmotmIlJDVd6g==}
@@ -4285,9 +4279,6 @@ packages:
     resolution: {integrity: sha512-8aCohiDo4jwjOwma4FmYFd3i97urZulL8XL24nIPxuE+GZnfsAyy/g2Shqx6OjUiFKUXZM+Yy+KHnOmmA3FVcg==}
     engines: {node: '>= 4.0'}
 
-  glimmer-scoped-css@0.4.1:
-    resolution: {integrity: sha512-BWZyBEpmZu0RLnuOaSBJkCjSMoGuxO3glq7JCM1QH0r9Ki8OVdYj+nUIgfg03T5duqbeQqR1Oad8MvDF/O4bCQ==}
-
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
@@ -6389,9 +6380,6 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
     hasBin: true
 
-  super-fast-md5@1.0.3:
-    resolution: {integrity: sha512-O3nrtAg5VPcpBFpLsU1z53k6KbVZirirDWWud+r1WrZQB7WzLG5ocFMDoxjSkPUi3ehZ7me9M6KNT+CTDP+WiQ==}
-
   supports-color@5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
     engines: {node: '>=4'}
@@ -6654,9 +6642,6 @@ packages:
 
   underscore@1.13.7:
     resolution: {integrity: sha512-GMXzWtsc57XAtguZgaQViUOzs0KTkk8ojr3/xAxXLITqf/3EMwxC0inyETfDFjH/Krbhuep0HNbbjI9i/q3F3g==}
-
-  undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
   undici-types@6.18.2:
     resolution: {integrity: sha512-5ruQbENj95yDYJNS3TvcaxPMshV7aizdv/hWYjGIKoANWKjhWNBsr2YEuYZKodQulB1b8l7ILOuDQep3afowQQ==}
@@ -9301,10 +9286,6 @@ snapshots:
   '@types/minimatch@3.0.5': {}
 
   '@types/minimatch@5.1.2': {}
-
-  '@types/node@20.14.15':
-    dependencies:
-      undici-types: 5.26.5
 
   '@types/node@22.3.0':
     dependencies:
@@ -12388,16 +12369,6 @@ snapshots:
 
   git-repo-info@2.1.1: {}
 
-  glimmer-scoped-css@0.4.1:
-    dependencies:
-      '@embroider/addon-shim': 1.8.9
-      js-string-escape: 1.0.1
-      postcss: 8.4.41
-      postcss-selector-parser: 6.1.2
-      super-fast-md5: 1.0.3
-    transitivePeerDependencies:
-      - supports-color
-
   glob-parent@5.1.2:
     dependencies:
       is-glob: 4.0.3
@@ -14586,10 +14557,6 @@ snapshots:
       pirates: 4.0.6
       ts-interface-checker: 0.1.13
 
-  super-fast-md5@1.0.3:
-    dependencies:
-      '@types/node': 20.14.15
-
   supports-color@5.5.0:
     dependencies:
       has-flag: 3.0.0
@@ -14992,8 +14959,6 @@ snapshots:
       util-deprecate: 1.0.2
 
   underscore@1.13.7: {}
-
-  undici-types@5.26.5: {}
 
   undici-types@6.18.2: {}
 

@@ -147,7 +147,7 @@ export default class PokemonDetails extends Component<{
     {{! prettier-ignore }}
     <style>
       .full-embed { view-transition-name: full-embed; }
-      :global(html:active-view-transition-type(forwards, backwards)) {
+      html:active-view-transition-type(forwards, backwards) {
         .pokemon-details { view-transition-name: pokemon-details; }
         .full-embed { view-transition-name: none; }
       }
@@ -182,21 +182,21 @@ export default class PokemonDetails extends Component<{
       }
 
       /* Animation styles for forwards type only */
-      :global(html:active-view-transition-type(forwards)) {
-        :global(&::view-transition-old(pokemon-details)) {
+      html:active-view-transition-type(forwards) {
+        &::view-transition-old(pokemon-details) {
           animation-name: slide-out-to-left, fade-out;
         }
-        :global(&::view-transition-new(pokemon-details)) {
+        &::view-transition-new(pokemon-details) {
           animation-name: slide-in-from-right, fade-in;
         }
       }
 
       /* Animation styles for backwards type only */
-      :global(html:active-view-transition-type(backwards)) {
-        :global(&::view-transition-old(pokemon-details)) {
+      html:active-view-transition-type(backwards) {
+        &::view-transition-old(pokemon-details) {
           animation-name: slide-out-to-right, fade-out;
         }
-        :global(&::view-transition-new(pokemon-details)) {
+        &::view-transition-new(pokemon-details) {
           animation-name: slide-in-from-left, fade-in;
         }
       }

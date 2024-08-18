@@ -79,14 +79,6 @@ class ApplicationTemplate extends Component {
                 rel='noopener noreferrer'
               >ember-route-template</a>
               for template tag as route templates</li>
-            <li>
-              <a
-                href='https://github.com/cardstack/glimmer-scoped-css'
-                target='_blank'
-                class='hover:underline'
-                rel='noopener noreferrer'
-              >glimmer-scoped-css</a>
-              for scoped CSS within templates</li>
           </ul>
         </li>
         <li>
