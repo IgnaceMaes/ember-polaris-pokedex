@@ -11,7 +11,7 @@ export function preloadImage(imageUrl: string) {
 }
 
 interface PokemonSignature {
-  Args: { pokemon: PokemonModel; };
+  Args: { pokemon: PokemonModel };
 }
 
 export default class PokemonGridItem extends Component<PokemonSignature> {
@@ -40,18 +40,19 @@ export default class PokemonGridItem extends Component<PokemonSignature> {
 
   <template>
     <button
-      class='revealing-image bg-gradient-to-br from-pink-100 to-yellow-100 rounded-xl p-4 shadow hover:shadow-md transition-shadow flex flex-col items-center group cursor-pointer'
+      type='button'
+      class='revealing-image group flex cursor-pointer flex-col items-center rounded-xl bg-gradient-to-br from-pink-100 to-yellow-100 p-4 shadow transition-shadow hover:shadow-md'
       {{on 'mouseenter' (fn preloadImage @pokemon.image.hires)}}
       {{on 'click' (fn this.transitionToPokemonDetails @pokemon)}}
     >
       <img
         data-pokemon-thumbnail
-        class='group-hover:drop-shadow-xl group-hover:scale-125 transition-transform aspect-square block w-full p-4'
+        class='block aspect-square w-full p-4 transition-transform group-hover:scale-125 group-hover:drop-shadow-xl'
         loading='lazy'
         src={{@pokemon.image.thumbnail}}
         alt={{@pokemon.name.english}}
       />
-      <h3 class='font-medium mt-4 text-lg'>{{@pokemon.name.english}}</h3>
+      <h3 class='mt-4 text-lg font-medium'>{{@pokemon.name.english}}</h3>
     </button>
 
     {{! prettier-ignore }}

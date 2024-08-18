@@ -10,13 +10,13 @@ export default class ApplicationTemplate extends Component {
 
     <HomeButton />
     <section class='text-xl text-slate-700'>
-      <h2 class='font-medium text-4xl mb-4'>About</h2>
+      <h2 class='mb-4 text-4xl font-medium'>About</h2>
       <p class='mb-4'>Ember Polaris Pokedex is a reference application to
         showcase what modern Ember looks like. The source code is available on
         GitHub.</p>
       <p class='mb-2'>The app is built using the latest bleeding-edge
         technologies available:</p>
-      <ul class='list-disc list-inside space-y-1'>
+      <ul class='list-inside list-disc space-y-1'>
         <li>
           <a
             href='https://vitejs.dev/'
@@ -57,7 +57,7 @@ export default class ApplicationTemplate extends Component {
             class='hover:underline'
             rel='noopener noreferrer'
           >📦 Template-tag components ('.gjs', '.gts')</a>
-          <ul class='list-inside ps-5 mt-2 space-y-1 list-[circle]'>
+          <ul class='mt-2 list-inside list-[circle] space-y-1 ps-5'>
             <li>
               <a
                 href='https://github.com/discourse/ember-route-template'
@@ -83,18 +83,28 @@ export default class ApplicationTemplate extends Component {
             class='hover:underline'
             rel='noopener noreferrer'
           >🚀 Warp Drive</a>
-          <ul class='list-inside ps-5 mt-2 space-y-1 list-[circle]'>
+          <ul class='mt-2 list-inside list-[circle] space-y-1 ps-5'>
             <li>'@warp-drive/ember' Request component</li>
             <li>Ember Data request builders</li>
             <li>Native TypeScript types</li>
           </ul>
         </li>
       </ul>
-      <p class='mt-6 mb-2'>It also embraces web standards by making use of:</p>
+      <p class='mb-2 mt-6'>It also embraces web standards by making use of:</p>
 
-      <ul class='list-disc list-inside space-y-1'>
-        <li><a href="https://developer.chrome.com/docs/web-platform/view-transitions/same-document" target="_blank" class="hover:underline" rel="noopener noreferrer">🔗 View transition API</a></li>
-        <li><a href="https://scroll-driven-animations.style/" target="_blank" class="hover:underline" rel="noopener noreferrer">🎥 Scroll-driven animations</a></li>
+      <ul class='list-inside list-disc space-y-1'>
+        <li><a
+            href='https://developer.chrome.com/docs/web-platform/view-transitions/same-document'
+            target='_blank'
+            class='hover:underline'
+            rel='noopener noreferrer'
+          >🔗 View transition API</a></li>
+        <li><a
+            href='https://scroll-driven-animations.style/'
+            target='_blank'
+            class='hover:underline'
+            rel='noopener noreferrer'
+          >🎥 Scroll-driven animations</a></li>
       </ul>
     </section>
   </template>

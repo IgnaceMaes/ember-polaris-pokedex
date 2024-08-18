@@ -9,9 +9,9 @@ import {
 const PokemonTypeBadge: TOC<{ Args: { type: PokemonType } }> = <template>
   <div class='group relative'>
     <span
-      class='w-16 h-16 flex items-center justify-center text-2xl rounded-lg
+      class='flex h-16 w-16 items-center justify-center rounded-lg text-2xl
         {{get tailwindColorForPokemonType @type}}
-        shadow border'
+        border shadow'
     >
       {{get emojiForType @type}}
     </span>

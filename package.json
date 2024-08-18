@@ -93,6 +93,7 @@
     "postcss-loader": "^7.0.0",
     "prettier": "^3.3.3",
     "prettier-plugin-ember-template-tag": "^2.0.2",
+    "prettier-plugin-tailwindcss": "^0.6.6",
     "qunit": "^2.21.1",
     "qunit-dom": "^3.2.0",
     "stylelint": "^16.8.1",

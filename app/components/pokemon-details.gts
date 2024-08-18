@@ -46,20 +46,20 @@ export default class PokemonDetails extends Component<{
 
   <template>
     <div
-      class='flex gap-16 justify-center flex-col md:flex-row pokemon-details'
+      class='pokemon-details flex flex-col justify-center gap-16 md:flex-row'
     >
       <img
-        class='animate-wiggle [animation-delay:_0.2s] drop-shadow-2xl size-96 max-size-96 aspect-square full-embed'
+        class='animate-wiggle max-size-96 full-embed aspect-square size-96 drop-shadow-2xl [animation-delay:_0.2s]'
         src={{@pokemon.image.hires}}
         alt={{@pokemon.name.english}}
       />
       <div class='max-w-96'>
-        <h2 class='font-medium text-4xl'>{{@pokemon.name.english}}</h2>
-        <p class='my-2 text-slate-700 text-lg italic'>
+        <h2 class='text-4xl font-medium'>{{@pokemon.name.english}}</h2>
+        <p class='my-2 text-lg italic text-slate-700'>
           {{@pokemon.description}}
         </p>
 
-        <div class='grid md:grid-cols-2 my-8 text-lg'>
+        <div class='my-8 grid text-lg md:grid-cols-2'>
           <p>❤️ HP: {{@pokemon.base.HP}}</p>
           <p>⚔️ Attack: {{@pokemon.base.Attack}}</p>
           <p>🛡️ Defense: {{@pokemon.base.Defense}}</p>
@@ -75,14 +75,15 @@ export default class PokemonDetails extends Component<{
     </div>
 
     {{#if @pokemon.evolution}}
-      <section class='max-w-3xl m-auto'>
-        <h3 class='text-2xl mt-12'>Evolutions</h3>
+      <section class='m-auto max-w-3xl'>
+        <h3 class='mt-12 text-2xl'>Evolutions</h3>
 
         <div class='grid grid-cols-2 gap-8'>
           <div>
             {{#if @pokemon.evolution.prev}}
               <button
-                class='w-full bg-gradient-to-br from-pink-100 to-yellow-100 rounded-xl p-4 shadow hover:shadow-md transition-shadow flex flex-col items-center cursor-pointer'
+                type='button'
+                class='flex w-full cursor-pointer flex-col items-center rounded-xl bg-gradient-to-br from-pink-100 to-yellow-100 p-4 shadow transition-shadow hover:shadow-md'
                 {{on
                   'click'
                   (fn
@@ -103,7 +104,8 @@ export default class PokemonDetails extends Component<{
               </button>
             {{else}}
               <button
-                class='w-full bg-gradient-to-br from-gray-100 to-slate-100 rounded-xl p-4 shadow flex flex-col items-center cursor-not-allowed opacity-50'
+                type='button'
+                class='flex w-full cursor-not-allowed flex-col items-center rounded-xl bg-gradient-to-br from-gray-100 to-slate-100 p-4 opacity-50 shadow'
               >
                 ⏪ Previous
               </button>
@@ -112,7 +114,8 @@ export default class PokemonDetails extends Component<{
           <div class='flex flex-col gap-2'>
             {{#each @pokemon.evolution.next as |next|}}
               <button
-                class='w-full bg-gradient-to-br from-pink-100 to-yellow-100 rounded-xl p-4 shadow hover:shadow-md transition-shadow flex flex-col items-center cursor-pointer'
+                type='button'
+                class='flex w-full cursor-pointer flex-col items-center rounded-xl bg-gradient-to-br from-pink-100 to-yellow-100 p-4 shadow transition-shadow hover:shadow-md'
                 {{on
                   'click'
                   (fn this.transitionToPokemonDetails (get next 0) 'forwards')
@@ -126,7 +129,8 @@ export default class PokemonDetails extends Component<{
               </button>
             {{else}}
               <button
-                class='w-full bg-gradient-to-br from-gray-100 to-slate-100 rounded-xl p-4 shadow flex flex-col items-center cursor-not-allowed opacity-50'
+                type='button'
+                class='flex w-full cursor-not-allowed flex-col items-center rounded-xl bg-gradient-to-br from-gray-100 to-slate-100 p-4 opacity-50 shadow'
               >
                 Next ⏩
               </button>

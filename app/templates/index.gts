@@ -15,7 +15,9 @@ export default class IndexTemplate extends Component<IndexTemplateSignature> {
   <template>
     <Request @request={{@model.pokemonRequest}}>
       <:content as |PokemonContent|>
-        <div class='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4'>
+        <div
+          class='grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8'
+        >
           {{#each PokemonContent.data as |pokemon|}}
             <PokemonGridItem @pokemon={{pokemon}} />
           {{/each}}
