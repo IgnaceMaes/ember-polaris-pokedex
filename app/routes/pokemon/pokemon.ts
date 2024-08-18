@@ -1,16 +1,11 @@
 import Route from '@ember/routing/route';
-import { service } from '@ember/service';
-import type StoreService from '@ember-data/store';
-import PokemonModel from 'ember-embroider-pokedex/models/pokemon';
-import { query } from '@ember-data/rest/request';
+import type { ModelFrom } from 'ember-embroider-pokedex/utils/ember-route-template';
+import type ApplicationRoute from 'ember-embroider-pokedex/routes/application';
 
 export default class PokemonRoute extends Route {
-  @service declare store: StoreService;
-
   model(params: { pokemon_id: string }) {
-    // return this.store.request(findRecord<PokemonModel>('pokemon', params.pokemon_id));
     return {
-      pokemonRequest: this.store.request(query<PokemonModel>('pokemon')),
+      pokemonRequest: (this.modelFor('application') as ModelFrom<ApplicationRoute>).pokemonRequest,
       id: params.pokemon_id,
     };
   }

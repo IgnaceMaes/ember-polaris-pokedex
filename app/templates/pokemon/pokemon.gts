@@ -26,8 +26,6 @@ function getPokemonById(pokemons: PokemonModel[], id: string) {
   return pokemons.find((pokemon) => pokemon.id!.toString() === id);
 }
 
-type PokemonTemplateSignature = RouteTemplateSignature<PokemonRoute>;
-
 const PokemonTypeBadge: TOC<{ Args: { type: PokemonType } }> = <template>
   <div class='group relative'>
     <span
@@ -54,10 +52,7 @@ class PokemonCard extends Component<{
   ) => {
     // Fallback for browsers that don't support this API:
     if (!document.startViewTransition) {
-      this.router.transitionTo('pokemon.pokemon', {
-        id: pokemonId,
-        allPokemon: this.args.allPokemon,
-      });
+      this.router.transitionTo('pokemon.pokemon', pokemonId.toString());
       return;
     }
 
@@ -65,10 +60,7 @@ class PokemonCard extends Component<{
     document.startViewTransition({
       // @ts-expect-error: No types for these options yet
       update: () => {
-        this.router.transitionTo('pokemon.pokemon', {
-          id: pokemonId,
-          allPokemon: this.args.allPokemon,
-        });
+        this.router.transitionTo('pokemon.pokemon', pokemonId.toString());
       },
       types: ['slide', direction],
     });
@@ -235,6 +227,8 @@ class PokemonCard extends Component<{
   </template>
 }
 
+type PokemonTemplateSignature = RouteTemplateSignature<PokemonRoute>;
+
 @RouteTemplate
 export default class PokemonTemplate extends Component<PokemonTemplateSignature> {
   currentPokemon = (
@@ -248,32 +242,23 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
   <template>
     <HomeButton />
 
-    {{#if @model.pokemonRequest}}
-      <Request @request={{@model.pokemonRequest}}>
-        <:content as |PokemonContent|>
-          {{#let (this.currentPokemon PokemonContent.data) as |pokemon|}}
-            {{#if pokemon}}
-              <PokemonCard
-                @pokemon={{pokemon}}
-                @allPokemon={{PokemonContent.data}}
-              />
-            {{else}}
-              <p>Couldn't find that Pokémon!</p>
-            {{/if}}
-          {{/let}}
-        </:content>
-        <:loading>
-          <LoadingBar />
-        </:loading>
-      </Request>
-    {{else}}
-      <PokemonCard
-        {{! @glint-expect-error: model is of type PokemonModel if it's passed in the transition }}
-        @pokemon={{this.currentPokemon (get @model 'allPokemon')}}
-        {{! @glint-expect-error: model is of type PokemonModel if it's passed in the transition }}
-        @allPokemon={{(get @model 'allPokemon')}}
-      />
-    {{/if}}
+    <Request @request={{@model.pokemonRequest}}>
+      <:content as |PokemonContent|>
+        {{#let (this.currentPokemon PokemonContent.data) as |pokemon|}}
+          {{#if pokemon}}
+            <PokemonCard
+              @pokemon={{pokemon}}
+              @allPokemon={{PokemonContent.data}}
+            />
+          {{else}}
+            <p>Couldn't find that Pokémon!</p>
+          {{/if}}
+        {{/let}}
+      </:content>
+      <:loading>
+        <LoadingBar />
+      </:loading>
+    </Request>
 
     {{outlet}}
   </template>
