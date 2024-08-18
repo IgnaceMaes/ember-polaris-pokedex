@@ -54,6 +54,7 @@ export default class Pokemon extends Component<PokemonSignature> {
       <h3 class='font-medium mt-4 text-lg'>{{@pokemon.name.english}}</h3>
     </button>
 
+    {{! prettier-ignore }}
     <style>
       @keyframes reveal {
         from {
