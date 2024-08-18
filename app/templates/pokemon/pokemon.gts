@@ -50,7 +50,7 @@ class PokemonCard extends Component<{
     // Fallback for browsers that don't support this API:
     if (!document.startViewTransition) {
       this.router.transitionTo('pokemon.pokemon', {
-        currentPokemonId: pokemonId,
+        id: pokemonId,
         allPokemon: this.args.allPokemon,
       });
       return;
@@ -61,7 +61,7 @@ class PokemonCard extends Component<{
       // @ts-expect-error: No types for these options yet
       update: () => {
         this.router.transitionTo('pokemon.pokemon', {
-          currentPokemonId: pokemonId,
+          id: pokemonId,
           allPokemon: this.args.allPokemon,
         });
       },
@@ -220,7 +220,7 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
     >['content']['data'],
   ) => {
     return pokemons.find(
-      (pokemon) => pokemon.id!.toString() === this.args.model.currentPokemonId,
+      (pokemon) => pokemon.id!.toString() === this.args.model.id,
     );
   };
 

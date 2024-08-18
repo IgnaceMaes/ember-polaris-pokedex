@@ -20,7 +20,7 @@ export default class Pokemon extends Component<PokemonSignature> {
   transitionToPokemonDetails = (pokemon: PokemonModel, event: MouseEvent) => {
     // Fallback for browsers that don't support this API:
     if (!document.startViewTransition) {
-      this.router.transitionTo('pokemon.pokemon', { currentPokemonId: pokemon.id?.toString(), allPokemon: this.args.allPokemon });
+      this.router.transitionTo('pokemon.pokemon', { id: pokemon.id?.toString(), allPokemon: this.args.allPokemon });
       return;
     }
 
@@ -34,7 +34,7 @@ export default class Pokemon extends Component<PokemonSignature> {
     // With a transition:
     document.startViewTransition(() => {
       thumbnail.style.viewTransitionName = '';
-      this.router.transitionTo('pokemon.pokemon', { currentPokemonId: pokemon.id?.toString(), allPokemon: this.args.allPokemon });
+      this.router.transitionTo('pokemon.pokemon', { id: pokemon.id?.toString(), allPokemon: this.args.allPokemon });
     });
   };
 

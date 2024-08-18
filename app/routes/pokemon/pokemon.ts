@@ -11,7 +11,7 @@ export default class PokemonRoute extends Route {
     // return this.store.request(findRecord<PokemonModel>('pokemon', params.pokemon_id));
     return {
       pokemonRequest: this.store.request(query<PokemonModel>('pokemon')),
-      currentPokemonId: params.pokemon_id,
+      id: params.pokemon_id,
     };
   }
 }
