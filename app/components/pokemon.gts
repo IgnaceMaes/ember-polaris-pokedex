@@ -6,7 +6,7 @@ import { service } from '@ember/service';
 import type RouterService from '@ember/routing/router-service';
 
 interface PokemonSignature {
-  Args: { pokemon: PokemonModel };
+  Args: { pokemon: PokemonModel; allPokemon: PokemonModel[] };
 }
 
 function preloadImage(imageUrl: string) {
@@ -20,7 +20,7 @@ export default class Pokemon extends Component<PokemonSignature> {
   transitionToPokemonDetails = (pokemon: PokemonModel, event: MouseEvent) => {
     // Fallback for browsers that don't support this API:
     if (!document.startViewTransition) {
-      this.router.transitionTo('pokemon.pokemon', pokemon);
+      this.router.transitionTo('pokemon.pokemon', { currentPokemonId: pokemon.id?.toString(), allPokemon: this.args.allPokemon });
       return;
     }
 
@@ -34,7 +34,7 @@ export default class Pokemon extends Component<PokemonSignature> {
     // With a transition:
     document.startViewTransition(() => {
       thumbnail.style.viewTransitionName = '';
-      this.router.transitionTo('pokemon.pokemon', pokemon);
+      this.router.transitionTo('pokemon.pokemon', { currentPokemonId: pokemon.id?.toString(), allPokemon: this.args.allPokemon });
     });
   };
 

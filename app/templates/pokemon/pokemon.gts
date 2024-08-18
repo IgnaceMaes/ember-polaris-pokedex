@@ -1,6 +1,5 @@
 import type { PokemonType } from 'ember-embroider-pokedex/models/pokemon';
 import { pageTitle } from 'ember-page-title';
-import { LinkTo } from '@ember/routing';
 import type PokemonRoute from 'ember-embroider-pokedex/routes/pokemon/pokemon';
 import {
   RouteTemplate,
@@ -39,19 +38,34 @@ const PokemonTypeBadge: TOC<{ Args: { type: PokemonType } }> = <template>
   </div>
 </template>;
 
-class PokemonCard extends Component<{ Args: { pokemon: PokemonModel } }> {
+class PokemonCard extends Component<{
+  Args: { pokemon: PokemonModel; allPokemon: PokemonModel[] };
+}> {
   @service declare router: RouterService;
 
-  transitionToPokemonDetails = (pokemonId: string) => {
+  transitionToPokemonDetails = (
+    pokemonId: string,
+    direction: 'forwards' | 'backwards',
+  ) => {
     // Fallback for browsers that don't support this API:
     if (!document.startViewTransition) {
-      this.router.transitionTo('pokemon.pokemon', pokemonId);
+      this.router.transitionTo('pokemon.pokemon', {
+        currentPokemonId: pokemonId,
+        allPokemon: this.args.allPokemon,
+      });
       return;
     }
 
     // With a transition:
-    document.startViewTransition(() => {
-      this.router.transitionTo('pokemon.pokemon', pokemonId);
+    document.startViewTransition({
+      // @ts-expect-error: No types for these options yet
+      update: () => {
+        this.router.transitionTo('pokemon.pokemon', {
+          currentPokemonId: pokemonId,
+          allPokemon: this.args.allPokemon,
+        });
+      },
+      types: ['slide', direction],
     });
   };
 
@@ -101,6 +115,7 @@ class PokemonCard extends Component<{ Args: { pokemon: PokemonModel } }> {
                   (fn
                     this.transitionToPokemonDetails
                     (get @pokemon.evolution.prev 0)
+                    'backwards'
                   )
                 }}
               >
@@ -118,7 +133,10 @@ class PokemonCard extends Component<{ Args: { pokemon: PokemonModel } }> {
             {{#each @pokemon.evolution.next as |next|}}
               <button
                 class='w-full bg-gradient-to-br from-pink-100 to-yellow-100 rounded-xl p-4 shadow hover:shadow-md transition-shadow flex flex-col items-center cursor-pointer'
-                {{on 'click' (fn this.transitionToPokemonDetails (get next 0))}}
+                {{on
+                  'click'
+                  (fn this.transitionToPokemonDetails (get next 0) 'forwards')
+                }}
               >
                 Next ⏩
               </button>
@@ -137,7 +155,10 @@ class PokemonCard extends Component<{ Args: { pokemon: PokemonModel } }> {
     {{! prettier-ignore }}
     <style>
       .full-embed { view-transition-name: full-embed; }
-      .pokemon-details { view-transition-name: pokemon-details; }
+      :global(html:active-view-transition-type(forwards, backwards)) {
+        .pokemon-details { view-transition-name: pokemon-details; }
+        .full-embed { view-transition-name: none; }
+      }
 
       @keyframes fade-in {
         from { opacity: 0; }
@@ -147,22 +168,45 @@ class PokemonCard extends Component<{ Args: { pokemon: PokemonModel } }> {
         to { opacity: 0; }
       }
 
-      @keyframes slide-from-right {
-        from { transform: translateX(30px); }
+      @keyframes slide-in-from-left {
+        from {
+          translate: -10vw 0;
+        }
+      }
+      @keyframes slide-in-from-right {
+        from {
+          translate: 10vw 0;
+        }
+      }
+      @keyframes slide-out-to-left {
+        to {
+          translate: -10vw 0;
+        }
+      }
+      @keyframes slide-out-to-right {
+        to {
+          translate: 10vw 0;
+        }
       }
 
-      @keyframes slide-to-left {
-        to { transform: translateX(-30px); }
+      /* Animation styles for forwards type only */
+      :global(html:active-view-transition-type(forwards)) {
+        :global(&::view-transition-old(pokemon-details)) {
+          animation-name: slide-out-to-left, fade-out;
+        }
+        :global(&::view-transition-new(pokemon-details)) {
+          animation-name: slide-in-from-right, fade-in;
+        }
       }
 
-      :global(::view-transition-old(pokemon-details)) {
-        animation: 90ms cubic-bezier(0.4, 0, 1, 1) both fade-out,
-          300ms cubic-bezier(0.4, 0, 0.2, 1) both slide-to-left;
-      }
-
-      :global(::view-transition-new(pokemon-details)) {
-        animation: 210ms cubic-bezier(0, 0, 0.2, 1) 90ms both fade-in,
-          300ms cubic-bezier(0.4, 0, 0.2, 1) both slide-from-right;
+      /* Animation styles for backwards type only */
+      :global(html:active-view-transition-type(backwards)) {
+        :global(&::view-transition-old(pokemon-details)) {
+          animation-name: slide-out-to-right, fade-out;
+        }
+        :global(&::view-transition-new(pokemon-details)) {
+          animation-name: slide-in-from-left, fade-in;
+        }
       }
     </style>
   </template>
@@ -176,7 +220,7 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
     >['content']['data'],
   ) => {
     return pokemons.find(
-      (pokemon) => pokemon.id!.toString() === this.args.model.pokemonId,
+      (pokemon) => pokemon.id!.toString() === this.args.model.currentPokemonId,
     );
   };
 
@@ -188,7 +232,7 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
         <:content as |PokemonContent|>
           {{#let (this.currentPokemon PokemonContent.data) as |pokemon|}}
             {{#if pokemon}}
-              <PokemonCard @pokemon={{pokemon}} />
+              <PokemonCard @pokemon={{pokemon}} @allPokemon={{PokemonContent.data}} />
             {{else}}
               <p>Couldn't find that Pokémon!</p>
             {{/if}}
@@ -199,8 +243,12 @@ export default class PokemonTemplate extends Component<PokemonTemplateSignature>
         </:loading>
       </Request>
     {{else}}
-      {{! @glint-expect-error: model is of type PokemonModel if it's passed in the transition }}
-      <PokemonCard @pokemon={{@model}} />
+      <PokemonCard
+        {{! @glint-expect-error: model is of type PokemonModel if it's passed in the transition }}
+        @pokemon={{this.currentPokemon (get @model 'allPokemon')}}
+        {{! @glint-expect-error: model is of type PokemonModel if it's passed in the transition }}
+        @allPokemon={{(get @model 'allPokemon')}}
+      />
     {{/if}}
 
     {{outlet}}
