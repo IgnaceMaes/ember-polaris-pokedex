@@ -8,7 +8,8 @@ import Component from '@glimmer/component';
 import { Request } from '@warp-drive/ember';
 import LoadingBar from 'ember-polaris-pokedex/components/loading-bar';
 import HomeButton from 'ember-polaris-pokedex/components/home-button';
-import PokemonDetails, { getPokemonById } from 'ember-polaris-pokedex/components/pokemon-details';
+import PokemonDetails from 'ember-polaris-pokedex/components/pokemon-details';
+import { getPokemonById } from 'ember-polaris-pokedex/components/pokemon-evolution-nav';
 
 type PokemonTemplateSignature = RouteTemplateSignature<PokemonRoute>;
 
