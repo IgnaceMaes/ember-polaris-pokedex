@@ -5,16 +5,16 @@ import type PokemonModel from 'ember-embroider-pokedex/models/pokemon';
 import { service } from '@ember/service';
 import type RouterService from '@ember/routing/router-service';
 
-interface PokemonSignature {
-  Args: { pokemon: PokemonModel; };
-}
-
 export function preloadImage(imageUrl: string) {
   const img = new Image();
   img.src = imageUrl;
 }
 
-export default class Pokemon extends Component<PokemonSignature> {
+interface PokemonSignature {
+  Args: { pokemon: PokemonModel; };
+}
+
+export default class PokemonGridItem extends Component<PokemonSignature> {
   @service declare router: RouterService;
 
   transitionToPokemonDetails = (pokemon: PokemonModel, event: MouseEvent) => {
