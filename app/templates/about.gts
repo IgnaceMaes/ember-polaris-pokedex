@@ -112,15 +112,15 @@ export default class ApplicationTemplate extends Component {
       </ul>
 
       <div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-9 mt-16 gap-8">
-        <img src="/images/ember.svg" alt='ember' class='w-full h-full' />
-        <img src="/images/embroider.svg" alt='embroider' class='w-full h-full' />
-        <img src="/images/vite.svg" alt='vite' class='w-full h-full' />
-        <img src="/images/volar.svg" alt='volar' class='w-full h-full' />
-        <img src="/images/glint.png" alt='glint' class='w-full h-full' />
-        <img src="/images/typescript.svg" alt='typescript' class='w-full h-full' />
-        <img src="/images/warp-drive.svg" alt='Warp Drive' class='w-full h-full' />
-        <img src="/images/glimmer-ts.svg" alt='Glimmer TS' class='w-full h-full' />
-        <img src="/images/tailwind.svg" alt='TailwindCSS' class='w-full h-full' />
+        <img src="/images/ember.svg" alt='ember' class='w-full h-full drop-shadow-md' />
+        <img src="/images/embroider.svg" alt='embroider' class='w-full h-full drop-shadow-md' />
+        <img src="/images/vite.svg" alt='vite' class='w-full h-full drop-shadow-md' />
+        <img src="/images/volar.svg" alt='volar' class='w-full h-full drop-shadow-md' />
+        <img src="/images/glint.png" alt='glint' class='w-full h-full drop-shadow-md' />
+        <img src="/images/typescript.svg" alt='typescript' class='w-full h-full drop-shadow-md' />
+        <img src="/images/warp-drive.svg" alt='Warp Drive' class='w-full h-full drop-shadow-md' />
+        <img src="/images/glimmer-ts.svg" alt='Glimmer TS' class='w-full h-full drop-shadow-md' />
+        <img src="/images/tailwind.svg" alt='TailwindCSS' class='w-full h-full drop-shadow-md' />
       </div>
     </section>
   </template>
