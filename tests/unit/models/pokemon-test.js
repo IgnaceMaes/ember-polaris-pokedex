@@ -1,4 +1,4 @@
-import { setupTest } from 'ember-embroider-pokedex/tests/helpers';
+import { setupTest } from 'ember-polaris-pokedex/tests/helpers';
 import { module, test } from 'qunit';
 
 module('Unit | Model | pokemon', function (hooks) {

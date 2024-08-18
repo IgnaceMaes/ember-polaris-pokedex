@@ -1,3 +1,3 @@
 import loadConfigFromMeta from '@embroider/config-meta-loader';
 
-export default loadConfigFromMeta('ember-embroider-pokedex');
+export default loadConfigFromMeta('ember-polaris-pokedex');

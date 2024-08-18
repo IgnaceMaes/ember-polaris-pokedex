@@ -2,7 +2,7 @@
 
 module.exports = function (environment) {
   const ENV = {
-    modulePrefix: 'ember-embroider-pokedex',
+    modulePrefix: 'ember-polaris-pokedex',
     environment,
     rootURL: '/',
     locationType: 'history',

@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import { setupTest } from 'ember-embroider-pokedex/tests/helpers';
+import { setupTest } from 'ember-polaris-pokedex/tests/helpers';
 
 module('Unit | Route | pokemon', function (hooks) {
   setupTest(hooks);

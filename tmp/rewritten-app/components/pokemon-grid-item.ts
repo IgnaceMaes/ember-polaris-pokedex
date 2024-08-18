@@ -2,10 +2,10 @@ import { template } from "@ember/template-compiler";
 import { fn } from '@ember/helper';
 import { on } from '@ember/modifier';
 import Component from '@glimmer/component';
-import type PokemonModel from 'ember-embroider-pokedex/models/pokemon';
+import type PokemonModel from 'ember-polaris-pokedex/models/pokemon';
 import { service } from '@ember/service';
 import type RouterService from '@ember/routing/router-service';
-import { type RouterScrollService } from 'ember-embroider-pokedex/utils/router-scroll-service';
+import { type RouterScrollService } from 'ember-polaris-pokedex/utils/router-scroll-service';
 export function preloadImage(imageUrl1: string) {
     const img1 = new Image();
     img1.src = imageUrl1;

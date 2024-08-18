@@ -1,8 +1,8 @@
 import { template } from "@ember/template-compiler";
 import { pageTitle } from 'ember-page-title';
-import { RouteTemplate } from 'ember-embroider-pokedex/utils/ember-route-template';
+import { RouteTemplate } from 'ember-polaris-pokedex/utils/ember-route-template';
 import Component from '@glimmer/component';
-import HomeButton from 'ember-embroider-pokedex/components/home-button';
+import HomeButton from 'ember-polaris-pokedex/components/home-button';
 export default @RouteTemplate
 class ApplicationTemplate extends Component {
     static{

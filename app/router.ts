@@ -1,5 +1,5 @@
 import EmberRouter from '@ember/routing/router';
-import config from 'ember-embroider-pokedex/config/environment';
+import config from 'ember-polaris-pokedex/config/environment';
 
 export default class Router extends EmberRouter {
   location = config.locationType;

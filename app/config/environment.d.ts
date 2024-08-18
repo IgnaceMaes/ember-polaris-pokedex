@@ -1,6 +1,6 @@
 /**
  * Type declarations for
- *    import config from 'ember-embroider-pokedex/config/environment'
+ *    import config from 'ember-polaris-pokedex/config/environment'
  */
 declare const config: {
   environment: string;

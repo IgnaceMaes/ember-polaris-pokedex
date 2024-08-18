@@ -1,6 +1,6 @@
 import { template } from "@ember/template-compiler";
 import { pageTitle } from 'ember-page-title';
-import { RouteTemplate } from 'ember-embroider-pokedex/utils/ember-route-template';
+import { RouteTemplate } from 'ember-polaris-pokedex/utils/ember-route-template';
 import Component from '@glimmer/component';
 import { LinkTo } from '@ember/routing';
 export default @RouteTemplate

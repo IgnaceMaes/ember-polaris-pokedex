@@ -6,10 +6,10 @@
     // work with TypeScript.
     "baseUrl": ".",
     "paths": {
-      "ember-embroider-pokedex/tests/*": [
+      "ember-polaris-pokedex/tests/*": [
         "tests/*"
       ],
-      "ember-embroider-pokedex/*": [
+      "ember-polaris-pokedex/*": [
         "app/*"
       ],
       "*": [

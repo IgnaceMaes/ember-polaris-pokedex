@@ -1,10 +1,10 @@
 import { template } from "@ember/template-compiler";
-import PokemonGridItem from 'ember-embroider-pokedex/components/pokemon-grid-item';
-import type IndexRoute from 'ember-embroider-pokedex/routes';
+import PokemonGridItem from 'ember-polaris-pokedex/components/pokemon-grid-item';
+import type IndexRoute from 'ember-polaris-pokedex/routes';
 import { Request } from '@warp-drive/ember';
-import { RouteTemplate, type RouteTemplateSignature } from 'ember-embroider-pokedex/utils/ember-route-template';
+import { RouteTemplate, type RouteTemplateSignature } from 'ember-polaris-pokedex/utils/ember-route-template';
 import Component from '@glimmer/component';
-import LoadingBar from 'ember-embroider-pokedex/components/loading-bar';
+import LoadingBar from 'ember-polaris-pokedex/components/loading-bar';
 type IndexTemplateSignature = RouteTemplateSignature<IndexRoute>;
 export default @RouteTemplate
 class IndexTemplate extends Component<IndexTemplateSignature> {

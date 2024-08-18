@@ -1,10 +1,10 @@
-import type { PokemonType } from 'ember-embroider-pokedex/models/pokemon';
+import type { PokemonType } from 'ember-polaris-pokedex/models/pokemon';
 import { get } from '@ember/helper';
 import type { TOC } from '@ember/component/template-only';
 import {
   emojiForType,
   tailwindColorForPokemonType,
-} from 'ember-embroider-pokedex/utils/pokemon-type-mappings';
+} from 'ember-polaris-pokedex/utils/pokemon-type-mappings';
 
 const PokemonTypeBadge: TOC<{ Args: { type: PokemonType } }> = <template>
   <div class='group relative'>
