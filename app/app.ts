@@ -1,10 +1,12 @@
 import Application from '@ember/application';
+// @ts-expect-error: no types core/entrypoint
 import compatModules from '@embroider/core/entrypoint';
 import Resolver from 'ember-resolver';
 import loadInitializers from 'ember-load-initializers';
 import config from 'ember-polaris-pokedex/config/environment';
 import './app.css';
 
+// @ts-expect-error: no types for define
 let d = window.define;
 
 for (const [name, module] of Object.entries(compatModules)) {

@@ -13,4 +13,4 @@
 # ember-try
 /.node_modules.ember-try/
 
-/tmp
+/tmp/
