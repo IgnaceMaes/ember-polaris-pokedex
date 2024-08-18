@@ -1,4 +1,6 @@
-<template>
+import type { TOC } from '@ember/component/template-only';
+
+const LoadingBar: TOC<object> = <template>
   <div class='w-full absolute top-0 right-0'>
     <div class='h-1.5 w-full bg-pink-100 overflow-hidden'>
       <div
@@ -6,4 +8,6 @@
       ></div>
     </div>
   </div>
-</template>
+</template>;
+
+export default LoadingBar;
