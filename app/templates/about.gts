@@ -111,7 +111,7 @@ export default class ApplicationTemplate extends Component {
           >🎥 Scroll-driven animations</a></li>
       </ul>
 
-      <div class="grid grid-cols-4 md:grid-cols-8 mt-16 gap-8">
+      <div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-9 mt-16 gap-8">
         <img src="/images/ember.svg" alt='ember' class='w-full h-full' />
         <img src="/images/embroider.svg" alt='embroider' class='w-full h-full' />
         <img src="/images/vite.svg" alt='vite' class='w-full h-full' />
@@ -120,6 +120,7 @@ export default class ApplicationTemplate extends Component {
         <img src="/images/typescript.svg" alt='typescript' class='w-full h-full' />
         <img src="/images/warp-drive.svg" alt='Warp Drive' class='w-full h-full' />
         <img src="/images/glimmer-ts.svg" alt='Glimmer TS' class='w-full h-full' />
+        <img src="/images/tailwind.svg" alt='TailwindCSS' class='w-full h-full' />
       </div>
     </section>
   </template>
