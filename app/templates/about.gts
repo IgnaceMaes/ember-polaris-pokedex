@@ -21,7 +21,7 @@ export default class ApplicationTemplate extends Component {
         >the Ember Polaris edition</a>
         looks like. The source code is
         <a
-          href='todo'
+          href='https://github.com/IgnaceMaes/ember-polaris-pokedex'
           target='_blank'
           class='hover:underline text-slate-900 font-medium'
           rel='noopener noreferrer'
