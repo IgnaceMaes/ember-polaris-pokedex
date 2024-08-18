@@ -126,5 +126,21 @@
     "@warp-drive/ember": "0.0.0-alpha.60",
     "ember-data": "5.4.0-alpha.98",
     "ember-router-scroll": "^4.1.2"
+  },
+  "ember-addon": {
+    "type": "app",
+    "version": 2,
+    "assets": [
+      "index.html",
+      "tests/index.html"
+    ],
+    "babel": {
+      "filename": "_babel_config_.js",
+      "isParallelSafe": true,
+      "majorVersion": 7,
+      "fileFilter": "_babel_filter_.js"
+    },
+    "root-url": "/",
+    "auto-upgraded": true
   }
 }

@@ -1,0 +1,36 @@
+import { template } from "@ember/template-compiler";
+import PokemonGridItem from 'ember-embroider-pokedex/components/pokemon-grid-item';
+import type IndexRoute from 'ember-embroider-pokedex/routes';
+import { Request } from '@warp-drive/ember';
+import { RouteTemplate, type RouteTemplateSignature } from 'ember-embroider-pokedex/utils/ember-route-template';
+import Component from '@glimmer/component';
+import LoadingBar from 'ember-embroider-pokedex/components/loading-bar';
+type IndexTemplateSignature = RouteTemplateSignature<IndexRoute>;
+export default @RouteTemplate
+class IndexTemplate extends Component<IndexTemplateSignature> {
+    static{
+        template(`
+    <Request @request={{@model.pokemonRequest}}>
+      <:content as |PokemonContent|>
+        <div
+          class='grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8'
+        >
+          {{#each PokemonContent.data as |pokemon|}}
+            <PokemonGridItem @pokemon={{pokemon}} />
+          {{/each}}
+        </div>
+      </:content>
+      <:loading>
+        <LoadingBar />
+      </:loading>
+    </Request>
+
+    {{outlet}}
+  `, {
+            component: this,
+            eval () {
+                return eval(arguments[0]);
+            }
+        });
+    }
+}
