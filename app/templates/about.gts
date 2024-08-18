@@ -12,8 +12,20 @@ export default class ApplicationTemplate extends Component {
     <section class='text-xl text-slate-700'>
       <h2 class='mb-4 text-4xl font-medium'>About</h2>
       <p class='mb-4'>Ember Polaris Pokedex is a reference application to
-        showcase what modern Ember looks like. The source code is available on
-        GitHub.</p>
+        showcase what
+        <a
+          href='https://emberjs.com/editions/polaris/'
+          target='_blank'
+          class='hover:underline'
+          rel='noopener noreferrer'
+        >the Ember Polaris edition</a>
+        looks like. The source code is
+        <a
+          href='todo'
+          target='_blank'
+          class='hover:underline'
+          rel='noopener noreferrer'
+        >available on GitHub</a>.</p>
       <p class='mb-2'>The app is built using the latest bleeding-edge
         technologies available:</p>
       <ul class='list-inside list-disc space-y-1'>

@@ -7,6 +7,7 @@ import { fn } from '@ember/helper';
 import { on } from '@ember/modifier';
 import { preloadImage } from 'ember-embroider-pokedex/components/pokemon-grid-item';
 import PokemonTypeBadge from 'ember-embroider-pokedex/components/pokemon-type-badge';
+import { type RouterScrollService } from 'ember-embroider-pokedex/utils/router-scroll-service';
 
 export function getPokemonById(pokemons: PokemonModel[], id: string) {
   return pokemons.find((pokemon) => pokemon.id!.toString() === id);
@@ -17,10 +18,13 @@ export default class PokemonDetails extends Component<{
 }> {
   @service declare router: RouterService;
 
+  @service declare routerScroll: RouterScrollService;
+
   transitionToPokemonDetails = (
     pokemonId: string,
     direction: 'forwards' | 'backwards',
   ) => {
+    this.routerScroll.preserveScrollPosition = true;
     // Fallback for browsers that don't support this API:
     if (!document.startViewTransition) {
       this.router.transitionTo('pokemon.pokemon', pokemonId.toString());
