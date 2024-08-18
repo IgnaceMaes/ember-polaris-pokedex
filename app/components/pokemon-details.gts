@@ -97,7 +97,7 @@ export default class PokemonDetails extends Component<{
                   )
                 }}
                 {{on
-                  'mouseenter'
+                  'pointerenter'
                   (fn
                     this.preloadImageForPokemonId
                     (get @pokemon.evolution.prev 0)
@@ -125,7 +125,7 @@ export default class PokemonDetails extends Component<{
                   (fn this.transitionToPokemonDetails (get next 0) 'forwards')
                 }}
                 {{on
-                  'mouseenter'
+                  'pointerenter'
                   (fn this.preloadImageForPokemonId (get next 0))
                 }}
               >

@@ -46,7 +46,7 @@ export default class PokemonGridItem extends Component<PokemonSignature> {
     <button
       type='button'
       class='revealing-image group flex cursor-pointer flex-col items-center rounded-xl bg-gradient-to-br from-pink-100 to-yellow-100 p-4 shadow transition-shadow hover:shadow-md'
-      {{on 'mouseenter' (fn preloadImage @pokemon.image.hires)}}
+      {{on 'pointerenter' (fn preloadImage @pokemon.image.hires)}}
       {{on 'click' (fn this.transitionToPokemonDetails @pokemon)}}
     >
       <img
