@@ -56,7 +56,7 @@ export default class PokemonGridItem extends Component<PokemonSignature> {
         src={{@pokemon.image.thumbnail}}
         alt='{{@pokemon.name.english}} thumbnail'
       />
-      <h3 class='mt-4 text-lg font-medium'>{{@pokemon.name.english}}</h3>
+      <span class='mt-4 text-lg font-medium'>{{@pokemon.name.english}}</span>
     </button>
   </template>
 }
