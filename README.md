@@ -1,57 +1,34 @@
-# ember-polaris-pokedex
+# Ember Polaris Pokedex
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+*A reference application to showcase what the [Ember Polaris](https://emberjs.com/editions/polaris/) edition looks like.*
 
-## Prerequisites
+## Technologies
 
-You will need the following things properly installed on your computer.
+The app is built using the latest bleeding-edge available for Ember apps:
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/)
-- [pnpm](https://pnpm.io/)
-- [Ember CLI](https://cli.emberjs.com/release/)
-- [Google Chrome](https://google.com/chrome/)
+- ⚡️ Vite-based Embroider
+- 🔥 Volar-based Glint
+- 💙 Native Ember TypeScript types from source
+- 📦 Template-tag components ('.gjs', '.gts')
+- 🚀 Warp Drive
 
-## Installation
+It also embraces web standards by making use of:
 
-- `git clone <repository-url>` this repository
-- `cd ember-polaris-pokedex`
-- `pnpm install`
+- 🔗 View transition API
+- 🎥 Scroll-driven animations
 
-## Running / Development
+<p align="center">
+  <img width="10%" alt="Ember" src="public/images/ember.svg">
+  <img width="10%" alt="Embroider" src="public/images/embroider.svg">
+  <img width="10%" alt="Vite" src="public/images/vite.svg">
+  <img width="10%" alt="Volar" src="public/images/volar.svg">
+  <img width="10%" alt="Glint" src="public/images/glint.png">
+  <img width="10%" alt="TypeScript" src="public/images/typescript.svg">
+  <img width="10%" alt="Warp Drive" src="public/images/warp-drive.svg">
+  <img width="10%" alt="Glimmer TS" src="public/images/glimmer-ts.svg">
+  <img width="10%" alt="TailwindCSS" src="public/images/tailwind.svg">
+</p>
 
-- `pnpm start`
-- Visit your app at [http://localhost:4200](http://localhost:4200).
-- Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+## Contributing
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-- `pnpm test`
-- `pnpm test:ember --server`
-
-### Linting
-
-- `pnpm lint`
-- `pnpm lint:fix`
-
-### Building
-
-- `pnpm ember build` (development)
-- `pnpm build` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-- [ember.js](https://emberjs.com/)
-- [ember-cli](https://cli.emberjs.com/release/)
-- Development Browser Extensions
-  - [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  - [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+If you want to contribute to this project, please read [CONTRIBUTING.md](CONTRIBUTING.md).
