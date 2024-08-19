@@ -29,6 +29,7 @@ export default class IndexTemplate extends Component<IndexTemplateSignature> {
     </Request>
 
     {{outlet}}
+    {{! template-lint-disable no-whitespace-for-layout }}
     {{! prettier-ignore }}
     <style>
       @keyframes reveal {
