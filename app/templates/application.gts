@@ -9,7 +9,9 @@ export default class ApplicationTemplate extends Component {
     {{pageTitle 'Ember Polaris Pokedex'}}
 
     <main class='container m-auto min-h-screen px-4 py-8'>
-      <div class='mb-6 flex justify-between text-2xl lg:text-5xl font-extrabold gap-4'>
+      <div
+        class='mb-6 flex justify-between gap-4 text-2xl font-extrabold lg:text-5xl'
+      >
         <h2>
           <LinkTo
             @route='index'

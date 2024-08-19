@@ -1,10 +1,10 @@
 import type { TOC } from '@ember/component/template-only';
 
 const LoadingBar: TOC<object> = <template>
-  <div class='w-full absolute top-0 right-0'>
-    <div class='h-1.5 w-full bg-pink-100 overflow-hidden'>
+  <div class='absolute right-0 top-0 w-full'>
+    <div class='h-1.5 w-full overflow-hidden bg-pink-100'>
       <div
-        class='animate-progress w-full h-full bg-pink-500 origin-left-right'
+        class='h-full w-full origin-left-right animate-progress bg-pink-500'
       ></div>
     </div>
   </div>

@@ -1,4 +1,4 @@
-import type { Handler } from "@ember-data/request";
+import type { Handler } from '@ember-data/request';
 
 export const JsonSuffixHandler: Handler = {
   request(context, next) {

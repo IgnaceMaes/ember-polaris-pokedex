@@ -8,6 +8,7 @@ module.exports = {
       extends: [
         'eslint:recommended',
         'plugin:ember/recommended', // or other configuration
+        'plugin:prettier/recommended',
       ],
       rules: {
         // override / enable optional rules
@@ -23,6 +24,7 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:ember/recommended',
         'plugin:ember/recommended-gts',
+        'plugin:prettier/recommended',
       ],
       rules: {
         // To use the @RouteTemplate decorator on Glimmer components in `/templates`
@@ -37,6 +39,7 @@ module.exports = {
         'eslint:recommended',
         'plugin:ember/recommended',
         'plugin:ember/recommended-gjs',
+        'plugin:prettier/recommended',
       ],
     },
     {

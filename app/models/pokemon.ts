@@ -1,7 +1,25 @@
 import Model, { attr } from '@ember-data/model';
 import { Type } from '@warp-drive/core-types/symbols';
 
-export type PokemonType = 'Normal' | 'Fighting' | 'Flying' | 'Poison' | 'Ground' | 'Rock' | 'Bug' | 'Ghost' | 'Steel' | 'Fire' | 'Water' | 'Grass' | 'Electric' | 'Psychic' | 'Ice' | 'Dragon' | 'Dark' | 'Fairy';
+export type PokemonType =
+  | 'Normal'
+  | 'Fighting'
+  | 'Flying'
+  | 'Poison'
+  | 'Ground'
+  | 'Rock'
+  | 'Bug'
+  | 'Ghost'
+  | 'Steel'
+  | 'Fire'
+  | 'Water'
+  | 'Grass'
+  | 'Electric'
+  | 'Psychic'
+  | 'Ice'
+  | 'Dragon'
+  | 'Dark'
+  | 'Fairy';
 
 export default class PokemonModel extends Model {
   @attr declare name: {

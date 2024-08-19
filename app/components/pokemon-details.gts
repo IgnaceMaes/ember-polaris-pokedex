@@ -11,7 +11,7 @@ export default class PokemonDetails extends Component<{
       class='pokemon-details flex flex-col justify-center gap-16 md:flex-row'
     >
       <img
-        class='animate-wiggle max-size-96 full-embed aspect-square size-96 drop-shadow-2xl [animation-delay:_0.2s]'
+        class='max-size-96 full-embed aspect-square size-96 animate-wiggle drop-shadow-2xl [animation-delay:_0.2s]'
         src={{@pokemon.image.hires}}
         alt={{@pokemon.name.english}}
       />

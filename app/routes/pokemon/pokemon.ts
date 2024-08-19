@@ -5,7 +5,9 @@ import type ApplicationRoute from 'ember-polaris-pokedex/routes/application';
 export default class PokemonRoute extends Route {
   model(params: { pokemon_id: string }) {
     return {
-      pokemonRequest: (this.modelFor('application') as ModelFrom<ApplicationRoute>).pokemonRequest,
+      pokemonRequest: (
+        this.modelFor('application') as ModelFrom<ApplicationRoute>
+      ).pokemonRequest,
       id: params.pokemon_id,
     };
   }

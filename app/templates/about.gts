@@ -16,14 +16,14 @@ export default class ApplicationTemplate extends Component {
         <a
           href='https://emberjs.com/editions/polaris/'
           target='_blank'
-          class='hover:underline text-slate-900 font-medium'
+          class='font-medium text-slate-900 hover:underline'
           rel='noopener noreferrer'
         >the Ember Polaris edition</a>
         looks like. The source code is
         <a
           href='https://github.com/IgnaceMaes/ember-polaris-pokedex'
           target='_blank'
-          class='hover:underline text-slate-900 font-medium'
+          class='font-medium text-slate-900 hover:underline'
           rel='noopener noreferrer'
         >available on GitHub</a>.</p>
       <p class='mb-2'>The app is built using the latest bleeding-edge
@@ -33,40 +33,40 @@ export default class ApplicationTemplate extends Component {
           <a
             href='https://vitejs.dev/'
             target='_blank'
-            class='hover:underline text-slate-900 font-medium'
+            class='font-medium text-slate-900 hover:underline'
             rel='noopener noreferrer'
           >⚡️ Vite-based</a>
           <a
             href='https://github.com/embroider-build/embroider'
             target='_blank'
-            class='hover:underline text-slate-900 font-medium'
+            class='font-medium text-slate-900 hover:underline'
             rel='noopener noreferrer'
           >Embroider</a></li>
         <li>
           <a
             href='https://volarjs.dev/'
             target='_blank'
-            class='hover:underline text-slate-900 font-medium'
+            class='font-medium text-slate-900 hover:underline'
             rel='noopener noreferrer'
           >🔥 Volar-based</a>
           <a
             href='https://typed-ember.gitbook.io/glint'
             target='_blank'
-            class='hover:underline text-slate-900 font-medium'
+            class='font-medium text-slate-900 hover:underline'
             rel='noopener noreferrer'
           >Glint</a></li>
         <li>
           <a
             href='https://blog.emberjs.com/stable-typescript-types-in-ember-5-1/'
             target='_blank'
-            class='hover:underline text-slate-900 font-medium'
+            class='font-medium text-slate-900 hover:underline'
             rel='noopener noreferrer'
           >💙 Native Ember TypeScript types from source</a></li>
         <li>
           <a
             href='https://guides.emberjs.com/release/components/template-tag-format/'
             target='_blank'
-            class='hover:underline text-slate-900 font-medium'
+            class='font-medium text-slate-900 hover:underline'
             rel='noopener noreferrer'
           >📦 Template-tag components ('.gjs', '.gts')</a>
           <ul class='mt-2 list-inside list-[circle] space-y-1 ps-5'>
@@ -74,7 +74,7 @@ export default class ApplicationTemplate extends Component {
               <a
                 href='https://github.com/discourse/ember-route-template'
                 target='_blank'
-                class='hover:underline text-slate-900 font-medium'
+                class='font-medium text-slate-900 hover:underline'
                 rel='noopener noreferrer'
               >ember-route-template</a>
               for template tag as route templates</li>
@@ -84,7 +84,7 @@ export default class ApplicationTemplate extends Component {
           <a
             href='https://warp-drive.io/'
             target='_blank'
-            class='hover:underline text-slate-900 font-medium'
+            class='font-medium text-slate-900 hover:underline'
             rel='noopener noreferrer'
           >🚀 Warp Drive</a>
           <ul class='mt-2 list-inside list-[circle] space-y-1 ps-5'>
@@ -100,27 +100,63 @@ export default class ApplicationTemplate extends Component {
         <li><a
             href='https://developer.chrome.com/docs/web-platform/view-transitions/same-document'
             target='_blank'
-            class='hover:underline text-slate-900 font-medium'
+            class='font-medium text-slate-900 hover:underline'
             rel='noopener noreferrer'
           >🔗 View transition API</a></li>
         <li><a
             href='https://scroll-driven-animations.style/'
             target='_blank'
-            class='hover:underline text-slate-900 font-medium'
+            class='font-medium text-slate-900 hover:underline'
             rel='noopener noreferrer'
           >🎥 Scroll-driven animations</a></li>
       </ul>
 
-      <div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-9 mt-16 gap-8">
-        <img src="/images/ember.svg" alt='ember' class='w-full h-full drop-shadow-md' />
-        <img src="/images/embroider.svg" alt='embroider' class='w-full h-full drop-shadow-md' />
-        <img src="/images/vite.svg" alt='vite' class='w-full h-full drop-shadow-md' />
-        <img src="/images/volar.svg" alt='volar' class='w-full h-full drop-shadow-md' />
-        <img src="/images/glint.png" alt='glint' class='w-full h-full drop-shadow-md' />
-        <img src="/images/typescript.svg" alt='typescript' class='w-full h-full drop-shadow-md' />
-        <img src="/images/warp-drive.svg" alt='Warp Drive' class='w-full h-full drop-shadow-md' />
-        <img src="/images/glimmer-ts.svg" alt='Glimmer TS' class='w-full h-full drop-shadow-md' />
-        <img src="/images/tailwind.svg" alt='TailwindCSS' class='w-full h-full drop-shadow-md' />
+      <div class='mt-16 grid grid-cols-3 gap-8 md:grid-cols-6 lg:grid-cols-9'>
+        <img
+          src='/images/ember.svg'
+          alt='ember'
+          class='h-full w-full drop-shadow-md'
+        />
+        <img
+          src='/images/embroider.svg'
+          alt='embroider'
+          class='h-full w-full drop-shadow-md'
+        />
+        <img
+          src='/images/vite.svg'
+          alt='vite'
+          class='h-full w-full drop-shadow-md'
+        />
+        <img
+          src='/images/volar.svg'
+          alt='volar'
+          class='h-full w-full drop-shadow-md'
+        />
+        <img
+          src='/images/glint.png'
+          alt='glint'
+          class='h-full w-full drop-shadow-md'
+        />
+        <img
+          src='/images/typescript.svg'
+          alt='typescript'
+          class='h-full w-full drop-shadow-md'
+        />
+        <img
+          src='/images/warp-drive.svg'
+          alt='Warp Drive'
+          class='h-full w-full drop-shadow-md'
+        />
+        <img
+          src='/images/glimmer-ts.svg'
+          alt='Glimmer TS'
+          class='h-full w-full drop-shadow-md'
+        />
+        <img
+          src='/images/tailwind.svg'
+          alt='TailwindCSS'
+          class='h-full w-full drop-shadow-md'
+        />
       </div>
     </section>
   </template>
