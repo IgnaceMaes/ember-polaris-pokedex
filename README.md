@@ -18,15 +18,15 @@ It also embraces web standards by making use of:
 - 🎥 Scroll-driven animations
 
 <p align="center">
-  <img width="10%" alt="Ember" src="public/images/ember.svg">
-  <img width="10%" alt="Embroider" src="public/images/embroider.svg">
-  <img width="10%" alt="Vite" src="public/images/vite.svg">
-  <img width="10%" alt="Volar" src="public/images/volar.svg">
-  <img width="10%" alt="Glint" src="public/images/glint.png">
-  <img width="10%" alt="TypeScript" src="public/images/typescript.svg">
-  <img width="10%" alt="Warp Drive" src="public/images/warp-drive.svg">
-  <img width="10%" alt="Glimmer TS" src="public/images/glimmer-ts.svg">
-  <img width="10%" alt="TailwindCSS" src="public/images/tailwind.svg">
+  <img width="10%" alt="Ember" src="app/assets/images/ember.svg">
+  <img width="10%" alt="Embroider" src="app/assets/images/embroider.svg">
+  <img width="10%" alt="Vite" src="app/assets/images/vite.svg">
+  <img width="10%" alt="Volar" src="app/assets/images/volar.svg">
+  <img width="10%" alt="Glint" src="app/assets/images/glint.png">
+  <img width="10%" alt="TypeScript" src="app/assets/images/typescript.svg">
+  <img width="10%" alt="Warp Drive" src="app/assets/images/warp-drive.svg">
+  <img width="10%" alt="Glimmer TS" src="app/assets/images/glimmer-ts.svg">
+  <img width="10%" alt="TailwindCSS" src="app/assets/images/tailwind.svg">
 </p>
 
 ## Contributing
