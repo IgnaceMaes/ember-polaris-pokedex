@@ -3,6 +3,8 @@ import { RouteTemplate } from 'ember-polaris-pokedex/utils/ember-route-template'
 import Component from '@glimmer/component';
 import HomeButton from 'ember-polaris-pokedex/components/home-button';
 
+import importAsset from 'ember-polaris-pokedex/helpers/import-asset';
+
 @RouteTemplate
 export default class ApplicationTemplate extends Component {
   <template>
@@ -113,47 +115,47 @@ export default class ApplicationTemplate extends Component {
 
       <div class='mt-16 grid grid-cols-3 gap-8 md:grid-cols-6 lg:grid-cols-9'>
         <img
-          src='/images/ember.svg'
+          src={{importAsset 'ember.svg'}}
           alt='ember'
           class='h-full w-full drop-shadow-md'
         />
         <img
-          src='/images/embroider.svg'
+          src={{importAsset 'embroider.svg'}}
           alt='embroider'
           class='h-full w-full drop-shadow-md'
         />
         <img
-          src='/images/vite.svg'
+          src={{importAsset 'vite.svg'}}
           alt='vite'
           class='h-full w-full drop-shadow-md'
         />
         <img
-          src='/images/volar.svg'
+          src={{importAsset 'volar.svg'}}
           alt='volar'
           class='h-full w-full drop-shadow-md'
         />
         <img
-          src='/images/glint.png'
+          src={{importAsset 'glint.png'}}
           alt='glint'
           class='h-full w-full drop-shadow-md'
         />
         <img
-          src='/images/typescript.svg'
+          src={{importAsset 'typescript.svg'}}
           alt='typescript'
           class='h-full w-full drop-shadow-md'
         />
         <img
-          src='/images/warp-drive.svg'
+          src={{importAsset 'warp-drive.svg'}}
           alt='Warp Drive'
           class='h-full w-full drop-shadow-md'
         />
         <img
-          src='/images/glimmer-ts.svg'
+          src={{importAsset 'glimmer-ts.svg'}}
           alt='Glimmer TS'
           class='h-full w-full drop-shadow-md'
         />
         <img
-          src='/images/tailwind.svg'
+          src={{importAsset 'tailwind.svg'}}
           alt='TailwindCSS'
           class='h-full w-full drop-shadow-md'
         />

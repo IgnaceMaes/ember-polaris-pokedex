@@ -32,7 +32,8 @@
       "./node_modules/@warp-drive/ember/unstable-preview-types",
       "./node_modules/ember-data-types/unstable-preview-types",
       "./node_modules/@types/dom-view-transitions",
-      "ember-source/types"
+      "ember-source/types",
+      "vite/client"
     ]
   },
   "glint": {
