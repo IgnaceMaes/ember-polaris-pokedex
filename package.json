@@ -10,6 +10,9 @@
     "doc": "doc",
     "test": "tests"
   },
+  "resolutions": {
+    "ember-eslint-parser": "^0.5.0"
+  },
   "scripts": {
     "build": "vite build",
     "lint": "concurrently \"pnpm:lint:*(!fix)\" --names \"lint:\"",
