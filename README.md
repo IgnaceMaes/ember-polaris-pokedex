@@ -32,3 +32,9 @@ It also embraces web standards by making use of:
 ## Contributing
 
 If you want to contribute to this project, please read [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Copyright notice
+
+Pokémon data and images are from the [pokemon-data.json](https://github.com/Purukitto/pokemon-data.json) project.
+
+Pokémon and all related trademarks, characters, and images are ©1995-2024 Nintendo, Creatures, GAME FREAK, and The Pokémon Company.
