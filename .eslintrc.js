@@ -49,5 +49,27 @@ module.exports = {
         'ember/no-replace-test-comments': 'error',
       },
     },
+    // node files
+    {
+      parser: '@typescript-eslint/parser',
+      files: [
+        './.eslintrc.js',
+        './.prettierrc.js',
+        './.stylelintrc.js',
+        './.template-lintrc.js',
+        './postcss.config.js',
+        './ember-cli-build.js',
+        './testem.js',
+        './blueprints/*/index.js',
+        './config/**/*.js',
+        './lib/*/index.js',
+        './server/**/*.js',
+      ],
+      env: {
+        browser: false,
+        node: true,
+      },
+      extends: ['plugin:n/recommended'],
+    },
   ],
 };
