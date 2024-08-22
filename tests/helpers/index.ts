@@ -1,3 +1,4 @@
+/* global NestedHooks */
 import {
   setupApplicationTest as upstreamSetupApplicationTest,
   setupRenderingTest as upstreamSetupRenderingTest,
