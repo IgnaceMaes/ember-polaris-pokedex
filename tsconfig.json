@@ -43,6 +43,7 @@
     ]
   },
   "exclude": [
-    "blueprints"
+    "blueprints",
+    "tmp"
   ]
 }
