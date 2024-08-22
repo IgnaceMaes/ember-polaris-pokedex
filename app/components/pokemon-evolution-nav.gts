@@ -8,7 +8,7 @@ import { on } from '@ember/modifier';
 import { preloadImage } from 'ember-polaris-pokedex/components/pokemon-grid-item';
 
 export function getPokemonById(pokemons: Pokemon[], id: string) {
-  return pokemons.find((pokemon) => pokemon.id!.toString() === id);
+  return pokemons.find((pokemon) => pokemon.id === id);
 }
 
 export default class PokemonEvolutionNav extends Component<{
