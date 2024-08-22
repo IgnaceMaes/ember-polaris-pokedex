@@ -6,7 +6,6 @@ import { service } from '@ember/service';
 import { fn } from '@ember/helper';
 import { on } from '@ember/modifier';
 import { preloadImage } from 'ember-polaris-pokedex/components/pokemon-grid-item';
-import { type RouterScrollService } from 'ember-polaris-pokedex/utils/router-scroll-service';
 
 export function getPokemonById(pokemons: PokemonModel[], id: string) {
   return pokemons.find((pokemon) => pokemon.id!.toString() === id);
@@ -17,13 +16,10 @@ export default class PokemonEvolutionNav extends Component<{
 }> {
   @service declare router: RouterService;
 
-  @service declare routerScroll: RouterScrollService;
-
   transitionToPokemonDetails = (
     pokemonId: string,
     direction: 'forwards' | 'backwards',
   ) => {
-    this.routerScroll.preserveScrollPosition = true;
     // Fallback for browsers that don't support this API:
     if (!document.startViewTransition) {
       this.router.transitionTo('pokemon.pokemon', pokemonId.toString());
