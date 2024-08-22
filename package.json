@@ -33,7 +33,6 @@
     "@babel/eslint-parser": "^7.24.7",
     "@babel/plugin-proposal-decorators": "^7.24.7",
     "@ember/optional-features": "^2.1.0",
-    "@ember/string": "^3.1.1",
     "@ember/test-helpers": "^3.3.0",
     "@embroider/compat": "3.5.7-unstable.c2dff54",
     "@embroider/config-meta-loader": "0.0.1-unstable.c2dff54",
@@ -100,18 +99,18 @@
     "edition": "octane"
   },
   "dependencies": {
-    "@ember-data/graph": "5.4.0-alpha.98",
-    "@ember-data/json-api": "5.4.0-alpha.98",
-    "@ember-data/request": "5.4.0-alpha.98",
-    "@ember-data/request-utils": "5.4.0-alpha.98",
-    "@ember-data/rest": "5.4.0-alpha.98",
-    "@ember-data/store": "5.4.0-alpha.98",
-    "@ember-data/tracking": "5.4.0-alpha.98",
-    "@warp-drive/core-types": "0.0.0-alpha.84",
-    "@warp-drive/build-config": "0.0.0-alpha.35",
-    "@warp-drive/schema-record": "0.0.0-alpha.84",
-    "@warp-drive/experiments": "0.0.1-alpha.98",
-    "@warp-drive/ember": "0.0.0-alpha.60",
+    "@ember-data/graph": "5.4.0-alpha.100",
+    "@ember-data/json-api": "5.4.0-alpha.100",
+    "@ember-data/request": "5.4.0-alpha.100",
+    "@ember-data/request-utils": "5.4.0-alpha.100",
+    "@ember-data/rest": "5.4.0-alpha.100",
+    "@ember-data/store": "5.4.0-alpha.100",
+    "@ember-data/tracking": "5.4.0-alpha.100",
+    "@warp-drive/core-types": "0.0.0-alpha.86",
+    "@warp-drive/build-config": "0.0.0-alpha.37",
+    "@warp-drive/schema-record": "0.0.0-alpha.86",
+    "@warp-drive/experiments": "0.0.1-alpha.100",
+    "@warp-drive/ember": "0.0.0-alpha.62",
     "ember-router-scroll": "^4.1.2"
   }
 }
