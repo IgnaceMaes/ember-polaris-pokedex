@@ -1,10 +1,10 @@
 import Component from '@glimmer/component';
-import type PokemonModel from 'ember-polaris-pokedex/models/pokemon';
+import type { Pokemon } from 'ember-polaris-pokedex/schemas/pokemon';
 import PokemonTypeBadge from 'ember-polaris-pokedex/components/pokemon-type-badge';
 import PokemonEvolutionNav from 'ember-polaris-pokedex/components/pokemon-evolution-nav';
 
 export default class PokemonDetails extends Component<{
-  Args: { pokemon: PokemonModel; allPokemon: PokemonModel[] };
+  Args: { pokemon: Pokemon; allPokemon: Pokemon[] };
 }> {
   <template>
     <div
