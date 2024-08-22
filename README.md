@@ -1,10 +1,14 @@
+<p align="center">
+  <img src="./public/og-image.png" alt="Ember Polaris Pokedex banner">
+</p>
+
 # Ember Polaris Pokedex
 
 *A reference application to showcase what the [Ember Polaris](https://emberjs.com/editions/polaris/) edition looks like.*
 
 ## Technologies
 
-The app is built using the latest bleeding-edge available for Ember apps:
+The app is built using the latest bleeding-edge available for Ember:
 
 - ⚡️ Vite-based Embroider
 - 🔥 Volar-based Glint
