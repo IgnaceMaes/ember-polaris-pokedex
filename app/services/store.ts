@@ -9,7 +9,7 @@ import {
 } from '@warp-drive/schema-record/schema';
 import { register as registerPokemon } from 'ember-polaris-pokedex/schemas/pokemon';
 import type { CacheCapabilitiesManager } from '@ember-data/store/types';
-import JSONAPICache from '@ember-data/json-api/-private/cache';
+import JSONAPICache from '@ember-data/json-api';
 import type { StableRecordIdentifier } from '@warp-drive/core-types/identifier';
 import {
   instantiateRecord,
