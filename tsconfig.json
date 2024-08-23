@@ -19,7 +19,6 @@
     "types": [
       "./node_modules/@ember-data/graph/unstable-preview-types",
       "./node_modules/@ember-data/json-api/unstable-preview-types",
-      "./node_modules/@ember-data/rest/unstable-preview-types",
       "./node_modules/@ember-data/request-utils/unstable-preview-types",
       "./node_modules/@ember-data/request/unstable-preview-types",
       "./node_modules/@ember-data/store/unstable-preview-types",

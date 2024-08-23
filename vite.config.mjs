@@ -25,7 +25,12 @@ const extensions = [
   ".json",
 ];
 
+
 export default defineConfig(({ mode }) => {
+  const embroiderDeps = optimizeDeps();
+  embroiderDeps.exclude = embroiderDeps.exclude ?? [];
+  embroiderDeps.exclude.push('!data-worker*')
+
   return {
     root,
     cacheDir: resolve("node_modules", ".vite"),
@@ -46,7 +51,7 @@ export default defineConfig(({ mode }) => {
         extensions,
       }),
     ],
-    optimizeDeps: optimizeDeps(),
+    optimizeDeps: embroiderDeps,
     publicDir: resolve(process.cwd(), "public"),
     server: {
       port: 4200,
