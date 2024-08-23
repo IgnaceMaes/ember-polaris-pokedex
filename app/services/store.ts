@@ -15,13 +15,7 @@ import {
 } from '@warp-drive/schema-record/hooks';
 import type { SchemaRecord } from '@warp-drive/schema-record/record';
 
-import { WorkerFetch } from '@warp-drive/experiments/worker-fetch';
-
-const WorkerHandler = new WorkerFetch(
-  new SharedWorker(new URL('../data-worker.ts', import.meta.url), {
-    type: 'module',
-  }),
-);
+import { WorkerHandler } from '../data-worker/loader';
 
 export default class Store extends BaseStore {
   lifetimes = new CachePolicy({
