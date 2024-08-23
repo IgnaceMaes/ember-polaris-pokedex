@@ -1,0 +1,2254 @@
+{
+  "data": [
+      {
+          "id": 81,
+          "name": {
+              "english": "Magnemite",
+              "japanese": "コイル",
+              "chinese": "小磁怪",
+              "french": "Magnéti"
+          },
+          "type": [
+              "Electric",
+              "Steel"
+          ],
+          "base": {
+              "HP": 25,
+              "Attack": 35,
+              "Defense": 70,
+              "Sp. Attack": 95,
+              "Sp. Defense": 55,
+              "Speed": 45
+          },
+          "species": "Magnet Pokémon",
+          "description": "Perhaps because electrical lines are often buried these days, the number of Magnemite attacks on power plants has increased.",
+          "evolution": {
+              "next": [
+                  [
+                      "82",
+                      "Level 30"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.3 m",
+              "weight": "6 kg",
+              "egg": [
+                  "Mineral"
+              ],
+              "ability": [
+                  [
+                      "Magnet Pull",
+                      "false"
+                  ],
+                  [
+                      "Sturdy",
+                      "false"
+                  ],
+                  [
+                      "Analytic",
+                      "true"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/081.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/081.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/081.png"
+          }
+      },
+      {
+          "id": 82,
+          "name": {
+              "english": "Magneton",
+              "japanese": "レアコイル",
+              "chinese": "三合一磁怪",
+              "french": "Magnéton"
+          },
+          "type": [
+              "Electric",
+              "Steel"
+          ],
+          "base": {
+              "HP": 50,
+              "Attack": 60,
+              "Defense": 95,
+              "Sp. Attack": 120,
+              "Sp. Defense": 70,
+              "Speed": 70
+          },
+          "species": "Magnet Pokémon",
+          "description": "When rain clouds form, many Magneton gather in high places to wait for lightning to strike.",
+          "evolution": {
+              "prev": [
+                  "81",
+                  "Level 30"
+              ],
+              "next": [
+                  [
+                      "462",
+                      "level up in a Magnetic Field area"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "60 kg",
+              "egg": [
+                  "Mineral"
+              ],
+              "ability": [
+                  [
+                      "Magnet Pull",
+                      "false"
+                  ],
+                  [
+                      "Sturdy",
+                      "false"
+                  ],
+                  [
+                      "Analytic",
+                      "true"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/082.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/082.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/082.png"
+          }
+      },
+      {
+          "id": 83,
+          "name": {
+              "english": "Farfetch'd",
+              "japanese": "カモネギ",
+              "chinese": "大葱鸭",
+              "french": "Canarticho"
+          },
+          "type": [
+              "Normal",
+              "Flying"
+          ],
+          "base": {
+              "HP": 52,
+              "Attack": 90,
+              "Defense": 55,
+              "Sp. Attack": 58,
+              "Sp. Defense": 62,
+              "Speed": 60
+          },
+          "species": "Wild Duck Pokémon",
+          "description": "Farfetch’d is always seen with a stalk from a plant of some sort. Apparently, there are good stalks and bad stalks. This Pokémon has been known to fight with others over stalks.",
+          "evolution": {},
+          "profile": {
+              "height": "0.8 m",
+              "weight": "15 kg",
+              "egg": [
+                  "Flying",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Keen Eye",
+                      "false"
+                  ],
+                  [
+                      "Inner Focus",
+                      "false"
+                  ],
+                  [
+                      "Defiant",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/083.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/083.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/083.png"
+          }
+      },
+      {
+          "id": 84,
+          "name": {
+              "english": "Doduo",
+              "japanese": "ドードー",
+              "chinese": "嘟嘟",
+              "french": "Doduo"
+          },
+          "type": [
+              "Normal",
+              "Flying"
+          ],
+          "base": {
+              "HP": 35,
+              "Attack": 85,
+              "Defense": 45,
+              "Sp. Attack": 35,
+              "Sp. Defense": 35,
+              "Speed": 75
+          },
+          "species": "Twin Bird Pokémon",
+          "description": "Doduo’s two heads contain completely identical brains. A scientific study reported that on rare occasions, there will be examples of this Pokémon possessing different sets of brains.",
+          "evolution": {
+              "next": [
+                  [
+                      "85",
+                      "Level 31"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1.4 m",
+              "weight": "39.2 kg",
+              "egg": [
+                  "Flying"
+              ],
+              "ability": [
+                  [
+                      "Run Away",
+                      "false"
+                  ],
+                  [
+                      "Early Bird",
+                      "false"
+                  ],
+                  [
+                      "Tangled Feet",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/084.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/084.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/084.png"
+          }
+      },
+      {
+          "id": 85,
+          "name": {
+              "english": "Dodrio",
+              "japanese": "ドードリオ",
+              "chinese": "嘟嘟利",
+              "french": "Dodrio"
+          },
+          "type": [
+              "Normal",
+              "Flying"
+          ],
+          "base": {
+              "HP": 60,
+              "Attack": 110,
+              "Defense": 70,
+              "Sp. Attack": 60,
+              "Sp. Defense": 60,
+              "Speed": 110
+          },
+          "species": "Triple Bird Pokémon",
+          "description": "Apparently, the heads aren’t the only parts of the body that Dodrio has three of. It has three sets of hearts and lungs as well, so it is capable of running long distances without rest.",
+          "evolution": {
+              "prev": [
+                  "84",
+                  "Level 31"
+              ]
+          },
+          "profile": {
+              "height": "1.8 m",
+              "weight": "85.2 kg",
+              "egg": [
+                  "Flying"
+              ],
+              "ability": [
+                  [
+                      "Run Away",
+                      "false"
+                  ],
+                  [
+                      "Early Bird",
+                      "false"
+                  ],
+                  [
+                      "Tangled Feet",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/085.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/085.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/085.png"
+          }
+      },
+      {
+          "id": 86,
+          "name": {
+              "english": "Seel",
+              "japanese": "パウワウ",
+              "chinese": "小海狮",
+              "french": "Otaria"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 65,
+              "Attack": 45,
+              "Defense": 55,
+              "Sp. Attack": 45,
+              "Sp. Defense": 70,
+              "Speed": 45
+          },
+          "species": "Sea Lion Pokémon",
+          "description": "Thanks to its thick fat, cold seas don’t bother it at all, but it gets tired pretty easily in warm waters.",
+          "evolution": {
+              "next": [
+                  [
+                      "87",
+                      "Level 34"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1.1 m",
+              "weight": "90 kg",
+              "egg": [
+                  "Water 1",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Thick Fat",
+                      "false"
+                  ],
+                  [
+                      "Hydration",
+                      "false"
+                  ],
+                  [
+                      "Ice Body",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/086.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/086.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/086.png"
+          }
+      },
+      {
+          "id": 87,
+          "name": {
+              "english": "Dewgong",
+              "japanese": "ジュゴン",
+              "chinese": "白海狮",
+              "french": "Lamantine"
+          },
+          "type": [
+              "Water",
+              "Ice"
+          ],
+          "base": {
+              "HP": 90,
+              "Attack": 70,
+              "Defense": 80,
+              "Sp. Attack": 70,
+              "Sp. Defense": 95,
+              "Speed": 70
+          },
+          "species": "Sea Lion Pokémon",
+          "description": "It sunbathes on the beach after meals. The rise in its body temperature helps its digestion.",
+          "evolution": {
+              "prev": [
+                  "86",
+                  "Level 34"
+              ]
+          },
+          "profile": {
+              "height": "1.7 m",
+              "weight": "120 kg",
+              "egg": [
+                  "Water 1",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Thick Fat",
+                      "false"
+                  ],
+                  [
+                      "Hydration",
+                      "false"
+                  ],
+                  [
+                      "Ice Body",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/087.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/087.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/087.png"
+          }
+      },
+      {
+          "id": 88,
+          "name": {
+              "english": "Grimer",
+              "japanese": "ベトベター",
+              "chinese": "臭泥",
+              "french": "Tadmorv"
+          },
+          "type": [
+              "Poison"
+          ],
+          "base": {
+              "HP": 80,
+              "Attack": 80,
+              "Defense": 50,
+              "Sp. Attack": 40,
+              "Sp. Defense": 50,
+              "Speed": 25
+          },
+          "species": "Sludge Pokémon",
+          "description": "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They’re said to be on the verge of extinction.",
+          "evolution": {
+              "next": [
+                  [
+                      "89",
+                      "Level 38"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.9 m",
+              "weight": "30 kg",
+              "egg": [
+                  "Amorphous"
+              ],
+              "ability": [
+                  [
+                      "Stench",
+                      "false"
+                  ],
+                  [
+                      "Sticky Hold",
+                      "false"
+                  ],
+                  [
+                      "Poison Touch",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/088.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/088.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/088.png"
+          }
+      },
+      {
+          "id": 89,
+          "name": {
+              "english": "Muk",
+              "japanese": "ベトベトン",
+              "chinese": "臭臭泥",
+              "french": "Grotadmorv"
+          },
+          "type": [
+              "Poison"
+          ],
+          "base": {
+              "HP": 105,
+              "Attack": 105,
+              "Defense": 75,
+              "Sp. Attack": 65,
+              "Sp. Defense": 100,
+              "Speed": 50
+          },
+          "species": "Sludge Pokémon",
+          "description": "Because they scatter germs everywhere, they’ve long been targeted for extermination, leading to a steep decline in their population.",
+          "evolution": {
+              "prev": [
+                  "88",
+                  "Level 38"
+              ]
+          },
+          "profile": {
+              "height": "1.2 m",
+              "weight": "30 kg",
+              "egg": [
+                  "Amorphous"
+              ],
+              "ability": [
+                  [
+                      "Stench",
+                      "false"
+                  ],
+                  [
+                      "Sticky Hold",
+                      "false"
+                  ],
+                  [
+                      "Poison Touch",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/089.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/089.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/089.png"
+          }
+      },
+      {
+          "id": 90,
+          "name": {
+              "english": "Shellder",
+              "japanese": "シェルダー",
+              "chinese": "大舌贝",
+              "french": "Kokiyas"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 30,
+              "Attack": 65,
+              "Defense": 100,
+              "Sp. Attack": 45,
+              "Sp. Defense": 25,
+              "Speed": 40
+          },
+          "species": "Bivalve Pokémon",
+          "description": "Even when its shell is closed, its tongue still hangs out. If you give its tongue a good yank, the shock will cause Shellder to open its shell.",
+          "evolution": {
+              "next": [
+                  [
+                      "91",
+                      "use Water Stone"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.3 m",
+              "weight": "4 kg",
+              "egg": [
+                  "Water 3"
+              ],
+              "ability": [
+                  [
+                      "Shell Armor",
+                      "false"
+                  ],
+                  [
+                      "Skill Link",
+                      "false"
+                  ],
+                  [
+                      "Overcoat",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/090.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/090.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/090.png"
+          }
+      },
+      {
+          "id": 91,
+          "name": {
+              "english": "Cloyster",
+              "japanese": "パルシェン",
+              "chinese": "刺甲贝",
+              "french": "Crustabri"
+          },
+          "type": [
+              "Water",
+              "Ice"
+          ],
+          "base": {
+              "HP": 50,
+              "Attack": 95,
+              "Defense": 180,
+              "Sp. Attack": 85,
+              "Sp. Defense": 45,
+              "Speed": 70
+          },
+          "species": "Bivalve Pokémon",
+          "description": "Slowpoke tails are its favorite food. It has even been known to come up on land to look for Slowpoke from time to time.",
+          "evolution": {
+              "prev": [
+                  "90",
+                  "use Water Stone"
+              ]
+          },
+          "profile": {
+              "height": "1.5 m",
+              "weight": "132.5 kg",
+              "egg": [
+                  "Water 3"
+              ],
+              "ability": [
+                  [
+                      "Shell Armor",
+                      "false"
+                  ],
+                  [
+                      "Skill Link",
+                      "false"
+                  ],
+                  [
+                      "Overcoat",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/091.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/091.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/091.png"
+          }
+      },
+      {
+          "id": 92,
+          "name": {
+              "english": "Gastly",
+              "japanese": "ゴース",
+              "chinese": "鬼斯",
+              "french": "Fantominus"
+          },
+          "type": [
+              "Ghost",
+              "Poison"
+          ],
+          "base": {
+              "HP": 30,
+              "Attack": 35,
+              "Defense": 30,
+              "Sp. Attack": 100,
+              "Sp. Defense": 35,
+              "Speed": 80
+          },
+          "species": "Gas Pokémon",
+          "description": "Poisonous gas comprises 95% of its body. It’s said that the remaining 5% is made up of the souls of those who died from the gas.",
+          "evolution": {
+              "next": [
+                  [
+                      "93",
+                      "Level 25"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1.3 m",
+              "weight": "0.1 kg",
+              "egg": [
+                  "Amorphous"
+              ],
+              "ability": [
+                  [
+                      "Levitate",
+                      "false"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/092.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/092.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/092.png"
+          }
+      },
+      {
+          "id": 93,
+          "name": {
+              "english": "Haunter",
+              "japanese": "ゴースト",
+              "chinese": "鬼斯通",
+              "french": "Spectrum"
+          },
+          "type": [
+              "Ghost",
+              "Poison"
+          ],
+          "base": {
+              "HP": 45,
+              "Attack": 50,
+              "Defense": 45,
+              "Sp. Attack": 115,
+              "Sp. Defense": 55,
+              "Speed": 95
+          },
+          "species": "Gas Pokémon",
+          "description": "It’s dangerous to go outside alone on nights when you’re feeling sad. Haunter will catch you, and you won’t be able to go back home.",
+          "evolution": {
+              "prev": [
+                  "92",
+                  "Level 25"
+              ],
+              "next": [
+                  [
+                      "94",
+                      "Trade"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1.6 m",
+              "weight": "0.1 kg",
+              "egg": [
+                  "Amorphous"
+              ],
+              "ability": [
+                  [
+                      "Levitate",
+                      "false"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/093.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/093.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/093.png"
+          }
+      },
+      {
+          "id": 94,
+          "name": {
+              "english": "Gengar",
+              "japanese": "ゲンガー",
+              "chinese": "耿鬼",
+              "french": "Ectoplasma"
+          },
+          "type": [
+              "Ghost",
+              "Poison"
+          ],
+          "base": {
+              "HP": 60,
+              "Attack": 65,
+              "Defense": 60,
+              "Sp. Attack": 130,
+              "Sp. Defense": 75,
+              "Speed": 110
+          },
+          "species": "Shadow Pokémon",
+          "description": "Even your home isn’t safe. Gengar will lurk in whatever dark corner of a room it can find and wait for its chance to catch its prey.",
+          "evolution": {
+              "prev": [
+                  "93",
+                  "Trade"
+              ]
+          },
+          "profile": {
+              "height": "1.5 m",
+              "weight": "40.5 kg",
+              "egg": [
+                  "Amorphous"
+              ],
+              "ability": [
+                  [
+                      "Cursed Body",
+                      "false"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/094.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/094.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/094.png"
+          }
+      },
+      {
+          "id": 95,
+          "name": {
+              "english": "Onix",
+              "japanese": "イワーク",
+              "chinese": "大岩蛇",
+              "french": "Onix"
+          },
+          "type": [
+              "Rock",
+              "Ground"
+          ],
+          "base": {
+              "HP": 35,
+              "Attack": 45,
+              "Defense": 160,
+              "Sp. Attack": 30,
+              "Sp. Defense": 45,
+              "Speed": 70
+          },
+          "species": "Rock Snake Pokémon",
+          "description": "Onix has a magnet in its brain. It acts as a compass so that this Pokémon does not lose direction while it is tunneling. As it grows older, its body becomes increasingly rounder and smoother.",
+          "evolution": {
+              "next": [
+                  [
+                      "208",
+                      "trade holding Metal Coat"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "8.8 m",
+              "weight": "210 kg",
+              "egg": [
+                  "Mineral"
+              ],
+              "ability": [
+                  [
+                      "Rock Head",
+                      "false"
+                  ],
+                  [
+                      "Sturdy",
+                      "false"
+                  ],
+                  [
+                      "Weak Armor",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/095.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/095.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/095.png"
+          }
+      },
+      {
+          "id": 96,
+          "name": {
+              "english": "Drowzee",
+              "japanese": "スリープ",
+              "chinese": "催眠貘",
+              "french": "Soporifik"
+          },
+          "type": [
+              "Psychic"
+          ],
+          "base": {
+              "HP": 60,
+              "Attack": 48,
+              "Defense": 45,
+              "Sp. Attack": 43,
+              "Sp. Defense": 90,
+              "Speed": 42
+          },
+          "species": "Hypnosis Pokémon",
+          "description": "It puts its prey to sleep and devours their dreams. It seems that bad dreams taste sour, so Drowzee doesn’t particularly like eating them.",
+          "evolution": {
+              "next": [
+                  [
+                      "97",
+                      "Level 26"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "32.4 kg",
+              "egg": [
+                  "Human-Like"
+              ],
+              "ability": [
+                  [
+                      "Insomnia",
+                      "false"
+                  ],
+                  [
+                      "Forewarn",
+                      "false"
+                  ],
+                  [
+                      "Inner Focus",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/096.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/096.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/096.png"
+          }
+      },
+      {
+          "id": 97,
+          "name": {
+              "english": "Hypno",
+              "japanese": "スリーパー",
+              "chinese": "引梦貘人",
+              "french": "Hypnomade"
+          },
+          "type": [
+              "Psychic"
+          ],
+          "base": {
+              "HP": 85,
+              "Attack": 73,
+              "Defense": 70,
+              "Sp. Attack": 73,
+              "Sp. Defense": 115,
+              "Speed": 67
+          },
+          "species": "Hypnosis Pokémon",
+          "description": "There are some Hypno that assist doctors with patients who can’t sleep at night in hospitals.",
+          "evolution": {
+              "prev": [
+                  "96",
+                  "Level 26"
+              ]
+          },
+          "profile": {
+              "height": "1.6 m",
+              "weight": "75.6 kg",
+              "egg": [
+                  "Human-Like"
+              ],
+              "ability": [
+                  [
+                      "Insomnia",
+                      "false"
+                  ],
+                  [
+                      "Forewarn",
+                      "false"
+                  ],
+                  [
+                      "Inner Focus",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/097.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/097.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/097.png"
+          }
+      },
+      {
+          "id": 98,
+          "name": {
+              "english": "Krabby",
+              "japanese": "クラブ",
+              "chinese": "大钳蟹",
+              "french": "Krabby"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 30,
+              "Attack": 105,
+              "Defense": 90,
+              "Sp. Attack": 25,
+              "Sp. Defense": 25,
+              "Speed": 50
+          },
+          "species": "River Crab Pokémon",
+          "description": "Krabby live on beaches, burrowed inside holes dug into the sand. On sandy beaches with little in the way of food, these Pokémon can be seen squabbling with each other over territory.",
+          "evolution": {
+              "next": [
+                  [
+                      "99",
+                      "Level 28"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.4 m",
+              "weight": "6.5 kg",
+              "egg": [
+                  "Water 3"
+              ],
+              "ability": [
+                  [
+                      "Hyper Cutter",
+                      "false"
+                  ],
+                  [
+                      "Shell Armor",
+                      "false"
+                  ],
+                  [
+                      "Sheer Force",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/098.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/098.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/098.png"
+          }
+      },
+      {
+          "id": 99,
+          "name": {
+              "english": "Kingler",
+              "japanese": "キングラー",
+              "chinese": "巨钳蟹",
+              "french": "Krabboss"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 55,
+              "Attack": 130,
+              "Defense": 115,
+              "Sp. Attack": 50,
+              "Sp. Defense": 50,
+              "Speed": 75
+          },
+          "species": "Pincer Pokémon",
+          "description": "Kingler has an enormous, oversized claw. It waves this huge claw in the air to communicate with others. However, because the claw is so heavy, the Pokémon quickly tires.",
+          "evolution": {
+              "prev": [
+                  "98",
+                  "Level 28"
+              ]
+          },
+          "profile": {
+              "height": "1.3 m",
+              "weight": "60 kg",
+              "egg": [
+                  "Water 3"
+              ],
+              "ability": [
+                  [
+                      "Hyper Cutter",
+                      "false"
+                  ],
+                  [
+                      "Shell Armor",
+                      "false"
+                  ],
+                  [
+                      "Sheer Force",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/099.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/099.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/099.png"
+          }
+      },
+      {
+          "id": 100,
+          "name": {
+              "english": "Voltorb",
+              "japanese": "ビリリダマ",
+              "chinese": "霹雳电球",
+              "french": "Voltorbe"
+          },
+          "type": [
+              "Electric"
+          ],
+          "base": {
+              "HP": 40,
+              "Attack": 30,
+              "Defense": 50,
+              "Sp. Attack": 55,
+              "Sp. Defense": 55,
+              "Speed": 100
+          },
+          "species": "Ball Pokémon",
+          "description": "Voltorb is extremely sensitive—it explodes at the slightest of shocks. It is rumored that it was first created when a Poké Ball was exposed to a powerful pulse of energy.",
+          "evolution": {
+              "next": [
+                  [
+                      "101",
+                      "Level 30"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.5 m",
+              "weight": "10.4 kg",
+              "egg": [
+                  "Mineral"
+              ],
+              "ability": [
+                  [
+                      "Soundproof",
+                      "false"
+                  ],
+                  [
+                      "Static",
+                      "false"
+                  ],
+                  [
+                      "Aftermath",
+                      "true"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/100.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/100.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/100.png"
+          }
+      },
+      {
+          "id": 101,
+          "name": {
+              "english": "Electrode",
+              "japanese": "マルマイン",
+              "chinese": "顽皮雷弹",
+              "french": "Électrode"
+          },
+          "type": [
+              "Electric"
+          ],
+          "base": {
+              "HP": 60,
+              "Attack": 50,
+              "Defense": 70,
+              "Sp. Attack": 80,
+              "Sp. Defense": 80,
+              "Speed": 150
+          },
+          "species": "Ball Pokémon",
+          "description": "One of Electrode’s characteristics is its attraction to electricity. It is a problematical Pokémon that congregates mostly at electrical power plants to feed on electricity that has just been generated.",
+          "evolution": {
+              "prev": [
+                  "100",
+                  "Level 30"
+              ]
+          },
+          "profile": {
+              "height": "1.2 m",
+              "weight": "66.6 kg",
+              "egg": [
+                  "Mineral"
+              ],
+              "ability": [
+                  [
+                      "Soundproof",
+                      "false"
+                  ],
+                  [
+                      "Static",
+                      "false"
+                  ],
+                  [
+                      "Aftermath",
+                      "true"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/101.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/101.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/101.png"
+          }
+      },
+      {
+          "id": 102,
+          "name": {
+              "english": "Exeggcute",
+              "japanese": "タマタマ",
+              "chinese": "蛋蛋",
+              "french": "Noeunoeuf"
+          },
+          "type": [
+              "Grass",
+              "Psychic"
+          ],
+          "base": {
+              "HP": 60,
+              "Attack": 40,
+              "Defense": 80,
+              "Sp. Attack": 60,
+              "Sp. Defense": 45,
+              "Speed": 40
+          },
+          "species": "Egg Pokémon",
+          "description": "Although they are the same size as other Exeggcute, the ones produced in Alola are quite heavy. Their shells are packed full.",
+          "evolution": {
+              "next": [
+                  [
+                      "103",
+                      "use Leaf Stone"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.4 m",
+              "weight": "2.5 kg",
+              "egg": [
+                  "Grass"
+              ],
+              "ability": [
+                  [
+                      "Chlorophyll",
+                      "false"
+                  ],
+                  [
+                      "Harvest",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/102.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/102.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/102.png"
+          }
+      },
+      {
+          "id": 103,
+          "name": {
+              "english": "Exeggutor",
+              "japanese": "ナッシー",
+              "chinese": "椰蛋树",
+              "french": "Noadkoko"
+          },
+          "type": [
+              "Grass",
+              "Psychic"
+          ],
+          "base": {
+              "HP": 95,
+              "Attack": 95,
+              "Defense": 85,
+              "Sp. Attack": 125,
+              "Sp. Defense": 75,
+              "Speed": 55
+          },
+          "species": "Coconut Pokémon",
+          "description": "Each of its three heads has its own thoughts. When they want to go in different directions, Exeggutor becomes unable to move.",
+          "evolution": {
+              "prev": [
+                  "102",
+                  "use Leaf Stone"
+              ]
+          },
+          "profile": {
+              "height": "2 m",
+              "weight": "120 kg",
+              "egg": [
+                  "Grass"
+              ],
+              "ability": [
+                  [
+                      "Chlorophyll",
+                      "false"
+                  ],
+                  [
+                      "Harvest",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/103.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/103.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/103.png"
+          }
+      },
+      {
+          "id": 104,
+          "name": {
+              "english": "Cubone",
+              "japanese": "カラカラ",
+              "chinese": "卡拉卡拉",
+              "french": "Osselait"
+          },
+          "type": [
+              "Ground"
+          ],
+          "base": {
+              "HP": 50,
+              "Attack": 50,
+              "Defense": 95,
+              "Sp. Attack": 40,
+              "Sp. Defense": 50,
+              "Speed": 35
+          },
+          "species": "Lonely Pokémon",
+          "description": "It wears its mother’s skull on its head, so no one knows what its bare face looks like. However, it’s clear that it’s always crying.",
+          "evolution": {
+              "next": [
+                  [
+                      "105",
+                      "Level 28"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.4 m",
+              "weight": "6.5 kg",
+              "egg": [
+                  "Monster"
+              ],
+              "ability": [
+                  [
+                      "Rock Head",
+                      "false"
+                  ],
+                  [
+                      "Lightning Rod",
+                      "false"
+                  ],
+                  [
+                      "Battle Armor",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/104.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/104.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/104.png"
+          }
+      },
+      {
+          "id": 105,
+          "name": {
+              "english": "Marowak",
+              "japanese": "ガラガラ",
+              "chinese": "嘎啦嘎啦",
+              "french": "Ossatueur"
+          },
+          "type": [
+              "Ground"
+          ],
+          "base": {
+              "HP": 60,
+              "Attack": 80,
+              "Defense": 110,
+              "Sp. Attack": 50,
+              "Sp. Defense": 80,
+              "Speed": 45
+          },
+          "species": "Bone Keeper Pokémon",
+          "description": "They thump their bones rhythmically to communicate among themselves. There are nearly 50 different rhythmic patterns.",
+          "evolution": {
+              "prev": [
+                  "104",
+                  "Level 28"
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "45 kg",
+              "egg": [
+                  "Monster"
+              ],
+              "ability": [
+                  [
+                      "Rock Head",
+                      "false"
+                  ],
+                  [
+                      "Lightning Rod",
+                      "false"
+                  ],
+                  [
+                      "Battle Armor",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/105.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/105.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/105.png"
+          }
+      },
+      {
+          "id": 106,
+          "name": {
+              "english": "Hitmonlee",
+              "japanese": "サワムラー",
+              "chinese": "飞腿郎",
+              "french": "Kicklee"
+          },
+          "type": [
+              "Fighting"
+          ],
+          "base": {
+              "HP": 50,
+              "Attack": 120,
+              "Defense": 53,
+              "Sp. Attack": 35,
+              "Sp. Defense": 110,
+              "Speed": 87
+          },
+          "species": "Kicking Pokémon",
+          "description": "Hitmonlee’s legs freely contract and stretch. Using these springlike legs, it bowls over foes with devastating kicks. After battle, it rubs down its legs and loosens the muscles to overcome fatigue.",
+          "evolution": {
+              "prev": [
+                  "236",
+                  "Level 20, Attack > Defense"
+              ]
+          },
+          "profile": {
+              "height": "1.5 m",
+              "weight": "49.8 kg",
+              "egg": [
+                  "Human-Like"
+              ],
+              "ability": [
+                  [
+                      "Limber",
+                      "false"
+                  ],
+                  [
+                      "Reckless",
+                      "false"
+                  ],
+                  [
+                      "Unburden",
+                      "true"
+                  ]
+              ],
+              "gender": "100:0"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/106.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/106.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/106.png"
+          }
+      },
+      {
+          "id": 107,
+          "name": {
+              "english": "Hitmonchan",
+              "japanese": "エビワラー",
+              "chinese": "快拳郎",
+              "french": "Tygnon"
+          },
+          "type": [
+              "Fighting"
+          ],
+          "base": {
+              "HP": 50,
+              "Attack": 105,
+              "Defense": 79,
+              "Sp. Attack": 35,
+              "Sp. Defense": 110,
+              "Speed": 76
+          },
+          "species": "Punching Pokémon",
+          "description": "Hitmonchan is said to possess the spirit of a boxer who had been working toward a world championship. This Pokémon has an indomitable spirit and will never give up in the face of adversity.",
+          "evolution": {
+              "prev": [
+                  "236",
+                  "Level 20, Attack < Defense"
+              ]
+          },
+          "profile": {
+              "height": "1.4 m",
+              "weight": "50.2 kg",
+              "egg": [
+                  "Human-Like"
+              ],
+              "ability": [
+                  [
+                      "Keen Eye",
+                      "false"
+                  ],
+                  [
+                      "Iron Fist",
+                      "false"
+                  ],
+                  [
+                      "Inner Focus",
+                      "true"
+                  ]
+              ],
+              "gender": "100:0"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/107.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/107.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/107.png"
+          }
+      },
+      {
+          "id": 108,
+          "name": {
+              "english": "Lickitung",
+              "japanese": "ベロリンガ",
+              "chinese": "大舌头",
+              "french": "Excelangue"
+          },
+          "type": [
+              "Normal"
+          ],
+          "base": {
+              "HP": 90,
+              "Attack": 55,
+              "Defense": 75,
+              "Sp. Attack": 60,
+              "Sp. Defense": 75,
+              "Speed": 30
+          },
+          "species": "Licking Pokémon",
+          "description": "It licks filth clean with its tongue. Whatever it licks always stinks afterward, so whether it’s really clean is...questionable.",
+          "evolution": {
+              "next": [
+                  [
+                      "463",
+                      "after Rollout learned"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1.2 m",
+              "weight": "65.5 kg",
+              "egg": [
+                  "Monster"
+              ],
+              "ability": [
+                  [
+                      "Own Tempo",
+                      "false"
+                  ],
+                  [
+                      "Oblivious",
+                      "false"
+                  ],
+                  [
+                      "Cloud Nine",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/108.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/108.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/108.png"
+          }
+      },
+      {
+          "id": 109,
+          "name": {
+              "english": "Koffing",
+              "japanese": "ドガース",
+              "chinese": "瓦斯弹",
+              "french": "Smogo"
+          },
+          "type": [
+              "Poison"
+          ],
+          "base": {
+              "HP": 40,
+              "Attack": 65,
+              "Defense": 95,
+              "Sp. Attack": 60,
+              "Sp. Defense": 45,
+              "Speed": 35
+          },
+          "species": "Poison Gas Pokémon",
+          "description": "Koffing embodies toxic substances. It mixes the toxins with raw garbage to set off a chemical reaction that results in a terribly powerful poison gas. The higher the temperature, the more gas is concocted by this Pokémon.",
+          "evolution": {
+              "next": [
+                  [
+                      "110",
+                      "Level 35"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.6 m",
+              "weight": "1 kg",
+              "egg": [
+                  "Amorphous"
+              ],
+              "ability": [
+                  [
+                      "Levitate",
+                      "false"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/109.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/109.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/109.png"
+          }
+      },
+      {
+          "id": 110,
+          "name": {
+              "english": "Weezing",
+              "japanese": "マタドガス",
+              "chinese": "双弹瓦斯",
+              "french": "Smogogo"
+          },
+          "type": [
+              "Poison"
+          ],
+          "base": {
+              "HP": 65,
+              "Attack": 90,
+              "Defense": 120,
+              "Sp. Attack": 85,
+              "Sp. Defense": 70,
+              "Speed": 60
+          },
+          "species": "Poison Gas Pokémon",
+          "description": "Weezing alternately shrinks and inflates its twin bodies to mix together toxic gases inside. The more the gases are mixed, the more powerful the toxins become. The Pokémon also becomes more putrid.",
+          "evolution": {
+              "prev": [
+                  "109",
+                  "Level 35"
+              ]
+          },
+          "profile": {
+              "height": "1.2 m",
+              "weight": "9.5 kg",
+              "egg": [
+                  "Amorphous"
+              ],
+              "ability": [
+                  [
+                      "Levitate",
+                      "false"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/110.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/110.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/110.png"
+          }
+      },
+      {
+          "id": 111,
+          "name": {
+              "english": "Rhyhorn",
+              "japanese": "サイホーン",
+              "chinese": "独角犀牛",
+              "french": "Rhinocorne"
+          },
+          "type": [
+              "Ground",
+              "Rock"
+          ],
+          "base": {
+              "HP": 80,
+              "Attack": 85,
+              "Defense": 95,
+              "Sp. Attack": 30,
+              "Sp. Defense": 30,
+              "Speed": 25
+          },
+          "species": "Spikes Pokémon",
+          "description": "Rhyhorn’s brain is very small. It is so dense, while on a run it forgets why it started running in the first place. It apparently remembers sometimes if it demolishes something.",
+          "evolution": {
+              "next": [
+                  [
+                      "112",
+                      "Level 42"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "115 kg",
+              "egg": [
+                  "Monster",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Lightning Rod",
+                      "false"
+                  ],
+                  [
+                      "Rock Head",
+                      "false"
+                  ],
+                  [
+                      "Reckless",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/111.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/111.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/111.png"
+          }
+      },
+      {
+          "id": 112,
+          "name": {
+              "english": "Rhydon",
+              "japanese": "サイドン",
+              "chinese": "钻角犀兽",
+              "french": "Rhinoféros"
+          },
+          "type": [
+              "Ground",
+              "Rock"
+          ],
+          "base": {
+              "HP": 105,
+              "Attack": 130,
+              "Defense": 120,
+              "Sp. Attack": 45,
+              "Sp. Defense": 45,
+              "Speed": 40
+          },
+          "species": "Drill Pokémon",
+          "description": "Rhydon has a horn that serves as a drill. It is used for destroying rocks and boulders. This Pokémon occasionally rams into streams of magma, but the armor-like hide prevents it from feeling the heat.",
+          "evolution": {
+              "prev": [
+                  "111",
+                  "Level 42"
+              ],
+              "next": [
+                  [
+                      "464",
+                      "trade holding Protector"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1.9 m",
+              "weight": "120 kg",
+              "egg": [
+                  "Monster",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Lightning Rod",
+                      "false"
+                  ],
+                  [
+                      "Rock Head",
+                      "false"
+                  ],
+                  [
+                      "Reckless",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/112.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/112.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/112.png"
+          }
+      },
+      {
+          "id": 113,
+          "name": {
+              "english": "Chansey",
+              "japanese": "ラッキー",
+              "chinese": "吉利蛋",
+              "french": "Leveinard"
+          },
+          "type": [
+              "Normal"
+          ],
+          "base": {
+              "HP": 250,
+              "Attack": 5,
+              "Defense": 5,
+              "Sp. Attack": 35,
+              "Sp. Defense": 105,
+              "Speed": 50
+          },
+          "species": "Egg Pokémon",
+          "description": "Because the eggs on their bellies have been overharvested by people in the past, the Chansey population remains very small.",
+          "evolution": {
+              "prev": [
+                  "440",
+                  "hold Oval Stone, Daytime"
+              ],
+              "next": [
+                  [
+                      "242",
+                      "high Friendship"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1.1 m",
+              "weight": "34.6 kg",
+              "egg": [
+                  "Fairy"
+              ],
+              "ability": [
+                  [
+                      "Natural Cure",
+                      "false"
+                  ],
+                  [
+                      "Serene Grace",
+                      "false"
+                  ],
+                  [
+                      "Healer",
+                      "true"
+                  ]
+              ],
+              "gender": "0:100"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/113.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/113.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/113.png"
+          }
+      },
+      {
+          "id": 114,
+          "name": {
+              "english": "Tangela",
+              "japanese": "モンジャラ",
+              "chinese": "蔓藤怪",
+              "french": "Saquedeneu"
+          },
+          "type": [
+              "Grass"
+          ],
+          "base": {
+              "HP": 65,
+              "Attack": 55,
+              "Defense": 115,
+              "Sp. Attack": 100,
+              "Sp. Defense": 40,
+              "Speed": 60
+          },
+          "species": "Vine Pokémon",
+          "description": "Tangela’s vines snap off easily if they are grabbed. This happens without pain, allowing it to make a quick getaway. The lost vines are replaced by newly grown vines the very next day.",
+          "evolution": {
+              "next": [
+                  [
+                      "465",
+                      "after Ancient Power learned"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "35 kg",
+              "egg": [
+                  "Grass"
+              ],
+              "ability": [
+                  [
+                      "Chlorophyll",
+                      "false"
+                  ],
+                  [
+                      "Leaf Guard",
+                      "false"
+                  ],
+                  [
+                      "Regenerator",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/114.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/114.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/114.png"
+          }
+      },
+      {
+          "id": 115,
+          "name": {
+              "english": "Kangaskhan",
+              "japanese": "ガルーラ",
+              "chinese": "袋兽",
+              "french": "Kangourex"
+          },
+          "type": [
+              "Normal"
+          ],
+          "base": {
+              "HP": 105,
+              "Attack": 95,
+              "Defense": 80,
+              "Sp. Attack": 40,
+              "Sp. Defense": 80,
+              "Speed": 90
+          },
+          "species": "Parent Pokémon",
+          "description": "You shouldn’t get close to the child when it’s playing outside its mother’s pouch. Its mother is always nearby watching over it.",
+          "evolution": {},
+          "profile": {
+              "height": "2.2 m",
+              "weight": "80 kg",
+              "egg": [
+                  "Monster"
+              ],
+              "ability": [
+                  [
+                      "Early Bird",
+                      "false"
+                  ],
+                  [
+                      "Scrappy",
+                      "false"
+                  ],
+                  [
+                      "Inner Focus",
+                      "true"
+                  ]
+              ],
+              "gender": "0:100"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/115.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/115.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/115.png"
+          }
+      },
+      {
+          "id": 116,
+          "name": {
+              "english": "Horsea",
+              "japanese": "タッツー",
+              "chinese": "墨海马",
+              "french": "Hypotrempe"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 30,
+              "Attack": 40,
+              "Defense": 70,
+              "Sp. Attack": 70,
+              "Sp. Defense": 25,
+              "Speed": 60
+          },
+          "species": "Dragon Pokémon",
+          "description": "If Horsea senses danger, it will reflexively spray a dense black ink from its mouth and try to escape. This Pokémon swims by cleverly flapping the fin on its back.",
+          "evolution": {
+              "next": [
+                  [
+                      "117",
+                      "Level 32"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.4 m",
+              "weight": "8 kg",
+              "egg": [
+                  "Water 1",
+                  "Dragon"
+              ],
+              "ability": [
+                  [
+                      "Swift Swim",
+                      "false"
+                  ],
+                  [
+                      "Sniper",
+                      "false"
+                  ],
+                  [
+                      "Damp",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/116.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/116.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/116.png"
+          }
+      },
+      {
+          "id": 117,
+          "name": {
+              "english": "Seadra",
+              "japanese": "シードラ",
+              "chinese": "海刺龙",
+              "french": "Hypocéan"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 55,
+              "Attack": 65,
+              "Defense": 95,
+              "Sp. Attack": 95,
+              "Sp. Defense": 45,
+              "Speed": 85
+          },
+          "species": "Dragon Pokémon",
+          "description": "Seadra generates whirlpools by spinning its body. The whirlpools are strong enough to swallow even fishing boats. This Pokémon weakens prey with these currents, then swallows it whole.",
+          "evolution": {
+              "prev": [
+                  "116",
+                  "Level 32"
+              ],
+              "next": [
+                  [
+                      "230",
+                      "trade holding Dragon Scale"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1.2 m",
+              "weight": "25 kg",
+              "egg": [
+                  "Water 1",
+                  "Dragon"
+              ],
+              "ability": [
+                  [
+                      "Poison Point",
+                      "false"
+                  ],
+                  [
+                      "Sniper",
+                      "false"
+                  ],
+                  [
+                      "Damp",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/117.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/117.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/117.png"
+          }
+      },
+      {
+          "id": 118,
+          "name": {
+              "english": "Goldeen",
+              "japanese": "トサキント",
+              "chinese": "角金鱼",
+              "french": "Poissirène"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 45,
+              "Attack": 67,
+              "Defense": 60,
+              "Sp. Attack": 35,
+              "Sp. Defense": 50,
+              "Speed": 63
+          },
+          "species": "Goldfish Pokémon",
+          "description": "The way it swims along fluttering its dress-like fins has earned it the name “princess of the water.”",
+          "evolution": {
+              "next": [
+                  [
+                      "119",
+                      "Level 33"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.6 m",
+              "weight": "15 kg",
+              "egg": [
+                  "Water 2"
+              ],
+              "ability": [
+                  [
+                      "Swift Swim",
+                      "false"
+                  ],
+                  [
+                      "Water Veil",
+                      "false"
+                  ],
+                  [
+                      "Lightning Rod",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/118.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/118.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/118.png"
+          }
+      },
+      {
+          "id": 119,
+          "name": {
+              "english": "Seaking",
+              "japanese": "アズマオウ",
+              "chinese": "金鱼王",
+              "french": "Poissoroy"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 80,
+              "Attack": 92,
+              "Defense": 65,
+              "Sp. Attack": 65,
+              "Sp. Defense": 80,
+              "Speed": 68
+          },
+          "species": "Goldfish Pokémon",
+          "description": "To attract females, males dance on the river’s floor. The females gather around the male that dances most gracefully.",
+          "evolution": {
+              "prev": [
+                  "118",
+                  "Level 33"
+              ]
+          },
+          "profile": {
+              "height": "1.3 m",
+              "weight": "39 kg",
+              "egg": [
+                  "Water 2"
+              ],
+              "ability": [
+                  [
+                      "Swift Swim",
+                      "false"
+                  ],
+                  [
+                      "Water Veil",
+                      "false"
+                  ],
+                  [
+                      "Lightning Rod",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/119.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/119.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/119.png"
+          }
+      },
+      {
+          "id": 120,
+          "name": {
+              "english": "Staryu",
+              "japanese": "ヒトデマン",
+              "chinese": "海星星",
+              "french": "Stari"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 30,
+              "Attack": 45,
+              "Defense": 55,
+              "Sp. Attack": 70,
+              "Sp. Defense": 55,
+              "Speed": 85
+          },
+          "species": "Star Shape Pokémon",
+          "description": "No number of injuries can bother Staryu. Its amazing regenerative powers return it to its previous state in half a day!",
+          "evolution": {
+              "next": [
+                  [
+                      "121",
+                      "use Water Stone"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.8 m",
+              "weight": "34.5 kg",
+              "egg": [
+                  "Water 3"
+              ],
+              "ability": [
+                  [
+                      "Illuminate",
+                      "false"
+                  ],
+                  [
+                      "Natural Cure",
+                      "false"
+                  ],
+                  [
+                      "Analytic",
+                      "true"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/120.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/120.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/120.png"
+          }
+      }
+  ],
+  "links": {
+      "self": "/api/pokemon/3.json",
+      "prev": "/api/pokemon/2.json",
+      "next": "/api/pokemon/4.json",
+      "first": "/api/pokemon/1.json",
+      "last": "/api/pokemon/23.json"
+  },
+  "meta": {
+      "currentPage": 3,
+      "totalPages": 23,
+      "total": 898,
+      "estimatedTotal": 898,
+      "page": {
+          "size": 40,
+          "total": 898,
+          "estimatedTotal": 898
+      }
+  }
+}

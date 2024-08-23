@@ -1,0 +1,2113 @@
+{
+  "data": [
+      {
+          "id": 361,
+          "name": {
+              "english": "Snorunt",
+              "japanese": "ユキワラシ",
+              "chinese": "雪童子",
+              "french": "Stalgamin"
+          },
+          "type": [
+              "Ice"
+          ],
+          "base": {
+              "HP": 50,
+              "Attack": 50,
+              "Defense": 50,
+              "Sp. Attack": 50,
+              "Sp. Defense": 50,
+              "Speed": 50
+          },
+          "species": "Snow Hat Pokémon",
+          "description": "Rich people from cold areas all share childhood memories of playing with Snorunt.",
+          "evolution": {
+              "next": [
+                  [
+                      "362",
+                      "Level 42"
+                  ],
+                  [
+                      "478",
+                      "use Dawn Stone, Female"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.7 m",
+              "weight": "16.8 kg",
+              "egg": [
+                  "Fairy",
+                  "Mineral"
+              ],
+              "ability": [
+                  [
+                      "Inner Focus",
+                      "false"
+                  ],
+                  [
+                      "Ice Body",
+                      "false"
+                  ],
+                  [
+                      "Moody",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/361.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/361.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/361.png"
+          }
+      },
+      {
+          "id": 362,
+          "name": {
+              "english": "Glalie",
+              "japanese": "オニゴーリ",
+              "chinese": "冰鬼护",
+              "french": "Oniglali"
+          },
+          "type": [
+              "Ice"
+          ],
+          "base": {
+              "HP": 80,
+              "Attack": 80,
+              "Defense": 80,
+              "Sp. Attack": 80,
+              "Sp. Defense": 80,
+              "Speed": 80
+          },
+          "species": "Face Pokémon",
+          "description": "Its actual body is a rock that isn’t particularly hard. Glalie absorbs moisture from the air and drapes itself in an armor of ice.",
+          "evolution": {
+              "prev": [
+                  "361",
+                  "Level 42"
+              ]
+          },
+          "profile": {
+              "height": "1.5 m",
+              "weight": "256.5 kg",
+              "egg": [
+                  "Fairy",
+                  "Mineral"
+              ],
+              "ability": [
+                  [
+                      "Inner Focus",
+                      "false"
+                  ],
+                  [
+                      "Ice Body",
+                      "false"
+                  ],
+                  [
+                      "Moody",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/362.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/362.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/362.png"
+          }
+      },
+      {
+          "id": 363,
+          "name": {
+              "english": "Spheal",
+              "japanese": "タマザラシ",
+              "chinese": "海豹球",
+              "french": "Obalie"
+          },
+          "type": [
+              "Ice",
+              "Water"
+          ],
+          "base": {
+              "HP": 70,
+              "Attack": 40,
+              "Defense": 50,
+              "Sp. Attack": 55,
+              "Sp. Defense": 50,
+              "Speed": 25
+          },
+          "species": "Clap Pokémon",
+          "description": "Spheal always travels by rolling around on its ball-like body. When the season for ice floes arrives, this Pokémon can be seen rolling about on ice and crossing the sea.",
+          "evolution": {
+              "next": [
+                  [
+                      "364",
+                      "Level 32"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.8 m",
+              "weight": "39.5 kg",
+              "egg": [
+                  "Water 1",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Thick Fat",
+                      "false"
+                  ],
+                  [
+                      "Ice Body",
+                      "false"
+                  ],
+                  [
+                      "Oblivious",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/363.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/363.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/363.png"
+          }
+      },
+      {
+          "id": 364,
+          "name": {
+              "english": "Sealeo",
+              "japanese": "トドグラー",
+              "chinese": "海魔狮",
+              "french": "Phogleur"
+          },
+          "type": [
+              "Ice",
+              "Water"
+          ],
+          "base": {
+              "HP": 90,
+              "Attack": 60,
+              "Defense": 70,
+              "Sp. Attack": 75,
+              "Sp. Defense": 70,
+              "Speed": 45
+          },
+          "species": "Ball Roll Pokémon",
+          "description": "Sealeo often balances and rolls things on the tip of its nose. While the Pokémon is rolling something, it checks the object’s aroma and texture to determine whether it likes the object or not.",
+          "evolution": {
+              "prev": [
+                  "363",
+                  "Level 32"
+              ],
+              "next": [
+                  [
+                      "365",
+                      "Level 44"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1.1 m",
+              "weight": "87.6 kg",
+              "egg": [
+                  "Water 1",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Thick Fat",
+                      "false"
+                  ],
+                  [
+                      "Ice Body",
+                      "false"
+                  ],
+                  [
+                      "Oblivious",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/364.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/364.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/364.png"
+          }
+      },
+      {
+          "id": 365,
+          "name": {
+              "english": "Walrein",
+              "japanese": "トドゼルガ",
+              "chinese": "帝牙海狮",
+              "french": "Kaimorse"
+          },
+          "type": [
+              "Ice",
+              "Water"
+          ],
+          "base": {
+              "HP": 110,
+              "Attack": 80,
+              "Defense": 90,
+              "Sp. Attack": 95,
+              "Sp. Defense": 90,
+              "Speed": 65
+          },
+          "species": "Ice Break Pokémon",
+          "description": "Walrein swims all over in frigid seawater while crushing icebergs with its grand, imposing tusks. Its thick layer of blubber makes enemy attacks bounce off harmlessly.",
+          "evolution": {
+              "prev": [
+                  "364",
+                  "Level 44"
+              ]
+          },
+          "profile": {
+              "height": "1.4 m",
+              "weight": "150.6 kg",
+              "egg": [
+                  "Water 1",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Thick Fat",
+                      "false"
+                  ],
+                  [
+                      "Ice Body",
+                      "false"
+                  ],
+                  [
+                      "Oblivious",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/365.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/365.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/365.png"
+          }
+      },
+      {
+          "id": 366,
+          "name": {
+              "english": "Clamperl",
+              "japanese": "パールル",
+              "chinese": "珍珠贝",
+              "french": "Coquiperl"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 35,
+              "Attack": 64,
+              "Defense": 85,
+              "Sp. Attack": 74,
+              "Sp. Defense": 55,
+              "Speed": 32
+          },
+          "species": "Bivalve Pokémon",
+          "description": "Clamperl’s pearls are exceedingly precious. They can be more than 10 times as costly as Shellder’s pearls.",
+          "evolution": {
+              "next": [
+                  [
+                      "367",
+                      "trade holding Deep Sea Tooth"
+                  ],
+                  [
+                      "368",
+                      "trade holding Deep Sea Scale"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.4 m",
+              "weight": "52.5 kg",
+              "egg": [
+                  "Water 1"
+              ],
+              "ability": [
+                  [
+                      "Shell Armor",
+                      "false"
+                  ],
+                  [
+                      "Rattled",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/366.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/366.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/366.png"
+          }
+      },
+      {
+          "id": 367,
+          "name": {
+              "english": "Huntail",
+              "japanese": "ハンテール",
+              "chinese": "猎斑鱼",
+              "french": "Serpang"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 55,
+              "Attack": 104,
+              "Defense": 105,
+              "Sp. Attack": 94,
+              "Sp. Defense": 75,
+              "Speed": 52
+          },
+          "species": "Deep Sea Pokémon",
+          "description": "Deep seas are their habitat. According to tradition, when Huntail wash up onshore, something unfortunate will happen.",
+          "evolution": {
+              "prev": [
+                  "366",
+                  "trade holding Deep Sea Tooth"
+              ]
+          },
+          "profile": {
+              "height": "1.7 m",
+              "weight": "27 kg",
+              "egg": [
+                  "Water 1"
+              ],
+              "ability": [
+                  [
+                      "Swift Swim",
+                      "false"
+                  ],
+                  [
+                      "Water Veil",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/367.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/367.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/367.png"
+          }
+      },
+      {
+          "id": 368,
+          "name": {
+              "english": "Gorebyss",
+              "japanese": "サクラビス",
+              "chinese": "樱花鱼",
+              "french": "Rosabyss"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 55,
+              "Attack": 84,
+              "Defense": 105,
+              "Sp. Attack": 114,
+              "Sp. Defense": 75,
+              "Speed": 52
+          },
+          "species": "South Sea Pokémon",
+          "description": "It sucks bodily fluids out of its prey. The leftover meat sinks to the seafloor, where it becomes food for other Pokémon.",
+          "evolution": {
+              "prev": [
+                  "366",
+                  "trade holding Deep Sea Scale"
+              ]
+          },
+          "profile": {
+              "height": "1.8 m",
+              "weight": "22.6 kg",
+              "egg": [
+                  "Water 1"
+              ],
+              "ability": [
+                  [
+                      "Swift Swim",
+                      "false"
+                  ],
+                  [
+                      "Hydration",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/368.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/368.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/368.png"
+          }
+      },
+      {
+          "id": 369,
+          "name": {
+              "english": "Relicanth",
+              "japanese": "ジーランス",
+              "chinese": "古空棘鱼",
+              "french": "Relicanth"
+          },
+          "type": [
+              "Water",
+              "Rock"
+          ],
+          "base": {
+              "HP": 100,
+              "Attack": 90,
+              "Defense": 130,
+              "Sp. Attack": 45,
+              "Sp. Defense": 65,
+              "Speed": 55
+          },
+          "species": "Longevity Pokémon",
+          "description": "The reason it hasn’t changed at all in a hundred million years is that it’s apparently already a perfect life-form.",
+          "evolution": {},
+          "profile": {
+              "height": "1 m",
+              "weight": "23.4 kg",
+              "egg": [
+                  "Water 1",
+                  "Water 2"
+              ],
+              "ability": [
+                  [
+                      "Swift Swim",
+                      "false"
+                  ],
+                  [
+                      "Rock Head",
+                      "false"
+                  ],
+                  [
+                      "Sturdy",
+                      "true"
+                  ]
+              ],
+              "gender": "87.5:12.5"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/369.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/369.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/369.png"
+          }
+      },
+      {
+          "id": 370,
+          "name": {
+              "english": "Luvdisc",
+              "japanese": "ラブカス",
+              "chinese": "爱心鱼",
+              "french": "Lovdisc"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 43,
+              "Attack": 30,
+              "Defense": 55,
+              "Sp. Attack": 40,
+              "Sp. Defense": 65,
+              "Speed": 97
+          },
+          "species": "Rendezvous Pokémon",
+          "description": "Luvdisc makes its home in coral reefs in warm seas. It especially likes sleeping in the space between Corsola’s branches.",
+          "evolution": {},
+          "profile": {
+              "height": "0.6 m",
+              "weight": "8.7 kg",
+              "egg": [
+                  "Water 2"
+              ],
+              "ability": [
+                  [
+                      "Swift Swim",
+                      "false"
+                  ],
+                  [
+                      "Hydration",
+                      "true"
+                  ]
+              ],
+              "gender": "25:75"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/370.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/370.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/370.png"
+          }
+      },
+      {
+          "id": 371,
+          "name": {
+              "english": "Bagon",
+              "japanese": "タツベイ",
+              "chinese": "宝贝龙",
+              "french": "Draby"
+          },
+          "type": [
+              "Dragon"
+          ],
+          "base": {
+              "HP": 45,
+              "Attack": 75,
+              "Defense": 60,
+              "Sp. Attack": 40,
+              "Sp. Defense": 30,
+              "Speed": 50
+          },
+          "species": "Rock Head Pokémon",
+          "description": "Some theories suggest that its behavior of forcefully bashing its head into things stimulates cells that affect its evolution.",
+          "evolution": {
+              "next": [
+                  [
+                      "372",
+                      "Level 30"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.6 m",
+              "weight": "42.1 kg",
+              "egg": [
+                  "Dragon"
+              ],
+              "ability": [
+                  [
+                      "Rock Head",
+                      "false"
+                  ],
+                  [
+                      "Sheer Force",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/371.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/371.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/371.png"
+          }
+      },
+      {
+          "id": 372,
+          "name": {
+              "english": "Shelgon",
+              "japanese": "コモルー",
+              "chinese": "甲壳龙",
+              "french": "Drackhaus"
+          },
+          "type": [
+              "Dragon"
+          ],
+          "base": {
+              "HP": 65,
+              "Attack": 95,
+              "Defense": 100,
+              "Sp. Attack": 60,
+              "Sp. Defense": 50,
+              "Speed": 50
+          },
+          "species": "Endurance Pokémon",
+          "description": "Shelgon lives deep within caves. It stays shut up in its hard shell, dreaming of the day it will be able to fly.",
+          "evolution": {
+              "prev": [
+                  "371",
+                  "Level 30"
+              ],
+              "next": [
+                  [
+                      "373",
+                      "Level 50"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1.1 m",
+              "weight": "110.5 kg",
+              "egg": [
+                  "Dragon"
+              ],
+              "ability": [
+                  [
+                      "Rock Head",
+                      "false"
+                  ],
+                  [
+                      "Overcoat",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/372.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/372.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/372.png"
+          }
+      },
+      {
+          "id": 373,
+          "name": {
+              "english": "Salamence",
+              "japanese": "ボーマンダ",
+              "chinese": "暴飞龙",
+              "french": "Drattak"
+          },
+          "type": [
+              "Dragon",
+              "Flying"
+          ],
+          "base": {
+              "HP": 95,
+              "Attack": 135,
+              "Defense": 80,
+              "Sp. Attack": 110,
+              "Sp. Defense": 80,
+              "Speed": 100
+          },
+          "species": "Dragon Pokémon",
+          "description": "Thanks to its fervent wishes, the cells in its body finally mutated, and at last it has its heart’s desire—wings.",
+          "evolution": {
+              "prev": [
+                  "372",
+                  "Level 50"
+              ]
+          },
+          "profile": {
+              "height": "1.5 m",
+              "weight": "102.6 kg",
+              "egg": [
+                  "Dragon"
+              ],
+              "ability": [
+                  [
+                      "Intimidate",
+                      "false"
+                  ],
+                  [
+                      "Moxie",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/373.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/373.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/373.png"
+          }
+      },
+      {
+          "id": 374,
+          "name": {
+              "english": "Beldum",
+              "japanese": "ダンバル",
+              "chinese": "铁哑铃",
+              "french": "Terhal"
+          },
+          "type": [
+              "Steel",
+              "Psychic"
+          ],
+          "base": {
+              "HP": 40,
+              "Attack": 55,
+              "Defense": 80,
+              "Sp. Attack": 35,
+              "Sp. Defense": 60,
+              "Speed": 30
+          },
+          "species": "Iron Ball Pokémon",
+          "description": "If you anger it, it will do more than rampage. It will also burst out strong magnetism, causing nearby machines to break.",
+          "evolution": {
+              "next": [
+                  [
+                      "375",
+                      "Level 20"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.6 m",
+              "weight": "95.2 kg",
+              "egg": [
+                  "Mineral"
+              ],
+              "ability": [
+                  [
+                      "Clear Body",
+                      "false"
+                  ],
+                  [
+                      "Light Metal",
+                      "true"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/374.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/374.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/374.png"
+          }
+      },
+      {
+          "id": 375,
+          "name": {
+              "english": "Metang",
+              "japanese": "メタング",
+              "chinese": "金属怪",
+              "french": "Métang"
+          },
+          "type": [
+              "Steel",
+              "Psychic"
+          ],
+          "base": {
+              "HP": 60,
+              "Attack": 75,
+              "Defense": 100,
+              "Sp. Attack": 55,
+              "Sp. Defense": 80,
+              "Speed": 50
+          },
+          "species": "Iron Claw Pokémon",
+          "description": "It flies at high speeds around the skies. When it finds its prey, Metang takes a firm grip with its sharp claws and never lets go.",
+          "evolution": {
+              "prev": [
+                  "374",
+                  "Level 20"
+              ],
+              "next": [
+                  [
+                      "376",
+                      "Level 45"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1.2 m",
+              "weight": "202.5 kg",
+              "egg": [
+                  "Mineral"
+              ],
+              "ability": [
+                  [
+                      "Clear Body",
+                      "false"
+                  ],
+                  [
+                      "Light Metal",
+                      "true"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/375.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/375.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/375.png"
+          }
+      },
+      {
+          "id": 376,
+          "name": {
+              "english": "Metagross",
+              "japanese": "メタグロス",
+              "chinese": "巨金怪",
+              "french": "Métalosse"
+          },
+          "type": [
+              "Steel",
+              "Psychic"
+          ],
+          "base": {
+              "HP": 80,
+              "Attack": 135,
+              "Defense": 130,
+              "Sp. Attack": 95,
+              "Sp. Defense": 90,
+              "Speed": 70
+          },
+          "species": "Iron Leg Pokémon",
+          "description": "It analyzes its opponents with more accuracy than a supercomputer, which enables it to calmly back them into a corner.",
+          "evolution": {
+              "prev": [
+                  "375",
+                  "Level 45"
+              ]
+          },
+          "profile": {
+              "height": "1.6 m",
+              "weight": "550 kg",
+              "egg": [
+                  "Mineral"
+              ],
+              "ability": [
+                  [
+                      "Clear Body",
+                      "false"
+                  ],
+                  [
+                      "Light Metal",
+                      "true"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/376.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/376.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/376.png"
+          }
+      },
+      {
+          "id": 377,
+          "name": {
+              "english": "Regirock",
+              "japanese": "レジロック",
+              "chinese": "雷吉洛克",
+              "french": "Regirock"
+          },
+          "type": [
+              "Rock"
+          ],
+          "base": {
+              "HP": 80,
+              "Attack": 100,
+              "Defense": 200,
+              "Sp. Attack": 50,
+              "Sp. Defense": 100,
+              "Speed": 50
+          },
+          "species": "Rock Peak Pokémon",
+          "description": "Regirock’s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations.",
+          "evolution": {},
+          "profile": {
+              "height": "1.7 m",
+              "weight": "230 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Clear Body",
+                      "false"
+                  ],
+                  [
+                      "Sturdy",
+                      "true"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/377.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/377.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/377.png"
+          }
+      },
+      {
+          "id": 378,
+          "name": {
+              "english": "Regice",
+              "japanese": "レジアイス",
+              "chinese": "雷吉艾斯",
+              "french": "Regice"
+          },
+          "type": [
+              "Ice"
+          ],
+          "base": {
+              "HP": 80,
+              "Attack": 50,
+              "Defense": 100,
+              "Sp. Attack": 100,
+              "Sp. Defense": 200,
+              "Speed": 50
+          },
+          "species": "Iceberg Pokémon",
+          "description": "Regice cloaks itself with frigid air of -328 degrees Fahrenheit. Things will freeze solid just by going near this Pokémon. Its icy body is so cold, it will not melt even if it is immersed in magma.",
+          "evolution": {},
+          "profile": {
+              "height": "1.8 m",
+              "weight": "175 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Clear Body",
+                      "false"
+                  ],
+                  [
+                      "Ice Body",
+                      "true"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/378.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/378.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/378.png"
+          }
+      },
+      {
+          "id": 379,
+          "name": {
+              "english": "Registeel",
+              "japanese": "レジスチル",
+              "chinese": "雷吉斯奇鲁",
+              "french": "Registeel"
+          },
+          "type": [
+              "Steel"
+          ],
+          "base": {
+              "HP": 80,
+              "Attack": 75,
+              "Defense": 150,
+              "Sp. Attack": 75,
+              "Sp. Defense": 150,
+              "Speed": 50
+          },
+          "species": "Iron Pokémon",
+          "description": "Registeel was imprisoned by people in ancient times. The metal composing its body is thought to be a curious substance that is not of this earth.",
+          "evolution": {},
+          "profile": {
+              "height": "1.9 m",
+              "weight": "205 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Clear Body",
+                      "false"
+                  ],
+                  [
+                      "Light Metal",
+                      "true"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/379.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/379.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/379.png"
+          }
+      },
+      {
+          "id": 380,
+          "name": {
+              "english": "Latias",
+              "japanese": "ラティアス",
+              "chinese": "拉帝亚斯",
+              "french": "Latias"
+          },
+          "type": [
+              "Dragon",
+              "Psychic"
+          ],
+          "base": {
+              "HP": 80,
+              "Attack": 80,
+              "Defense": 90,
+              "Sp. Attack": 110,
+              "Sp. Defense": 130,
+              "Speed": 110
+          },
+          "species": "Eon Pokémon",
+          "description": "Latias is highly intelligent and capable of understanding human speech. It is covered with a glass-like down. The Pokémon enfolds its body with its down and refracts light to alter its appearance.",
+          "evolution": {},
+          "profile": {
+              "height": "1.4 m",
+              "weight": "40 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Levitate",
+                      "false"
+                  ]
+              ],
+              "gender": "0:100"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/380.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/380.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/380.png"
+          }
+      },
+      {
+          "id": 381,
+          "name": {
+              "english": "Latios",
+              "japanese": "ラティオス",
+              "chinese": "拉帝欧斯",
+              "french": "Latios"
+          },
+          "type": [
+              "Dragon",
+              "Psychic"
+          ],
+          "base": {
+              "HP": 80,
+              "Attack": 90,
+              "Defense": 80,
+              "Sp. Attack": 130,
+              "Sp. Defense": 110,
+              "Speed": 110
+          },
+          "species": "Eon Pokémon",
+          "description": "Latios will only open its heart to a Trainer with a compassionate spirit. This Pokémon can fly faster than a jet plane by folding its forelegs to minimize air resistance.",
+          "evolution": {},
+          "profile": {
+              "height": "2 m",
+              "weight": "60 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Levitate",
+                      "false"
+                  ]
+              ],
+              "gender": "100:0"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/381.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/381.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/381.png"
+          }
+      },
+      {
+          "id": 382,
+          "name": {
+              "english": "Kyogre",
+              "japanese": "カイオーガ",
+              "chinese": "盖欧卡",
+              "french": "Kyogre"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 100,
+              "Attack": 100,
+              "Defense": 90,
+              "Sp. Attack": 150,
+              "Sp. Defense": 140,
+              "Speed": 90
+          },
+          "species": "Sea Basin Pokémon",
+          "description": "Kyogre is said to be the personification of the sea itself. Legends tell of its many clashes against Groudon, as each sought to gain the power of nature.",
+          "evolution": {},
+          "profile": {
+              "height": "4.5 m",
+              "weight": "352 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Drizzle",
+                      "false"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/382.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/382.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/382.png"
+          }
+      },
+      {
+          "id": 383,
+          "name": {
+              "english": "Groudon",
+              "japanese": "グラードン",
+              "chinese": "固拉多",
+              "french": "Groudon"
+          },
+          "type": [
+              "Ground"
+          ],
+          "base": {
+              "HP": 100,
+              "Attack": 150,
+              "Defense": 140,
+              "Sp. Attack": 100,
+              "Sp. Defense": 90,
+              "Speed": 90
+          },
+          "species": "Continent Pokémon",
+          "description": "Through Primal Reversion and with nature’s full power, it will take back its true form. It can cause magma to erupt and expand the landmass of the world.",
+          "evolution": {},
+          "profile": {
+              "height": "3.5 m",
+              "weight": "950 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Drought",
+                      "false"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/383.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/383.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/383.png"
+          }
+      },
+      {
+          "id": 384,
+          "name": {
+              "english": "Rayquaza",
+              "japanese": "レックウザ",
+              "chinese": "烈空坐",
+              "french": "Rayquaza"
+          },
+          "type": [
+              "Dragon",
+              "Flying"
+          ],
+          "base": {
+              "HP": 105,
+              "Attack": 150,
+              "Defense": 90,
+              "Sp. Attack": 150,
+              "Sp. Defense": 90,
+              "Speed": 95
+          },
+          "species": "Sky High Pokémon",
+          "description": "It flies forever through the ozone layer, consuming meteoroids for sustenance. The many meteoroids in its body provide the energy it needs to Mega Evolve.",
+          "evolution": {},
+          "profile": {
+              "height": "7 m",
+              "weight": "206.5 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Air Lock",
+                      "false"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/384.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/384.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/384.png"
+          }
+      },
+      {
+          "id": 385,
+          "name": {
+              "english": "Jirachi",
+              "japanese": "ジラーチ",
+              "chinese": "基拉祈",
+              "french": "Jirachi"
+          },
+          "type": [
+              "Steel",
+              "Psychic"
+          ],
+          "base": {
+              "HP": 100,
+              "Attack": 100,
+              "Defense": 100,
+              "Sp. Attack": 100,
+              "Sp. Defense": 100,
+              "Speed": 100
+          },
+          "species": "Wish Pokémon",
+          "description": "Jirachi will awaken from its sleep of a thousand years if you sing to it in a voice of purity. It is said to make true any wish that people desire.",
+          "evolution": {},
+          "profile": {
+              "height": "0.3 m",
+              "weight": "1.1 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Serene Grace",
+                      "false"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/385.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/385.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/385.png"
+          }
+      },
+      {
+          "id": 386,
+          "name": {
+              "english": "Deoxys",
+              "japanese": "デオキシス",
+              "chinese": "代欧奇希斯",
+              "french": "Deoxys"
+          },
+          "type": [
+              "Psychic"
+          ],
+          "base": {
+              "HP": 50,
+              "Attack": 150,
+              "Defense": 50,
+              "Sp. Attack": 150,
+              "Sp. Defense": 50,
+              "Speed": 150
+          },
+          "species": "DNA Pokémon",
+          "description": "Deoxys emerged from a virus that came from space. It is highly intelligent and wields psychokinetic powers. This Pokémon shoots lasers from the crystalline organ on its chest.",
+          "evolution": {},
+          "profile": {
+              "height": "1.7 m",
+              "weight": "60.8 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Pressure",
+                      "false"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/386.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/386.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/386.png"
+          }
+      },
+      {
+          "id": 387,
+          "name": {
+              "english": "Turtwig",
+              "japanese": "ナエトル",
+              "chinese": "草苗龟",
+              "french": "Tortipouss"
+          },
+          "type": [
+              "Grass"
+          ],
+          "base": {
+              "HP": 55,
+              "Attack": 68,
+              "Defense": 64,
+              "Sp. Attack": 45,
+              "Sp. Defense": 55,
+              "Speed": 31
+          },
+          "species": "Tiny Leaf Pokémon",
+          "description": "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
+          "evolution": {
+              "next": [
+                  [
+                      "388",
+                      "Level 18"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.4 m",
+              "weight": "10.2 kg",
+              "egg": [
+                  "Monster",
+                  "Grass"
+              ],
+              "ability": [
+                  [
+                      "Overgrow",
+                      "false"
+                  ],
+                  [
+                      "Shell Armor",
+                      "true"
+                  ]
+              ],
+              "gender": "87.5:12.5"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/387.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/387.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/387.png"
+          }
+      },
+      {
+          "id": 388,
+          "name": {
+              "english": "Grotle",
+              "japanese": "ハヤシガメ",
+              "chinese": "树林龟",
+              "french": "Boskara"
+          },
+          "type": [
+              "Grass"
+          ],
+          "base": {
+              "HP": 75,
+              "Attack": 89,
+              "Defense": 85,
+              "Sp. Attack": 55,
+              "Sp. Defense": 65,
+              "Speed": 36
+          },
+          "species": "Grove Pokémon",
+          "description": "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
+          "evolution": {
+              "prev": [
+                  "387",
+                  "Level 18"
+              ],
+              "next": [
+                  [
+                      "389",
+                      "Level 32"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1.1 m",
+              "weight": "97 kg",
+              "egg": [
+                  "Monster",
+                  "Grass"
+              ],
+              "ability": [
+                  [
+                      "Overgrow",
+                      "false"
+                  ],
+                  [
+                      "Shell Armor",
+                      "true"
+                  ]
+              ],
+              "gender": "87.5:12.5"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/388.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/388.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/388.png"
+          }
+      },
+      {
+          "id": 389,
+          "name": {
+              "english": "Torterra",
+              "japanese": "ドダイトス",
+              "chinese": "土台龟",
+              "french": "Torterra"
+          },
+          "type": [
+              "Grass",
+              "Ground"
+          ],
+          "base": {
+              "HP": 95,
+              "Attack": 109,
+              "Defense": 105,
+              "Sp. Attack": 75,
+              "Sp. Defense": 85,
+              "Speed": 56
+          },
+          "species": "Continent Pokémon",
+          "description": "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
+          "evolution": {
+              "prev": [
+                  "388",
+                  "Level 32"
+              ]
+          },
+          "profile": {
+              "height": "2.2 m",
+              "weight": "310 kg",
+              "egg": [
+                  "Monster",
+                  "Grass"
+              ],
+              "ability": [
+                  [
+                      "Overgrow",
+                      "false"
+                  ],
+                  [
+                      "Shell Armor",
+                      "true"
+                  ]
+              ],
+              "gender": "87.5:12.5"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/389.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/389.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/389.png"
+          }
+      },
+      {
+          "id": 390,
+          "name": {
+              "english": "Chimchar",
+              "japanese": "ヒコザル",
+              "chinese": "小火焰猴",
+              "french": "Ouisticram"
+          },
+          "type": [
+              "Fire"
+          ],
+          "base": {
+              "HP": 44,
+              "Attack": 58,
+              "Defense": 44,
+              "Sp. Attack": 58,
+              "Sp. Defense": 44,
+              "Speed": 61
+          },
+          "species": "Chimp Pokémon",
+          "description": "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
+          "evolution": {
+              "next": [
+                  [
+                      "391",
+                      "Level 14"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.5 m",
+              "weight": "6.2 kg",
+              "egg": [
+                  "Field",
+                  "Human-Like"
+              ],
+              "ability": [
+                  [
+                      "Blaze",
+                      "false"
+                  ],
+                  [
+                      "Iron Fist",
+                      "true"
+                  ]
+              ],
+              "gender": "87.5:12.5"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/390.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/390.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/390.png"
+          }
+      },
+      {
+          "id": 391,
+          "name": {
+              "english": "Monferno",
+              "japanese": "モウカザル",
+              "chinese": "猛火猴",
+              "french": "Chimpenfeu"
+          },
+          "type": [
+              "Fire",
+              "Fighting"
+          ],
+          "base": {
+              "HP": 64,
+              "Attack": 78,
+              "Defense": 52,
+              "Sp. Attack": 78,
+              "Sp. Defense": 52,
+              "Speed": 81
+          },
+          "species": "Playful Pokémon",
+          "description": "It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.",
+          "evolution": {
+              "prev": [
+                  "390",
+                  "Level 14"
+              ],
+              "next": [
+                  [
+                      "392",
+                      "Level 36"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.9 m",
+              "weight": "22 kg",
+              "egg": [
+                  "Field",
+                  "Human-Like"
+              ],
+              "ability": [
+                  [
+                      "Blaze",
+                      "false"
+                  ],
+                  [
+                      "Iron Fist",
+                      "true"
+                  ]
+              ],
+              "gender": "87.5:12.5"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/391.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/391.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/391.png"
+          }
+      },
+      {
+          "id": 392,
+          "name": {
+              "english": "Infernape",
+              "japanese": "ゴウカザル",
+              "chinese": "烈焰猴",
+              "french": "Simiabraz"
+          },
+          "type": [
+              "Fire",
+              "Fighting"
+          ],
+          "base": {
+              "HP": 76,
+              "Attack": 104,
+              "Defense": 71,
+              "Sp. Attack": 104,
+              "Sp. Defense": 71,
+              "Speed": 108
+          },
+          "species": "Flame Pokémon",
+          "description": "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.",
+          "evolution": {
+              "prev": [
+                  "391",
+                  "Level 36"
+              ]
+          },
+          "profile": {
+              "height": "1.2 m",
+              "weight": "55 kg",
+              "egg": [
+                  "Field",
+                  "Human-Like"
+              ],
+              "ability": [
+                  [
+                      "Blaze",
+                      "false"
+                  ],
+                  [
+                      "Iron Fist",
+                      "true"
+                  ]
+              ],
+              "gender": "87.5:12.5"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/392.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/392.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/392.png"
+          }
+      },
+      {
+          "id": 393,
+          "name": {
+              "english": "Piplup",
+              "japanese": "ポッチャマ",
+              "chinese": "波加曼",
+              "french": "Tiplouf"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 53,
+              "Attack": 51,
+              "Defense": 53,
+              "Sp. Attack": 61,
+              "Sp. Defense": 56,
+              "Speed": 40
+          },
+          "species": "Penguin Pokémon",
+          "description": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+          "evolution": {
+              "next": [
+                  [
+                      "394",
+                      "Level 16"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.4 m",
+              "weight": "5.2 kg",
+              "egg": [
+                  "Water 1",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Torrent",
+                      "false"
+                  ],
+                  [
+                      "Defiant",
+                      "true"
+                  ]
+              ],
+              "gender": "87.5:12.5"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/393.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/393.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/393.png"
+          }
+      },
+      {
+          "id": 394,
+          "name": {
+              "english": "Prinplup",
+              "japanese": "ポッタイシ",
+              "chinese": "波皇子",
+              "french": "Prinplouf"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 64,
+              "Attack": 66,
+              "Defense": 68,
+              "Sp. Attack": 81,
+              "Sp. Defense": 76,
+              "Speed": 50
+          },
+          "species": "Penguin Pokémon",
+          "description": "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
+          "evolution": {
+              "prev": [
+                  "393",
+                  "Level 16"
+              ],
+              "next": [
+                  [
+                      "395",
+                      "Level 36"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.8 m",
+              "weight": "23 kg",
+              "egg": [
+                  "Water 1",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Torrent",
+                      "false"
+                  ],
+                  [
+                      "Defiant",
+                      "true"
+                  ]
+              ],
+              "gender": "87.5:12.5"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/394.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/394.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/394.png"
+          }
+      },
+      {
+          "id": 395,
+          "name": {
+              "english": "Empoleon",
+              "japanese": "エンペルト",
+              "chinese": "帝王拿波",
+              "french": "Pingoléon"
+          },
+          "type": [
+              "Water",
+              "Steel"
+          ],
+          "base": {
+              "HP": 84,
+              "Attack": 86,
+              "Defense": 88,
+              "Sp. Attack": 111,
+              "Sp. Defense": 101,
+              "Speed": 60
+          },
+          "species": "Emperor Pokémon",
+          "description": "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
+          "evolution": {
+              "prev": [
+                  "394",
+                  "Level 36"
+              ]
+          },
+          "profile": {
+              "height": "1.7 m",
+              "weight": "84.5 kg",
+              "egg": [
+                  "Water 1",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Torrent",
+                      "false"
+                  ],
+                  [
+                      "Defiant",
+                      "true"
+                  ]
+              ],
+              "gender": "87.5:12.5"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/395.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/395.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/395.png"
+          }
+      },
+      {
+          "id": 396,
+          "name": {
+              "english": "Starly",
+              "japanese": "ムックル",
+              "chinese": "姆克儿",
+              "french": "Étourmi"
+          },
+          "type": [
+              "Normal",
+              "Flying"
+          ],
+          "base": {
+              "HP": 40,
+              "Attack": 55,
+              "Defense": 30,
+              "Sp. Attack": 30,
+              "Sp. Defense": 30,
+              "Speed": 60
+          },
+          "species": "Starling Pokémon",
+          "description": "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
+          "evolution": {
+              "next": [
+                  [
+                      "397",
+                      "Level 14"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.3 m",
+              "weight": "2 kg",
+              "egg": [
+                  "Flying"
+              ],
+              "ability": [
+                  [
+                      "Keen Eye",
+                      "false"
+                  ],
+                  [
+                      "Reckless",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/396.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/396.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/396.png"
+          }
+      },
+      {
+          "id": 397,
+          "name": {
+              "english": "Staravia",
+              "japanese": "ムクバード",
+              "chinese": "姆克鸟",
+              "french": "Étourvol"
+          },
+          "type": [
+              "Normal",
+              "Flying"
+          ],
+          "base": {
+              "HP": 55,
+              "Attack": 75,
+              "Defense": 50,
+              "Sp. Attack": 40,
+              "Sp. Defense": 40,
+              "Speed": 80
+          },
+          "species": "Starling Pokémon",
+          "description": "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
+          "evolution": {
+              "prev": [
+                  "396",
+                  "Level 14"
+              ],
+              "next": [
+                  [
+                      "398",
+                      "Level 34"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.6 m",
+              "weight": "15.5 kg",
+              "egg": [
+                  "Flying"
+              ],
+              "ability": [
+                  [
+                      "Intimidate",
+                      "false"
+                  ],
+                  [
+                      "Reckless",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/397.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/397.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/397.png"
+          }
+      },
+      {
+          "id": 398,
+          "name": {
+              "english": "Staraptor",
+              "japanese": "ムクホーク",
+              "chinese": "姆克鹰",
+              "french": "Étouraptor"
+          },
+          "type": [
+              "Normal",
+              "Flying"
+          ],
+          "base": {
+              "HP": 85,
+              "Attack": 120,
+              "Defense": 70,
+              "Sp. Attack": 50,
+              "Sp. Defense": 60,
+              "Speed": 100
+          },
+          "species": "Predator Pokémon",
+          "description": "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
+          "evolution": {
+              "prev": [
+                  "397",
+                  "Level 34"
+              ]
+          },
+          "profile": {
+              "height": "1.2 m",
+              "weight": "24.9 kg",
+              "egg": [
+                  "Flying"
+              ],
+              "ability": [
+                  [
+                      "Intimidate",
+                      "false"
+                  ],
+                  [
+                      "Reckless",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/398.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/398.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/398.png"
+          }
+      },
+      {
+          "id": 399,
+          "name": {
+              "english": "Bidoof",
+              "japanese": "ビッパ",
+              "chinese": "大牙狸",
+              "french": "Keunotor"
+          },
+          "type": [
+              "Normal"
+          ],
+          "base": {
+              "HP": 59,
+              "Attack": 45,
+              "Defense": 40,
+              "Sp. Attack": 35,
+              "Sp. Defense": 40,
+              "Speed": 31
+          },
+          "species": "Plump Mouse Pokémon",
+          "description": "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
+          "evolution": {
+              "next": [
+                  [
+                      "400",
+                      "Level 15"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.5 m",
+              "weight": "20 kg",
+              "egg": [
+                  "Water 1",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Simple",
+                      "false"
+                  ],
+                  [
+                      "Unaware",
+                      "false"
+                  ],
+                  [
+                      "Moody",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/399.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/399.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/399.png"
+          }
+      },
+      {
+          "id": 400,
+          "name": {
+              "english": "Bibarel",
+              "japanese": "ビーダル",
+              "chinese": "大尾狸",
+              "french": "Castorno"
+          },
+          "type": [
+              "Normal",
+              "Water"
+          ],
+          "base": {
+              "HP": 79,
+              "Attack": 85,
+              "Defense": 60,
+              "Sp. Attack": 55,
+              "Sp. Defense": 60,
+              "Speed": 71
+          },
+          "species": "Beaver Pokémon",
+          "description": "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
+          "evolution": {
+              "prev": [
+                  "399",
+                  "Level 15"
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "31.5 kg",
+              "egg": [
+                  "Water 1",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Simple",
+                      "false"
+                  ],
+                  [
+                      "Unaware",
+                      "false"
+                  ],
+                  [
+                      "Moody",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/400.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/400.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/400.png"
+          }
+      }
+  ],
+  "links": {
+      "self": "/api/pokemon/10.json",
+      "prev": "/api/pokemon/9.json",
+      "next": "/api/pokemon/11.json",
+      "first": "/api/pokemon/1.json",
+      "last": "/api/pokemon/23.json"
+  },
+  "meta": {
+      "currentPage": 10,
+      "totalPages": 23,
+      "total": 898,
+      "estimatedTotal": 898,
+      "page": {
+          "size": 40,
+          "total": 898,
+          "estimatedTotal": 898
+      }
+  }
+}

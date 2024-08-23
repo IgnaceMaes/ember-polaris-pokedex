@@ -1,0 +1,1814 @@
+{
+  "data": [
+      {
+          "id": 801,
+          "name": {
+              "english": "Magearna",
+              "japanese": "マギアナ",
+              "chinese": "玛机雅娜",
+              "french": "Magearna"
+          },
+          "type": [
+              "Steel",
+              "Fairy"
+          ],
+          "base": {
+              "HP": 80,
+              "Attack": 95,
+              "Defense": 115,
+              "Sp. Attack": 130,
+              "Sp. Defense": 115,
+              "Speed": 65
+          },
+          "species": "Artificial Pokémon",
+          "description": "Built roughly 500 years ago by a scientist, the part called the Soul-Heart is the actual life-form.",
+          "evolution": {},
+          "profile": {
+              "height": "1 m",
+              "weight": "80.5 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Soul Heart",
+                      "false"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/801.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/801.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/801.png"
+          }
+      },
+      {
+          "id": 802,
+          "name": {
+              "english": "Marshadow",
+              "japanese": "マーシャドー",
+              "chinese": "玛夏多",
+              "french": "Marshadow"
+          },
+          "type": [
+              "Fighting",
+              "Ghost"
+          ],
+          "base": {
+              "HP": 90,
+              "Attack": 125,
+              "Defense": 80,
+              "Sp. Attack": 90,
+              "Sp. Defense": 90,
+              "Speed": 125
+          },
+          "species": "Gloomdweller Pokémon",
+          "description": "It sinks into the shadows of people and Pokémon, where it can understand their feelings and copy their capabilities.",
+          "evolution": {},
+          "profile": {
+              "height": "0.7 m",
+              "weight": "22.2 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Technician",
+                      "false"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/802.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/802.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/802.png"
+          }
+      },
+      {
+          "id": 803,
+          "name": {
+              "english": "Poipole",
+              "japanese": "ベベノム",
+              "chinese": "毒贝比",
+              "french": "Vémini"
+          },
+          "type": [
+              "Poison"
+          ],
+          "base": {
+              "HP": 67,
+              "Attack": 73,
+              "Defense": 67,
+              "Sp. Attack": 73,
+              "Sp. Defense": 67,
+              "Speed": 73
+          },
+          "species": "Poison Pin Pokémon",
+          "description": "An Ultra Beast that lives in a different world, it cackles wildly as it sprays its opponents with poison from the needles on its head.",
+          "evolution": {
+              "next": [
+                  [
+                      "804",
+                      "after Dragon Pulse learned"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.6 m",
+              "weight": "1.8 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Beast Boost",
+                      "false"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/803.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/803.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/803.png"
+          }
+      },
+      {
+          "id": 804,
+          "name": {
+              "english": "Naganadel",
+              "japanese": "アーゴヨン",
+              "chinese": "四颚针龙",
+              "french": "Mandrillon"
+          },
+          "type": [
+              "Poison",
+              "Dragon"
+          ],
+          "base": {
+              "HP": 73,
+              "Attack": 73,
+              "Defense": 73,
+              "Sp. Attack": 127,
+              "Sp. Defense": 73,
+              "Speed": 121
+          },
+          "species": "Poison Pin Pokémon",
+          "description": "One kind of Ultra Beast, it fires a glowing, venomous liquid from its needles. This liquid is also immensely adhesive.",
+          "evolution": {
+              "prev": [
+                  "803",
+                  "after Dragon Pulse learned"
+              ]
+          },
+          "profile": {
+              "height": "3.6 m",
+              "weight": "150 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Beast Boost",
+                      "false"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/804.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/804.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/804.png"
+          }
+      },
+      {
+          "id": 805,
+          "name": {
+              "english": "Stakataka",
+              "japanese": "ツンデツンデ",
+              "chinese": "垒磊石",
+              "french": "Ama - Ama"
+          },
+          "type": [
+              "Rock",
+              "Steel"
+          ],
+          "base": {
+              "HP": 61,
+              "Attack": 131,
+              "Defense": 211,
+              "Sp. Attack": 53,
+              "Sp. Defense": 101,
+              "Speed": 13
+          },
+          "species": "Rampart Pokémon",
+          "description": "When stone walls started moving and attacking, the brute’s true identity was this mysterious life-form, which brings to mind an Ultra Beast.",
+          "evolution": {},
+          "profile": {
+              "height": "5.5 m",
+              "weight": "820 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Beast Boost",
+                      "false"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/805.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/805.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/805.png"
+          }
+      },
+      {
+          "id": 806,
+          "name": {
+              "english": "Blacephalon",
+              "japanese": "ズガドーン",
+              "chinese": "砰头小丑",
+              "french": "Pierroteknik"
+          },
+          "type": [
+              "Fire",
+              "Ghost"
+          ],
+          "base": {
+              "HP": 53,
+              "Attack": 127,
+              "Defense": 53,
+              "Sp. Attack": 151,
+              "Sp. Defense": 79,
+              "Speed": 107
+          },
+          "species": "Fireworks Pokémon",
+          "description": "A UB that appeared from an Ultra Wormhole, it causes explosions, then takes advantage of opponents’ surprise to rob them of their vitality.",
+          "evolution": {},
+          "profile": {
+              "height": "1.8 m",
+              "weight": "13 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Beast Boost",
+                      "false"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/806.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/806.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/806.png"
+          }
+      },
+      {
+          "id": 807,
+          "name": {
+              "english": "Zeraora",
+              "japanese": "ゼラオラ",
+              "chinese": "捷拉奥拉",
+              "french": "Zeraora"
+          },
+          "type": [
+              "Electric"
+          ],
+          "base": {
+              "HP": 88,
+              "Attack": 112,
+              "Defense": 75,
+              "Sp. Attack": 102,
+              "Sp. Defense": 80,
+              "Speed": 143
+          },
+          "species": "Thunderclap Pokémon",
+          "description": "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws.",
+          "evolution": {},
+          "profile": {
+              "height": "1.5 m",
+              "weight": "44.5 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Volt Absorb",
+                      "false"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/807.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/807.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/807.png"
+          }
+      },
+      {
+          "id": 808,
+          "name": {
+              "english": "Meltan",
+              "japanese": "メルタン",
+              "chinese": "美录坦",
+              "french": "Meltan"
+          },
+          "type": [
+              "Steel"
+          ],
+          "base": {
+              "HP": 46,
+              "Attack": 65,
+              "Defense": 65,
+              "Sp. Attack": 55,
+              "Sp. Defense": 35,
+              "Speed": 34
+          },
+          "species": "Hex Nut Pokémon",
+          "description": "They live as a group, but when the time comes, one strong Meltan will absorb all the others and evolve.",
+          "evolution": {
+              "next": [
+                  [
+                      "809",
+                      "Pokémon GO only, 400 Meltan Candies"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.2 m",
+              "weight": "8.0 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Magnet Pull",
+                      "false"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/808.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/808.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/808.png"
+          }
+      },
+      {
+          "id": 809,
+          "name": {
+              "english": "Melmetal",
+              "japanese": "メルメタル",
+              "chinese": "美录梅塔",
+              "french": "Melmetal"
+          },
+          "type": [
+              "Steel"
+          ],
+          "base": {
+              "HP": 135,
+              "Attack": 143,
+              "Defense": 143,
+              "Sp. Attack": 80,
+              "Sp. Defense": 65,
+              "Speed": 34
+          },
+          "species": "Hex Nut Pokémon",
+          "description": "Centrifugal force is behind the punches of Melmetal's heavy hex-nut arms. Melmetal is said to deliver the strongest punches of all Pokémon.",
+          "evolution": {
+              "prev": [
+                  "808",
+                  "Pokémon GO only, 400 Meltan Candies"
+              ]
+          },
+          "profile": {
+              "height": "2.5 m",
+              "weight": "800.0 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Iron Fist",
+                      "false"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/809.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/809.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/809.png"
+          }
+      },
+      {
+          "id": 810,
+          "name": {
+              "english": "Grookey",
+              "japanese": "サルノリ",
+              "chinese": "敲音猴",
+              "french": "Ouistempo"
+          },
+          "type": [
+              "Grass"
+          ],
+          "species": "Chimp Pokémon",
+          "description": "It attacks with rapid beats of its stick. As it strikes with amazing speed, it gets more and more pumped.",
+          "evolution": {
+              "next": [
+                  [
+                      "811",
+                      "Level 16"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0 m",
+              "weight": "5 kg",
+              "gender": "87.5:12.5",
+              "ability": [
+                  [
+                      "Overgrow",
+                      "false"
+                  ],
+                  [
+                      "Grassy-surge",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/810.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/810.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/810.png"
+          }
+      },
+      {
+          "id": 811,
+          "name": {
+              "english": "Thwackey",
+              "japanese": "バチンキー",
+              "chinese": "啪咚猴",
+              "french": "Badabouin"
+          },
+          "type": [
+              "Grass"
+          ],
+          "species": "Beat Pokémon",
+          "description": "When it’s drumming out rapid beats in battle, it gets so caught up in the rhythm that it won’t even notice that it’s already knocked out its opponent.",
+          "evolution": {
+              "prev": [
+                  "810",
+                  "Level 16"
+              ],
+              "next": [
+                  [
+                      "812",
+                      "Level 35"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "14 kg",
+              "gender": "87.5:12.5",
+              "ability": [
+                  [
+                      "Overgrow",
+                      "false"
+                  ],
+                  [
+                      "Grassy-surge",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/811.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/811.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/811.png"
+          }
+      },
+      {
+          "id": 812,
+          "name": {
+              "english": "Rillaboom",
+              "japanese": "ゴリランダー",
+              "chinese": "轰擂金刚猩",
+              "french": "Gorythmic"
+          },
+          "type": [
+              "Grass"
+          ],
+          "species": "Drummer Pokémon",
+          "description": "The one with the best drumming techniques becomes the boss of the troop. It has a gentle disposition and values harmony among its group.",
+          "evolution": {
+              "prev": [
+                  "811",
+                  "Level 35"
+              ]
+          },
+          "profile": {
+              "height": "2 m",
+              "weight": "90 kg",
+              "gender": "87.5:12.5",
+              "ability": [
+                  [
+                      "Overgrow",
+                      "false"
+                  ],
+                  [
+                      "Grassy-surge",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/812.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/812.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/812.png"
+          }
+      },
+      {
+          "id": 813,
+          "name": {
+              "english": "Scorbunny",
+              "japanese": "ヒバニー",
+              "chinese": "炎兔儿",
+              "french": "Flambino"
+          },
+          "type": [
+              "Fire"
+          ],
+          "species": "Rabbit Pokémon",
+          "description": "It has special pads on the backs of its feet, and one on its nose. Once it’s raring to fight, these pads radiate tremendous heat.",
+          "evolution": {
+              "next": [
+                  [
+                      "814",
+                      "Level 16"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0 m",
+              "weight": "4 kg",
+              "gender": "87.5:12.5",
+              "ability": [
+                  [
+                      "Blaze",
+                      "false"
+                  ],
+                  [
+                      "Libero",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/813.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/813.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/813.png"
+          }
+      },
+      {
+          "id": 814,
+          "name": {
+              "english": "Raboot",
+              "japanese": "ラビフット",
+              "chinese": "腾蹴小将",
+              "french": "Lapyro"
+          },
+          "type": [
+              "Fire"
+          ],
+          "species": "Rabbit Pokémon",
+          "description": "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork.",
+          "evolution": {
+              "prev": [
+                  "813",
+                  "Level 16"
+              ],
+              "next": [
+                  [
+                      "815",
+                      "Level 35"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "9 kg",
+              "gender": "87.5:12.5",
+              "ability": [
+                  [
+                      "Blaze",
+                      "false"
+                  ],
+                  [
+                      "Libero",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/814.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/814.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/814.png"
+          }
+      },
+      {
+          "id": 815,
+          "name": {
+              "english": "Cinderace",
+              "japanese": "エースバーン",
+              "chinese": "闪焰王牌",
+              "french": "Pyrobut"
+          },
+          "type": [
+              "Fire"
+          ],
+          "species": "Striker Pokémon",
+          "description": "It’s skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot.",
+          "evolution": {
+              "prev": [
+                  "814",
+                  "Level 35"
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "33 kg",
+              "gender": "87.5:12.5",
+              "ability": [
+                  [
+                      "Blaze",
+                      "false"
+                  ],
+                  [
+                      "Libero",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/815.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/815.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/815.png"
+          }
+      },
+      {
+          "id": 816,
+          "name": {
+              "english": "Sobble",
+              "japanese": "メッソン",
+              "chinese": "泪眼蜥",
+              "french": "Larméléon"
+          },
+          "type": [
+              "Water"
+          ],
+          "species": "Water Lizard Pokémon",
+          "description": "When it gets wet, its skin changes color, and this Pokémon becomes invisible as if it were camouflaged.",
+          "evolution": {
+              "next": [
+                  [
+                      "817",
+                      "Level 16"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0 m",
+              "weight": "4 kg",
+              "gender": "87.5:12.5",
+              "ability": [
+                  [
+                      "Torrent",
+                      "false"
+                  ],
+                  [
+                      "Sniper",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/816.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/816.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/816.png"
+          }
+      },
+      {
+          "id": 817,
+          "name": {
+              "english": "Drizzile",
+              "japanese": "ジメレオン",
+              "chinese": "变涩蜥",
+              "french": "Arrozard"
+          },
+          "type": [
+              "Water"
+          ],
+          "species": "Water lizard Pokémon",
+          "description": "Highly intelligent but also very lazy, it keeps enemies out of its territory by laying traps everywhere.",
+          "evolution": {
+              "prev": [
+                  "816",
+                  "Level 16"
+              ],
+              "next": [
+                  [
+                      "818",
+                      "Level 35"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "12 kg",
+              "gender": "87.5:12.5",
+              "ability": [
+                  [
+                      "Torrent",
+                      "false"
+                  ],
+                  [
+                      "Sniper",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/817.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/817.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/817.png"
+          }
+      },
+      {
+          "id": 818,
+          "name": {
+              "english": "Inteleon",
+              "japanese": "インテレオン",
+              "chinese": "千面避役",
+              "french": "Lézargus"
+          },
+          "type": [
+              "Water"
+          ],
+          "species": "Secret Agent Pokémon",
+          "description": "Its nictitating membranes let it pick out foes’ weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3.",
+          "evolution": {
+              "prev": [
+                  "817",
+                  "Level 35"
+              ]
+          },
+          "profile": {
+              "height": "2 m",
+              "weight": "45 kg",
+              "gender": "87.5:12.5",
+              "ability": [
+                  [
+                      "Torrent",
+                      "false"
+                  ],
+                  [
+                      "Sniper",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/818.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/818.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/818.png"
+          }
+      },
+      {
+          "id": 819,
+          "name": {
+              "english": "Skwovet",
+              "japanese": "ホシガリス",
+              "chinese": "贪心栗鼠",
+              "french": "Rongourmand"
+          },
+          "type": [
+              "Normal"
+          ],
+          "species": "Cheeky Pokémon",
+          "description": "It eats berries nonstop—a habit that has made it more resilient than it looks. It’ll show up on farms, searching for yet more berries.",
+          "evolution": {
+              "next": [
+                  [
+                      "820",
+                      "Level 24"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0 m",
+              "weight": "2 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Cheek-pouch",
+                      "false"
+                  ],
+                  [
+                      "Gluttony",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/819.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/819.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/819.png"
+          }
+      },
+      {
+          "id": 820,
+          "name": {
+              "english": "Greedent",
+              "japanese": "ヨクバリス",
+              "chinese": "藏饱栗鼠",
+              "french": "Rongrigou"
+          },
+          "type": [
+              "Normal"
+          ],
+          "species": "Greedy Pokémon",
+          "description": "Common throughout the Galar region, this Pokémon has strong teeth and can chew through the toughest of berry shells.",
+          "evolution": {
+              "prev": [
+                  "819",
+                  "Level 24"
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "6 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Cheek-pouch",
+                      "false"
+                  ],
+                  [
+                      "Gluttony",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/820.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/820.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/820.png"
+          }
+      },
+      {
+          "id": 821,
+          "name": {
+              "english": "Rookidee",
+              "japanese": "ココガラ",
+              "chinese": "稚山雀",
+              "french": "Minisange"
+          },
+          "type": [
+              "Flying"
+          ],
+          "species": "Tiny Bird Pokémon",
+          "description": "Jumping nimbly about, this small-bodied Pokémon takes advantage of even the slightest opportunity to disorient larger opponents.",
+          "evolution": {
+              "next": [
+                  [
+                      "822",
+                      "Level 18"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0 m",
+              "weight": "2 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Keen-eye",
+                      "false"
+                  ],
+                  [
+                      "Unnerve",
+                      "false"
+                  ],
+                  [
+                      "Big-pecks",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/821.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/821.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/821.png"
+          }
+      },
+      {
+          "id": 822,
+          "name": {
+              "english": "Corvisquire",
+              "japanese": "アオガラス",
+              "chinese": "蓝鸦",
+              "french": "Bleuseille"
+          },
+          "type": [
+              "Flying"
+          ],
+          "species": "Raven Pokémon",
+          "description": "The lessons of many harsh battles have taught it how to accurately judge an opponent’s strength.",
+          "evolution": {
+              "prev": [
+                  "821",
+                  "Level 18"
+              ],
+              "next": [
+                  [
+                      "823",
+                      "Level 38"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "16 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Keen-eye",
+                      "false"
+                  ],
+                  [
+                      "Unnerve",
+                      "false"
+                  ],
+                  [
+                      "Big-pecks",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/822.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/822.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/822.png"
+          }
+      },
+      {
+          "id": 823,
+          "name": {
+              "english": "Corviknight",
+              "japanese": "アーマーガア",
+              "chinese": "钢铠鸦",
+              "french": "Corvaillus"
+          },
+          "type": [
+              "Flying",
+              "Steel"
+          ],
+          "species": "Raven Pokémon",
+          "description": "With their great intellect and flying skills, these Pokémon very successfully act as the Galar region’s airborne taxi service.",
+          "evolution": {
+              "prev": [
+                  "822",
+                  "Level 38"
+              ]
+          },
+          "profile": {
+              "height": "2 m",
+              "weight": "75 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Pressure",
+                      "false"
+                  ],
+                  [
+                      "Unnerve",
+                      "false"
+                  ],
+                  [
+                      "Mirror-armor",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/823.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/823.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/823.png"
+          }
+      },
+      {
+          "id": 824,
+          "name": {
+              "english": "Blipbug",
+              "japanese": "サッチムシ",
+              "chinese": "索侦虫",
+              "french": "Larvadar"
+          },
+          "type": [
+              "Bug"
+          ],
+          "species": "Larva Pokémon",
+          "description": "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.",
+          "evolution": {
+              "next": [
+                  [
+                      "825",
+                      "Level 10"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0 m",
+              "weight": "8 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Swarm",
+                      "false"
+                  ],
+                  [
+                      "Compound-eyes",
+                      "false"
+                  ],
+                  [
+                      "Telepathy",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/824.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/824.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/824.png"
+          }
+      },
+      {
+          "id": 825,
+          "name": {
+              "english": "Dottler",
+              "japanese": "レドームシ",
+              "chinese": "天罩虫",
+              "french": "Coléodôme"
+          },
+          "type": [
+              "Bug",
+              "Psychic"
+          ],
+          "species": "Radome Pokémon",
+          "description": "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution.",
+          "evolution": {
+              "prev": [
+                  "824",
+                  "Level 10"
+              ],
+              "next": [
+                  [
+                      "826",
+                      "Level 30"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0 m",
+              "weight": "20 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Swarm",
+                      "false"
+                  ],
+                  [
+                      "Compound-eyes",
+                      "false"
+                  ],
+                  [
+                      "Telepathy",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/825.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/825.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/825.png"
+          }
+      },
+      {
+          "id": 826,
+          "name": {
+              "english": "Orbeetle",
+              "japanese": "イオルブ",
+              "chinese": "以欧路普",
+              "french": "Astronelle"
+          },
+          "type": [
+              "Bug",
+              "Psychic"
+          ],
+          "species": "Seven Spot Pokémon",
+          "description": "It emits psychic energy to observe and study what’s around it—and what’s around it can include things over six miles away.",
+          "evolution": {
+              "prev": [
+                  "825",
+                  "Level 30"
+              ]
+          },
+          "profile": {
+              "height": "0 m",
+              "weight": "41 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Swarm",
+                      "false"
+                  ],
+                  [
+                      "Frisk",
+                      "false"
+                  ],
+                  [
+                      "Telepathy",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/826.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/826.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/826.png"
+          }
+      },
+      {
+          "id": 827,
+          "name": {
+              "english": "Nickit",
+              "japanese": "クスネ",
+              "chinese": "偷儿狐",
+              "french": "Goupilou"
+          },
+          "type": [
+              "Dark"
+          ],
+          "species": "Fox Pokémon",
+          "description": "Cunning and cautious, this Pokémon survives by stealing food from others. It erases its tracks with swipes of its tail as it makes off with its plunder.",
+          "evolution": {
+              "next": [
+                  [
+                      "828",
+                      "Level 18"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "9 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Run-away",
+                      "false"
+                  ],
+                  [
+                      "Unburden",
+                      "false"
+                  ],
+                  [
+                      "Stakeout",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/827.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/827.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/827.png"
+          }
+      },
+      {
+          "id": 828,
+          "name": {
+              "english": "Thievul",
+              "japanese": "フォクスライ",
+              "chinese": "狐大盗",
+              "french": "Roublenard"
+          },
+          "type": [
+              "Dark"
+          ],
+          "species": "Fox Pokémon",
+          "description": "With a lithe body and sharp claws, it goes around stealing food and eggs. Boltund is its natural enemy.",
+          "evolution": {
+              "prev": [
+                  "827",
+                  "Level 18"
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "20 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Run-away",
+                      "false"
+                  ],
+                  [
+                      "Unburden",
+                      "false"
+                  ],
+                  [
+                      "Stakeout",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/828.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/828.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/828.png"
+          }
+      },
+      {
+          "id": 829,
+          "name": {
+              "english": "Gossifleur",
+              "japanese": "ヒメンカ",
+              "chinese": "幼棉棉",
+              "french": "Tournicoton"
+          },
+          "type": [
+              "Grass"
+          ],
+          "species": "Flowering Pokémon",
+          "description": "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon.",
+          "evolution": {
+              "next": [
+                  [
+                      "830",
+                      "Level 20"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0 m",
+              "weight": "2 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Cotton-down",
+                      "false"
+                  ],
+                  [
+                      "Regenerator",
+                      "false"
+                  ],
+                  [
+                      "Effect-spore",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/829.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/829.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/829.png"
+          }
+      },
+      {
+          "id": 830,
+          "name": {
+              "english": "Eldegoss",
+              "japanese": "ワタシラガ",
+              "chinese": "白蓬蓬",
+              "french": "Blancoton"
+          },
+          "type": [
+              "Grass"
+          ],
+          "species": "Cotton Bloom Pokémon",
+          "description": "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty.",
+          "evolution": {
+              "prev": [
+                  "829",
+                  "Level 20"
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "2 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Cotton-down",
+                      "false"
+                  ],
+                  [
+                      "Regenerator",
+                      "false"
+                  ],
+                  [
+                      "Effect-spore",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/830.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/830.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/830.png"
+          }
+      },
+      {
+          "id": 831,
+          "name": {
+              "english": "Wooloo",
+              "japanese": "ウールー",
+              "chinese": "毛辫羊",
+              "french": "Moumouton"
+          },
+          "type": [
+              "Normal"
+          ],
+          "species": "Sheep Pokémon",
+          "description": "If its fleece grows too long, Wooloo won’t be able to move. Cloth made with the wool of this Pokémon is surprisingly strong.",
+          "evolution": {
+              "next": [
+                  [
+                      "832",
+                      "Level 24"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "6 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Fluffy",
+                      "false"
+                  ],
+                  [
+                      "Run-away",
+                      "false"
+                  ],
+                  [
+                      "Bulletproof",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/831.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/831.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/831.png"
+          }
+      },
+      {
+          "id": 832,
+          "name": {
+              "english": "Dubwool",
+              "japanese": "バイウールー",
+              "chinese": "毛毛角羊",
+              "french": "Moumouflon"
+          },
+          "type": [
+              "Normal"
+          ],
+          "species": "Sheep Pokémon",
+          "description": "Its majestic horns are meant only to impress the opposite gender. They never see use in battle.",
+          "evolution": {
+              "prev": [
+                  "831",
+                  "Level 24"
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "43 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Fluffy",
+                      "false"
+                  ],
+                  [
+                      "Run-away",
+                      "false"
+                  ],
+                  [
+                      "Bulletproof",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/832.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/832.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/832.png"
+          }
+      },
+      {
+          "id": 833,
+          "name": {
+              "english": "Chewtle",
+              "japanese": "カムカメ",
+              "chinese": "咬咬龟 ",
+              "french": "Khélocrok"
+          },
+          "type": [
+              "Water"
+          ],
+          "species": "Snapping Pokémon",
+          "description": "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go.",
+          "evolution": {
+              "next": [
+                  [
+                      "834",
+                      "Level 22"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0 m",
+              "weight": "8 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Strong-jaw",
+                      "false"
+                  ],
+                  [
+                      "Shell-armor",
+                      "false"
+                  ],
+                  [
+                      "Swift-swim",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/833.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/833.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/833.png"
+          }
+      },
+      {
+          "id": 834,
+          "name": {
+              "english": "Drednaw",
+              "japanese": "カジリガメ",
+              "chinese": "暴噬龟",
+              "french": "Torgamord"
+          },
+          "type": [
+              "Water",
+              "Rock"
+          ],
+          "species": "Bite Pokémon",
+          "description": "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down.",
+          "evolution": {
+              "prev": [
+                  "833",
+                  "Level 22"
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "116 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Strong-jaw",
+                      "false"
+                  ],
+                  [
+                      "Shell-armor",
+                      "false"
+                  ],
+                  [
+                      "Swift-swim",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/834.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/834.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/834.png"
+          }
+      },
+      {
+          "id": 835,
+          "name": {
+              "english": "Yamper",
+              "japanese": "ワンパチ",
+              "chinese": "来电汪",
+              "french": "Voltoutou"
+          },
+          "type": [
+              "Electric"
+          ],
+          "species": "Puppy Pokémon",
+          "description": "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity.",
+          "evolution": {
+              "next": [
+                  [
+                      "836",
+                      "Level 25"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0 m",
+              "weight": "14 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Ball-fetch",
+                      "false"
+                  ],
+                  [
+                      "Rattled",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/835.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/835.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/835.png"
+          }
+      },
+      {
+          "id": 836,
+          "name": {
+              "english": "Boltund",
+              "japanese": "パルスワン",
+              "chinese": "逐电犬",
+              "french": "Fulgudog"
+          },
+          "type": [
+              "Electric"
+          ],
+          "species": "Dog Pokémon",
+          "description": "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph.",
+          "evolution": {
+              "prev": [
+                  "835",
+                  "Level 25"
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "34 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Strong-jaw",
+                      "false"
+                  ],
+                  [
+                      "Competitive",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/836.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/836.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/836.png"
+          }
+      },
+      {
+          "id": 837,
+          "name": {
+              "english": "Rolycoly",
+              "japanese": "タンドン",
+              "chinese": "小炭仔",
+              "french": "Charbi"
+          },
+          "type": [
+              "Rock"
+          ],
+          "species": "Coal Pokémon",
+          "description": "It can race around like a unicycle, even on rough, rocky terrain. Burning coal sustains it.",
+          "evolution": {
+              "next": [
+                  [
+                      "838",
+                      "Level 18"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0 m",
+              "weight": "12 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Steam-engine",
+                      "false"
+                  ],
+                  [
+                      "Heatproof",
+                      "false"
+                  ],
+                  [
+                      "Flash-fire",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/837.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/837.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/837.png"
+          }
+      },
+      {
+          "id": 838,
+          "name": {
+              "english": "Carkol",
+              "japanese": "トロッゴン",
+              "chinese": "大炭车",
+              "french": "Wagomine"
+          },
+          "type": [
+              "Rock",
+              "Fire"
+          ],
+          "species": "Coal Pokémon",
+          "description": "By rapidly rolling its legs, it can travel at over 18 mph. The temperature of the flames it breathes exceeds 1,800 degrees Fahrenheit.",
+          "evolution": {
+              "prev": [
+                  "837",
+                  "Level 18"
+              ],
+              "next": [
+                  [
+                      "839",
+                      "Level 34"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "78 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Steam-engine",
+                      "false"
+                  ],
+                  [
+                      "Flame-body",
+                      "false"
+                  ],
+                  [
+                      "Flash-fire",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/838.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/838.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/838.png"
+          }
+      },
+      {
+          "id": 839,
+          "name": {
+              "english": "Coalossal",
+              "japanese": "セキタンザン",
+              "chinese": "巨炭山",
+              "french": "Monthracite"
+          },
+          "type": [
+              "Rock",
+              "Fire"
+          ],
+          "species": "Coal Pokémon",
+          "description": "While it’s engaged in battle, its mountain of coal will burn bright red, sending off sparks that scorch the surrounding area.",
+          "evolution": {
+              "prev": [
+                  "838",
+                  "Level 34"
+              ]
+          },
+          "profile": {
+              "height": "3 m",
+              "weight": "310 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Steam-engine",
+                      "false"
+                  ],
+                  [
+                      "Flame-body",
+                      "false"
+                  ],
+                  [
+                      "Flash-fire",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/839.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/839.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/839.png"
+          }
+      },
+      {
+          "id": 840,
+          "name": {
+              "english": "Applin",
+              "japanese": "カジッチュ",
+              "chinese": "啃果虫",
+              "french": "Verpom"
+          },
+          "type": [
+              "Grass",
+              "Dragon"
+          ],
+          "species": "Apple Core Pokémon",
+          "description": "As soon as it’s born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution.",
+          "evolution": {
+              "next": [
+                  [
+                      "841",
+                      "use "
+                  ],
+                  [
+                      "842",
+                      "use "
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0 m",
+              "weight": "0 kg",
+              "gender": "50.0:50.0",
+              "ability": [
+                  [
+                      "Ripen",
+                      "false"
+                  ],
+                  [
+                      "Gluttony",
+                      "false"
+                  ],
+                  [
+                      "Bulletproof",
+                      "true"
+                  ]
+              ]
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/840.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/840.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/840.png"
+          }
+      }
+  ],
+  "links": {
+      "self": "/api/pokemon/21.json",
+      "prev": "/api/pokemon/20.json",
+      "next": "/api/pokemon/22.json",
+      "first": "/api/pokemon/1.json",
+      "last": "/api/pokemon/23.json"
+  },
+  "meta": {
+      "currentPage": 21,
+      "totalPages": 23,
+      "total": 898,
+      "estimatedTotal": 898,
+      "page": {
+          "size": 40,
+          "total": 898,
+          "estimatedTotal": 898
+      }
+  }
+}

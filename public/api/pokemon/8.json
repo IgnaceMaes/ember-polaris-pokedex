@@ -1,0 +1,2205 @@
+{
+  "data": [
+      {
+          "id": 281,
+          "name": {
+              "english": "Kirlia",
+              "japanese": "キルリア",
+              "chinese": "奇鲁莉安",
+              "french": "Kirlia"
+          },
+          "type": [
+              "Psychic",
+              "Fairy"
+          ],
+          "base": {
+              "HP": 38,
+              "Attack": 35,
+              "Defense": 35,
+              "Sp. Attack": 65,
+              "Sp. Defense": 55,
+              "Speed": 50
+          },
+          "species": "Emotion Pokémon",
+          "description": "Kirlia uses the horns on its head to amplify its psychokinetic power. When the Pokémon uses its power, the air around it becomes distorted, creating mirages of nonexistent scenery.",
+          "evolution": {
+              "prev": [
+                  "280",
+                  "Level 20"
+              ],
+              "next": [
+                  [
+                      "282",
+                      "Level 30"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.8 m",
+              "weight": "20.2 kg",
+              "egg": [
+                  "Amorphous"
+              ],
+              "ability": [
+                  [
+                      "Synchronize",
+                      "false"
+                  ],
+                  [
+                      "Trace",
+                      "false"
+                  ],
+                  [
+                      "Telepathy",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/281.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/281.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/281.png"
+          }
+      },
+      {
+          "id": 282,
+          "name": {
+              "english": "Gardevoir",
+              "japanese": "サーナイト",
+              "chinese": "沙奈朵",
+              "french": "Gardevoir"
+          },
+          "type": [
+              "Psychic",
+              "Fairy"
+          ],
+          "base": {
+              "HP": 68,
+              "Attack": 65,
+              "Defense": 65,
+              "Sp. Attack": 125,
+              "Sp. Defense": 115,
+              "Speed": 80
+          },
+          "species": "Embrace Pokémon",
+          "description": "Gardevoir has the psychokinetic power to distort the dimensions and create a small black hole. This Pokémon will try to protect its Trainer even at the risk of its own life.",
+          "evolution": {
+              "prev": [
+                  "281",
+                  "Level 30"
+              ]
+          },
+          "profile": {
+              "height": "1.6 m",
+              "weight": "48.4 kg",
+              "egg": [
+                  "Amorphous"
+              ],
+              "ability": [
+                  [
+                      "Synchronize",
+                      "false"
+                  ],
+                  [
+                      "Trace",
+                      "false"
+                  ],
+                  [
+                      "Telepathy",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/282.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/282.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/282.png"
+          }
+      },
+      {
+          "id": 283,
+          "name": {
+              "english": "Surskit",
+              "japanese": "アメタマ",
+              "chinese": "溜溜糖球",
+              "french": "Arakdo"
+          },
+          "type": [
+              "Bug",
+              "Water"
+          ],
+          "base": {
+              "HP": 40,
+              "Attack": 30,
+              "Defense": 32,
+              "Sp. Attack": 50,
+              "Sp. Defense": 52,
+              "Speed": 65
+          },
+          "species": "Pond Skater Pokémon",
+          "description": "It lives in ponds and marshes that feature lots of plant life. It often fights with Dewpider, whose habitat and diet are similar.",
+          "evolution": {
+              "next": [
+                  [
+                      "284",
+                      "Level 22"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.5 m",
+              "weight": "1.7 kg",
+              "egg": [
+                  "Water 1",
+                  "Bug"
+              ],
+              "ability": [
+                  [
+                      "Swift Swim",
+                      "false"
+                  ],
+                  [
+                      "Rain Dish",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/283.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/283.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/283.png"
+          }
+      },
+      {
+          "id": 284,
+          "name": {
+              "english": "Masquerain",
+              "japanese": "アメモース",
+              "chinese": "雨翅蛾",
+              "french": "Maskadra"
+          },
+          "type": [
+              "Bug",
+              "Flying"
+          ],
+          "base": {
+              "HP": 70,
+              "Attack": 60,
+              "Defense": 62,
+              "Sp. Attack": 100,
+              "Sp. Defense": 82,
+              "Speed": 80
+          },
+          "species": "Eyeball Pokémon",
+          "description": "Its thin, winglike antennae are highly absorbent. It waits out rainy days in tree hollows.",
+          "evolution": {
+              "prev": [
+                  "283",
+                  "Level 22"
+              ]
+          },
+          "profile": {
+              "height": "0.8 m",
+              "weight": "3.6 kg",
+              "egg": [
+                  "Water 1",
+                  "Bug"
+              ],
+              "ability": [
+                  [
+                      "Intimidate",
+                      "false"
+                  ],
+                  [
+                      "Unnerve",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/284.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/284.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/284.png"
+          }
+      },
+      {
+          "id": 285,
+          "name": {
+              "english": "Shroomish",
+              "japanese": "キノココ",
+              "chinese": "蘑蘑菇",
+              "french": "Balignon"
+          },
+          "type": [
+              "Grass"
+          ],
+          "base": {
+              "HP": 60,
+              "Attack": 40,
+              "Defense": 60,
+              "Sp. Attack": 40,
+              "Sp. Defense": 60,
+              "Speed": 35
+          },
+          "species": "Mushroom Pokémon",
+          "description": "If Shroomish senses danger, it shakes its body and scatters spores from the top of its head. This Pokémon’s spores are so toxic, they make trees and weeds wilt.",
+          "evolution": {
+              "next": [
+                  [
+                      "286",
+                      "Level 23"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.4 m",
+              "weight": "4.5 kg",
+              "egg": [
+                  "Fairy",
+                  "Grass"
+              ],
+              "ability": [
+                  [
+                      "Effect Spore",
+                      "false"
+                  ],
+                  [
+                      "Poison Heal",
+                      "false"
+                  ],
+                  [
+                      "Quick Feet",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/285.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/285.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/285.png"
+          }
+      },
+      {
+          "id": 286,
+          "name": {
+              "english": "Breloom",
+              "japanese": "キノガッサ",
+              "chinese": "斗笠菇",
+              "french": "Chapignon"
+          },
+          "type": [
+              "Grass",
+              "Fighting"
+          ],
+          "base": {
+              "HP": 60,
+              "Attack": 130,
+              "Defense": 80,
+              "Sp. Attack": 60,
+              "Sp. Defense": 60,
+              "Speed": 70
+          },
+          "species": "Mushroom Pokémon",
+          "description": "The seeds ringing Breloom’s tail are made of hardened toxic spores. It is horrible to eat the seeds. Just taking a bite of this Pokémon’s seed will cause your stomach to rumble.",
+          "evolution": {
+              "prev": [
+                  "285",
+                  "Level 23"
+              ]
+          },
+          "profile": {
+              "height": "1.2 m",
+              "weight": "39.2 kg",
+              "egg": [
+                  "Fairy",
+                  "Grass"
+              ],
+              "ability": [
+                  [
+                      "Effect Spore",
+                      "false"
+                  ],
+                  [
+                      "Poison Heal",
+                      "false"
+                  ],
+                  [
+                      "Technician",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/286.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/286.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/286.png"
+          }
+      },
+      {
+          "id": 287,
+          "name": {
+              "english": "Slakoth",
+              "japanese": "ナマケロ",
+              "chinese": "懒人獭",
+              "french": "Parecool"
+          },
+          "type": [
+              "Normal"
+          ],
+          "base": {
+              "HP": 60,
+              "Attack": 60,
+              "Defense": 60,
+              "Sp. Attack": 35,
+              "Sp. Defense": 35,
+              "Speed": 30
+          },
+          "species": "Slacker Pokémon",
+          "description": "Slakoth’s heart beats just once a minute. Whatever happens, it is content to loaf around motionless. It is rare to see this Pokémon in motion.",
+          "evolution": {
+              "next": [
+                  [
+                      "288",
+                      "Level 18"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.8 m",
+              "weight": "24 kg",
+              "egg": [
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Truant",
+                      "false"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/287.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/287.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/287.png"
+          }
+      },
+      {
+          "id": 288,
+          "name": {
+              "english": "Vigoroth",
+              "japanese": "ヤルキモノ",
+              "chinese": "过动猿",
+              "french": "Vigoroth"
+          },
+          "type": [
+              "Normal"
+          ],
+          "base": {
+              "HP": 80,
+              "Attack": 80,
+              "Defense": 80,
+              "Sp. Attack": 55,
+              "Sp. Defense": 55,
+              "Speed": 90
+          },
+          "species": "Wild Monkey Pokémon",
+          "description": "Vigoroth is simply incapable of remaining still. Even when it tries to sleep, the blood in its veins grows agitated, compelling this Pokémon to run wild throughout the jungle before it can settle down.",
+          "evolution": {
+              "prev": [
+                  "287",
+                  "Level 18"
+              ],
+              "next": [
+                  [
+                      "289",
+                      "Level 36"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1.4 m",
+              "weight": "46.5 kg",
+              "egg": [
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Vital Spirit",
+                      "false"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/288.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/288.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/288.png"
+          }
+      },
+      {
+          "id": 289,
+          "name": {
+              "english": "Slaking",
+              "japanese": "ケッキング",
+              "chinese": "请假王",
+              "french": "Monaflèmit"
+          },
+          "type": [
+              "Normal"
+          ],
+          "base": {
+              "HP": 150,
+              "Attack": 160,
+              "Defense": 100,
+              "Sp. Attack": 95,
+              "Sp. Defense": 65,
+              "Speed": 100
+          },
+          "species": "Lazy Pokémon",
+          "description": "Wherever Slaking live, rings of over a yard in diameter appear in grassy fields. They are made by the Pokémon as it eats all the grass within reach while lying prone on the ground.",
+          "evolution": {
+              "prev": [
+                  "288",
+                  "Level 36"
+              ]
+          },
+          "profile": {
+              "height": "2 m",
+              "weight": "130.5 kg",
+              "egg": [
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Truant",
+                      "false"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/289.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/289.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/289.png"
+          }
+      },
+      {
+          "id": 290,
+          "name": {
+              "english": "Nincada",
+              "japanese": "ツチニン",
+              "chinese": "土居忍士",
+              "french": "Ningale"
+          },
+          "type": [
+              "Bug",
+              "Ground"
+          ],
+          "base": {
+              "HP": 31,
+              "Attack": 45,
+              "Defense": 90,
+              "Sp. Attack": 30,
+              "Sp. Defense": 30,
+              "Speed": 40
+          },
+          "species": "Trainee Pokémon",
+          "description": "Nincada lives underground. It uses its sharp claws to carve the roots of trees and absorb moisture and nutrients. This Pokémon can’t withstand bright sunlight so avoids it.",
+          "evolution": {
+              "next": [
+                  [
+                      "291",
+                      "Level 20"
+                  ],
+                  [
+                      "292",
+                      "Level 20, empty spot in party, Pokéball in bag"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.5 m",
+              "weight": "5.5 kg",
+              "egg": [
+                  "Bug"
+              ],
+              "ability": [
+                  [
+                      "Compound Eyes",
+                      "false"
+                  ],
+                  [
+                      "Run Away",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/290.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/290.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/290.png"
+          }
+      },
+      {
+          "id": 291,
+          "name": {
+              "english": "Ninjask",
+              "japanese": "テッカニン",
+              "chinese": "铁面忍者",
+              "french": "Ninjask"
+          },
+          "type": [
+              "Bug",
+              "Flying"
+          ],
+          "base": {
+              "HP": 61,
+              "Attack": 90,
+              "Defense": 45,
+              "Sp. Attack": 50,
+              "Sp. Defense": 50,
+              "Speed": 160
+          },
+          "species": "Ninja Pokémon",
+          "description": "If Ninjask is not trained properly, it will refuse to obey the Trainer and cry loudly continuously. Because of this quality, this Pokémon is said to be one that puts the Trainer’s abilities to the test.",
+          "evolution": {
+              "prev": [
+                  "290",
+                  "Level 20"
+              ]
+          },
+          "profile": {
+              "height": "0.8 m",
+              "weight": "12 kg",
+              "egg": [
+                  "Bug"
+              ],
+              "ability": [
+                  [
+                      "Speed Boost",
+                      "false"
+                  ],
+                  [
+                      "Infiltrator",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/291.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/291.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/291.png"
+          }
+      },
+      {
+          "id": 292,
+          "name": {
+              "english": "Shedinja",
+              "japanese": "ヌケニン",
+              "chinese": "脱壳忍者",
+              "french": "Munja"
+          },
+          "type": [
+              "Bug",
+              "Ghost"
+          ],
+          "base": {
+              "HP": 1,
+              "Attack": 90,
+              "Defense": 45,
+              "Sp. Attack": 30,
+              "Sp. Defense": 30,
+              "Speed": 40
+          },
+          "species": "Shed Pokémon",
+          "description": "Shedinja is a peculiar Pokémon. It seems to appear unsought in a Poké Ball after a Nincada evolves. This bizarre Pokémon is entirely immobile—it doesn’t even breathe.",
+          "evolution": {
+              "prev": [
+                  "290",
+                  "Level 20, empty spot in party, Pokéball in bag"
+              ]
+          },
+          "profile": {
+              "height": "0.8 m",
+              "weight": "1.2 kg",
+              "egg": [
+                  "Mineral"
+              ],
+              "ability": [
+                  [
+                      "Wonder Guard",
+                      "false"
+                  ]
+              ],
+              "gender": "Genderless"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/292.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/292.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/292.png"
+          }
+      },
+      {
+          "id": 293,
+          "name": {
+              "english": "Whismur",
+              "japanese": "ゴニョニョ",
+              "chinese": "咕妞妞",
+              "french": "Chuchmur"
+          },
+          "type": [
+              "Normal"
+          ],
+          "base": {
+              "HP": 64,
+              "Attack": 51,
+              "Defense": 23,
+              "Sp. Attack": 51,
+              "Sp. Defense": 23,
+              "Speed": 28
+          },
+          "species": "Whisper Pokémon",
+          "description": "Whismur is very timid. If it starts to cry loudly, it becomes startled by its own crying and cries even harder. When it finally stops crying, the Pokémon goes to sleep, all tired out.",
+          "evolution": {
+              "next": [
+                  [
+                      "294",
+                      "Level 20"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.6 m",
+              "weight": "16.3 kg",
+              "egg": [
+                  "Monster",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Soundproof",
+                      "false"
+                  ],
+                  [
+                      "Rattled",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/293.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/293.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/293.png"
+          }
+      },
+      {
+          "id": 294,
+          "name": {
+              "english": "Loudred",
+              "japanese": "ドゴーム",
+              "chinese": "吼爆弹",
+              "french": "Ramboum"
+          },
+          "type": [
+              "Normal"
+          ],
+          "base": {
+              "HP": 84,
+              "Attack": 71,
+              "Defense": 43,
+              "Sp. Attack": 71,
+              "Sp. Defense": 43,
+              "Speed": 48
+          },
+          "species": "Big Voice Pokémon",
+          "description": "Loudred shouts while stamping its feet. After it finishes shouting, this Pokémon becomes incapable of hearing anything for a while. This is considered to be a weak point.",
+          "evolution": {
+              "prev": [
+                  "293",
+                  "Level 20"
+              ],
+              "next": [
+                  [
+                      "295",
+                      "Level 40"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "40.5 kg",
+              "egg": [
+                  "Monster",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Soundproof",
+                      "false"
+                  ],
+                  [
+                      "Scrappy",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/294.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/294.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/294.png"
+          }
+      },
+      {
+          "id": 295,
+          "name": {
+              "english": "Exploud",
+              "japanese": "バクオング",
+              "chinese": "爆音怪",
+              "french": "Brouhabam"
+          },
+          "type": [
+              "Normal"
+          ],
+          "base": {
+              "HP": 104,
+              "Attack": 91,
+              "Defense": 63,
+              "Sp. Attack": 91,
+              "Sp. Defense": 73,
+              "Speed": 68
+          },
+          "species": "Loud Noise Pokémon",
+          "description": "Exploud communicates its feelings to the others by emitting whistle-like sounds from the tubes on its body. This Pokémon only raises its voice when it is in battle.",
+          "evolution": {
+              "prev": [
+                  "294",
+                  "Level 40"
+              ]
+          },
+          "profile": {
+              "height": "1.5 m",
+              "weight": "84 kg",
+              "egg": [
+                  "Monster",
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Soundproof",
+                      "false"
+                  ],
+                  [
+                      "Scrappy",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/295.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/295.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/295.png"
+          }
+      },
+      {
+          "id": 296,
+          "name": {
+              "english": "Makuhita",
+              "japanese": "マクノシタ",
+              "chinese": "幕下力士",
+              "french": "Makuhita"
+          },
+          "type": [
+              "Fighting"
+          ],
+          "base": {
+              "HP": 72,
+              "Attack": 60,
+              "Defense": 30,
+              "Sp. Attack": 20,
+              "Sp. Defense": 30,
+              "Speed": 25
+          },
+          "species": "Guts Pokémon",
+          "description": "There’s a rumor of a traditional recipe for stew that Trainers can use to raise strong Makuhita.",
+          "evolution": {
+              "next": [
+                  [
+                      "297",
+                      "Level 24"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "86.4 kg",
+              "egg": [
+                  "Human-Like"
+              ],
+              "ability": [
+                  [
+                      "Thick Fat",
+                      "false"
+                  ],
+                  [
+                      "Guts",
+                      "false"
+                  ],
+                  [
+                      "Sheer Force",
+                      "true"
+                  ]
+              ],
+              "gender": "75:25"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/296.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/296.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/296.png"
+          }
+      },
+      {
+          "id": 297,
+          "name": {
+              "english": "Hariyama",
+              "japanese": "ハリテヤマ",
+              "chinese": "铁掌力士",
+              "french": "Hariyama"
+          },
+          "type": [
+              "Fighting"
+          ],
+          "base": {
+              "HP": 144,
+              "Attack": 120,
+              "Defense": 60,
+              "Sp. Attack": 40,
+              "Sp. Defense": 60,
+              "Speed": 50
+          },
+          "species": "Arm Thrust Pokémon",
+          "description": "Hariyama that are big and fat aren’t necessarily strong. There are some small ones that move nimbly and use moves skillfully.",
+          "evolution": {
+              "prev": [
+                  "296",
+                  "Level 24"
+              ]
+          },
+          "profile": {
+              "height": "2.3 m",
+              "weight": "253.8 kg",
+              "egg": [
+                  "Human-Like"
+              ],
+              "ability": [
+                  [
+                      "Thick Fat",
+                      "false"
+                  ],
+                  [
+                      "Guts",
+                      "false"
+                  ],
+                  [
+                      "Sheer Force",
+                      "true"
+                  ]
+              ],
+              "gender": "75:25"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/297.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/297.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/297.png"
+          }
+      },
+      {
+          "id": 298,
+          "name": {
+              "english": "Azurill",
+              "japanese": "ルリリ",
+              "chinese": "露力丽",
+              "french": "Azurill"
+          },
+          "type": [
+              "Normal",
+              "Fairy"
+          ],
+          "base": {
+              "HP": 50,
+              "Attack": 20,
+              "Defense": 40,
+              "Sp. Attack": 20,
+              "Sp. Defense": 40,
+              "Speed": 20
+          },
+          "species": "Polka Dot Pokémon",
+          "description": "Azurill’s tail is large and bouncy. It is packed full of the nutrients this Pokémon needs to grow. Azurill can be seen bouncing and playing on its big, rubbery tail.",
+          "evolution": {
+              "next": [
+                  [
+                      "183",
+                      "high Friendship"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.2 m",
+              "weight": "2 kg",
+              "egg": [
+                  "Undiscovered"
+              ],
+              "ability": [
+                  [
+                      "Thick Fat",
+                      "false"
+                  ],
+                  [
+                      "Huge Power",
+                      "false"
+                  ],
+                  [
+                      "Sap Sipper",
+                      "true"
+                  ]
+              ],
+              "gender": "25:75"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/298.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/298.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/298.png"
+          }
+      },
+      {
+          "id": 299,
+          "name": {
+              "english": "Nosepass",
+              "japanese": "ノズパス",
+              "chinese": "朝北鼻",
+              "french": "Tarinor"
+          },
+          "type": [
+              "Rock"
+          ],
+          "base": {
+              "HP": 30,
+              "Attack": 45,
+              "Defense": 135,
+              "Sp. Attack": 45,
+              "Sp. Defense": 90,
+              "Speed": 30
+          },
+          "species": "Compass Pokémon",
+          "description": "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close.",
+          "evolution": {
+              "next": [
+                  [
+                      "476",
+                      "level up in a Magnetic Field area"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "1 m",
+              "weight": "97 kg",
+              "egg": [
+                  "Mineral"
+              ],
+              "ability": [
+                  [
+                      "Sturdy",
+                      "false"
+                  ],
+                  [
+                      "Magnet Pull",
+                      "false"
+                  ],
+                  [
+                      "Sand Force",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/299.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/299.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/299.png"
+          }
+      },
+      {
+          "id": 300,
+          "name": {
+              "english": "Skitty",
+              "japanese": "エネコ",
+              "chinese": "向尾喵",
+              "french": "Skitty"
+          },
+          "type": [
+              "Normal"
+          ],
+          "base": {
+              "HP": 50,
+              "Attack": 45,
+              "Defense": 45,
+              "Sp. Attack": 35,
+              "Sp. Defense": 35,
+              "Speed": 50
+          },
+          "species": "Kitten Pokémon",
+          "description": "Skitty is known to chase around playfully after its own tail. In the wild, this Pokémon lives in holes in the trees of forests. It is very popular as a pet because of its adorable looks.",
+          "evolution": {
+              "next": [
+                  [
+                      "301",
+                      "use Moon Stone"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.6 m",
+              "weight": "11 kg",
+              "egg": [
+                  "Field",
+                  "Fairy"
+              ],
+              "ability": [
+                  [
+                      "Cute Charm",
+                      "false"
+                  ],
+                  [
+                      "Normalize",
+                      "false"
+                  ],
+                  [
+                      "Wonder Skin",
+                      "true"
+                  ]
+              ],
+              "gender": "25:75"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/300.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/300.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/300.png"
+          }
+      },
+      {
+          "id": 301,
+          "name": {
+              "english": "Delcatty",
+              "japanese": "エネコロロ",
+              "chinese": "优雅猫",
+              "french": "Delcatty"
+          },
+          "type": [
+              "Normal"
+          ],
+          "base": {
+              "HP": 70,
+              "Attack": 65,
+              "Defense": 65,
+              "Sp. Attack": 55,
+              "Sp. Defense": 55,
+              "Speed": 90
+          },
+          "species": "Prim Pokémon",
+          "description": "Delcatty sleeps anywhere it wants without keeping a permanent nest. If other Pokémon approach it as it sleeps, this Pokémon will never fight—it will just move away somewhere else.",
+          "evolution": {
+              "prev": [
+                  "300",
+                  "use Moon Stone"
+              ]
+          },
+          "profile": {
+              "height": "1.1 m",
+              "weight": "32.6 kg",
+              "egg": [
+                  "Field",
+                  "Fairy"
+              ],
+              "ability": [
+                  [
+                      "Cute Charm",
+                      "false"
+                  ],
+                  [
+                      "Normalize",
+                      "false"
+                  ],
+                  [
+                      "Wonder Skin",
+                      "true"
+                  ]
+              ],
+              "gender": "25:75"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/301.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/301.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/301.png"
+          }
+      },
+      {
+          "id": 302,
+          "name": {
+              "english": "Sableye",
+              "japanese": "ヤミラミ",
+              "chinese": "勾魂眼",
+              "french": "Ténéfix"
+          },
+          "type": [
+              "Dark",
+              "Ghost"
+          ],
+          "base": {
+              "HP": 50,
+              "Attack": 75,
+              "Defense": 75,
+              "Sp. Attack": 65,
+              "Sp. Defense": 65,
+              "Speed": 50
+          },
+          "species": "Darkness Pokémon",
+          "description": "Materials from gems it has eaten float to the surface of its body and can form an infinite number of patterns among individuals.",
+          "evolution": {},
+          "profile": {
+              "height": "0.5 m",
+              "weight": "11 kg",
+              "egg": [
+                  "Human-Like"
+              ],
+              "ability": [
+                  [
+                      "Keen Eye",
+                      "false"
+                  ],
+                  [
+                      "Stall",
+                      "false"
+                  ],
+                  [
+                      "Prankster",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/302.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/302.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/302.png"
+          }
+      },
+      {
+          "id": 303,
+          "name": {
+              "english": "Mawile",
+              "japanese": "クチート",
+              "chinese": "大嘴娃",
+              "french": "Mysdibule"
+          },
+          "type": [
+              "Steel",
+              "Fairy"
+          ],
+          "base": {
+              "HP": 50,
+              "Attack": 85,
+              "Defense": 85,
+              "Sp. Attack": 55,
+              "Sp. Defense": 55,
+              "Speed": 50
+          },
+          "species": "Deceiver Pokémon",
+          "description": "It has two mouths. The big jaws on the back of its head can’t taste anything, so that’s the mouth it uses to eat foods it doesn’t like.",
+          "evolution": {},
+          "profile": {
+              "height": "0.6 m",
+              "weight": "11.5 kg",
+              "egg": [
+                  "Field",
+                  "Fairy"
+              ],
+              "ability": [
+                  [
+                      "Hyper Cutter",
+                      "false"
+                  ],
+                  [
+                      "Intimidate",
+                      "false"
+                  ],
+                  [
+                      "Sheer Force",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/303.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/303.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/303.png"
+          }
+      },
+      {
+          "id": 304,
+          "name": {
+              "english": "Aron",
+              "japanese": "ココドラ",
+              "chinese": "可可多拉",
+              "french": "Galekid"
+          },
+          "type": [
+              "Steel",
+              "Rock"
+          ],
+          "base": {
+              "HP": 50,
+              "Attack": 70,
+              "Defense": 100,
+              "Sp. Attack": 40,
+              "Sp. Defense": 40,
+              "Speed": 30
+          },
+          "species": "Iron Armor Pokémon",
+          "description": "Aron has a body of steel. With one all-out charge, this Pokémon can demolish even a heavy dump truck. The destroyed dump truck then becomes a handy meal for the Pokémon.",
+          "evolution": {
+              "next": [
+                  [
+                      "305",
+                      "Level 32"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.4 m",
+              "weight": "60 kg",
+              "egg": [
+                  "Monster"
+              ],
+              "ability": [
+                  [
+                      "Sturdy",
+                      "false"
+                  ],
+                  [
+                      "Rock Head",
+                      "false"
+                  ],
+                  [
+                      "Heavy Metal",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/304.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/304.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/304.png"
+          }
+      },
+      {
+          "id": 305,
+          "name": {
+              "english": "Lairon",
+              "japanese": "コドラ",
+              "chinese": "可多拉",
+              "french": "Galegon"
+          },
+          "type": [
+              "Steel",
+              "Rock"
+          ],
+          "base": {
+              "HP": 60,
+              "Attack": 90,
+              "Defense": 140,
+              "Sp. Attack": 50,
+              "Sp. Defense": 50,
+              "Speed": 40
+          },
+          "species": "Iron Armor Pokémon",
+          "description": "Lairon feeds on iron contained in rocks and water. It makes its nest on mountains where iron ore is buried. As a result, the Pokémon often clashes with humans mining the iron ore.",
+          "evolution": {
+              "prev": [
+                  "304",
+                  "Level 32"
+              ],
+              "next": [
+                  [
+                      "306",
+                      "Level 42"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.9 m",
+              "weight": "120 kg",
+              "egg": [
+                  "Monster"
+              ],
+              "ability": [
+                  [
+                      "Sturdy",
+                      "false"
+                  ],
+                  [
+                      "Rock Head",
+                      "false"
+                  ],
+                  [
+                      "Heavy Metal",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/305.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/305.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/305.png"
+          }
+      },
+      {
+          "id": 306,
+          "name": {
+              "english": "Aggron",
+              "japanese": "ボスゴドラ",
+              "chinese": "波士可多拉",
+              "french": "Galeking"
+          },
+          "type": [
+              "Steel",
+              "Rock"
+          ],
+          "base": {
+              "HP": 70,
+              "Attack": 110,
+              "Defense": 180,
+              "Sp. Attack": 60,
+              "Sp. Defense": 60,
+              "Speed": 50
+          },
+          "species": "Iron Armor Pokémon",
+          "description": "Aggron is protective of its environment. If its mountain is ravaged by a landslide or a fire, this Pokémon will haul topsoil to the area, plant trees, and beautifully restore its own territory.",
+          "evolution": {
+              "prev": [
+                  "305",
+                  "Level 42"
+              ]
+          },
+          "profile": {
+              "height": "2.1 m",
+              "weight": "360 kg",
+              "egg": [
+                  "Monster"
+              ],
+              "ability": [
+                  [
+                      "Sturdy",
+                      "false"
+                  ],
+                  [
+                      "Rock Head",
+                      "false"
+                  ],
+                  [
+                      "Heavy Metal",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/306.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/306.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/306.png"
+          }
+      },
+      {
+          "id": 307,
+          "name": {
+              "english": "Meditite",
+              "japanese": "アサナン",
+              "chinese": "玛沙那",
+              "french": "Méditikka"
+          },
+          "type": [
+              "Fighting",
+              "Psychic"
+          ],
+          "base": {
+              "HP": 30,
+              "Attack": 40,
+              "Defense": 55,
+              "Sp. Attack": 40,
+              "Sp. Defense": 55,
+              "Speed": 60
+          },
+          "species": "Meditate Pokémon",
+          "description": "Meditite heightens its inner energy through meditation. It survives on just one berry a day. Minimal eating is another aspect of this Pokémon’s training.",
+          "evolution": {
+              "next": [
+                  [
+                      "308",
+                      "Level 37"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.6 m",
+              "weight": "11.2 kg",
+              "egg": [
+                  "Human-Like"
+              ],
+              "ability": [
+                  [
+                      "Pure Power",
+                      "false"
+                  ],
+                  [
+                      "Telepathy",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/307.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/307.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/307.png"
+          }
+      },
+      {
+          "id": 308,
+          "name": {
+              "english": "Medicham",
+              "japanese": "チャーレム",
+              "chinese": "恰雷姆",
+              "french": "Charmina"
+          },
+          "type": [
+              "Fighting",
+              "Psychic"
+          ],
+          "base": {
+              "HP": 60,
+              "Attack": 60,
+              "Defense": 75,
+              "Sp. Attack": 60,
+              "Sp. Defense": 75,
+              "Speed": 80
+          },
+          "species": "Meditate Pokémon",
+          "description": "Through the power of meditation, Medicham developed its sixth sense. It gained the ability to use psychokinetic powers. This Pokémon is known to meditate for a whole month without eating.",
+          "evolution": {
+              "prev": [
+                  "307",
+                  "Level 37"
+              ]
+          },
+          "profile": {
+              "height": "1.3 m",
+              "weight": "31.5 kg",
+              "egg": [
+                  "Human-Like"
+              ],
+              "ability": [
+                  [
+                      "Pure Power",
+                      "false"
+                  ],
+                  [
+                      "Telepathy",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/308.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/308.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/308.png"
+          }
+      },
+      {
+          "id": 309,
+          "name": {
+              "english": "Electrike",
+              "japanese": "ラクライ",
+              "chinese": "落雷兽",
+              "french": "Dynavolt"
+          },
+          "type": [
+              "Electric"
+          ],
+          "base": {
+              "HP": 40,
+              "Attack": 45,
+              "Defense": 40,
+              "Sp. Attack": 65,
+              "Sp. Defense": 40,
+              "Speed": 65
+          },
+          "species": "Lightning Pokémon",
+          "description": "Static electricity builds up all over its body as strands of its long fur rub together. This Pokémon boasts incredible speed.",
+          "evolution": {
+              "next": [
+                  [
+                      "310",
+                      "Level 26"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.6 m",
+              "weight": "15.2 kg",
+              "egg": [
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Static",
+                      "false"
+                  ],
+                  [
+                      "Lightning Rod",
+                      "false"
+                  ],
+                  [
+                      "Minus",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/309.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/309.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/309.png"
+          }
+      },
+      {
+          "id": 310,
+          "name": {
+              "english": "Manectric",
+              "japanese": "ライボルト",
+              "chinese": "雷电兽",
+              "french": "Élecsprint"
+          },
+          "type": [
+              "Electric"
+          ],
+          "base": {
+              "HP": 70,
+              "Attack": 75,
+              "Defense": 60,
+              "Sp. Attack": 105,
+              "Sp. Defense": 60,
+              "Speed": 105
+          },
+          "species": "Discharge Pokémon",
+          "description": "It stimulates its own muscles with electricity, so it can move quickly. It eases its soreness with electricity, too, so it can recover quickly as well.",
+          "evolution": {
+              "prev": [
+                  "309",
+                  "Level 26"
+              ]
+          },
+          "profile": {
+              "height": "1.5 m",
+              "weight": "40.2 kg",
+              "egg": [
+                  "Field"
+              ],
+              "ability": [
+                  [
+                      "Static",
+                      "false"
+                  ],
+                  [
+                      "Lightning Rod",
+                      "false"
+                  ],
+                  [
+                      "Minus",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/310.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/310.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/310.png"
+          }
+      },
+      {
+          "id": 311,
+          "name": {
+              "english": "Plusle",
+              "japanese": "プラスル",
+              "chinese": "正电拍拍",
+              "french": "Posipi"
+          },
+          "type": [
+              "Electric"
+          ],
+          "base": {
+              "HP": 60,
+              "Attack": 50,
+              "Defense": 40,
+              "Sp. Attack": 85,
+              "Sp. Defense": 75,
+              "Speed": 95
+          },
+          "species": "Cheering Pokémon",
+          "description": "When Plusle is cheering on its partner, it flashes with electric sparks from all over its body. If its partner loses, this Pokémon cries loudly.",
+          "evolution": {},
+          "profile": {
+              "height": "0.4 m",
+              "weight": "4.2 kg",
+              "egg": [
+                  "Fairy"
+              ],
+              "ability": [
+                  [
+                      "Plus",
+                      "false"
+                  ],
+                  [
+                      "Lightning Rod",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/311.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/311.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/311.png"
+          }
+      },
+      {
+          "id": 312,
+          "name": {
+              "english": "Minun",
+              "japanese": "マイナン",
+              "chinese": "负电拍拍",
+              "french": "Négapi"
+          },
+          "type": [
+              "Electric"
+          ],
+          "base": {
+              "HP": 60,
+              "Attack": 40,
+              "Defense": 50,
+              "Sp. Attack": 75,
+              "Sp. Defense": 85,
+              "Speed": 95
+          },
+          "species": "Cheering Pokémon",
+          "description": "Minun loves to cheer on its partner in battle. It gives off sparks from its body while it is doing so. If its partner is in trouble, this Pokémon gives off increasing amounts of sparks.",
+          "evolution": {},
+          "profile": {
+              "height": "0.4 m",
+              "weight": "4.2 kg",
+              "egg": [
+                  "Fairy"
+              ],
+              "ability": [
+                  [
+                      "Minus",
+                      "false"
+                  ],
+                  [
+                      "Volt Absorb",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/312.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/312.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/312.png"
+          }
+      },
+      {
+          "id": 313,
+          "name": {
+              "english": "Volbeat",
+              "japanese": "バルビート",
+              "chinese": "电萤虫",
+              "french": "Muciole"
+          },
+          "type": [
+              "Bug"
+          ],
+          "base": {
+              "HP": 65,
+              "Attack": 73,
+              "Defense": 75,
+              "Sp. Attack": 47,
+              "Sp. Defense": 85,
+              "Speed": 85
+          },
+          "species": "Firefly Pokémon",
+          "description": "Volbeat’s tail glows like a lightbulb. With other Volbeat, it uses its tail to draw geometric shapes in the night sky. This Pokémon loves the sweet aroma given off by Illumise.",
+          "evolution": {},
+          "profile": {
+              "height": "0.7 m",
+              "weight": "17.7 kg",
+              "egg": [
+                  "Bug",
+                  "Human-Like"
+              ],
+              "ability": [
+                  [
+                      "Illuminate",
+                      "false"
+                  ],
+                  [
+                      "Swarm",
+                      "false"
+                  ],
+                  [
+                      "Prankster",
+                      "true"
+                  ]
+              ],
+              "gender": "100:0"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/313.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/313.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/313.png"
+          }
+      },
+      {
+          "id": 314,
+          "name": {
+              "english": "Illumise",
+              "japanese": "イルミーゼ",
+              "chinese": "甜甜萤",
+              "french": "Lumivole"
+          },
+          "type": [
+              "Bug"
+          ],
+          "base": {
+              "HP": 65,
+              "Attack": 47,
+              "Defense": 75,
+              "Sp. Attack": 73,
+              "Sp. Defense": 85,
+              "Speed": 85
+          },
+          "species": "Firefly Pokémon",
+          "description": "Illumise leads a flight of illuminated Volbeat to draw signs in the night sky. This Pokémon is said to earn greater respect from its peers by composing more complex designs in the sky.",
+          "evolution": {},
+          "profile": {
+              "height": "0.6 m",
+              "weight": "17.7 kg",
+              "egg": [
+                  "Bug",
+                  "Human-Like"
+              ],
+              "ability": [
+                  [
+                      "Oblivious",
+                      "false"
+                  ],
+                  [
+                      "Tinted Lens",
+                      "false"
+                  ],
+                  [
+                      "Prankster",
+                      "true"
+                  ]
+              ],
+              "gender": "0:100"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/314.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/314.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/314.png"
+          }
+      },
+      {
+          "id": 315,
+          "name": {
+              "english": "Roselia",
+              "japanese": "ロゼリア",
+              "chinese": "毒蔷薇",
+              "french": "Rosélia"
+          },
+          "type": [
+              "Grass",
+              "Poison"
+          ],
+          "base": {
+              "HP": 50,
+              "Attack": 60,
+              "Defense": 45,
+              "Sp. Attack": 100,
+              "Sp. Defense": 80,
+              "Speed": 65
+          },
+          "species": "Thorn Pokémon",
+          "description": "On extremely rare occasions, a Roselia is said to appear with its flowers in unusual colors. The thorns on this Pokémon’s head contain a vicious poison.",
+          "evolution": {
+              "prev": [
+                  "406",
+                  "high Friendship, Daytime"
+              ],
+              "next": [
+                  [
+                      "407",
+                      "use Shiny Stone"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.3 m",
+              "weight": "2 kg",
+              "egg": [
+                  "Fairy",
+                  "Grass"
+              ],
+              "ability": [
+                  [
+                      "Natural Cure",
+                      "false"
+                  ],
+                  [
+                      "Poison Point",
+                      "false"
+                  ],
+                  [
+                      "Leaf Guard",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/315.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/315.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/315.png"
+          }
+      },
+      {
+          "id": 316,
+          "name": {
+              "english": "Gulpin",
+              "japanese": "ゴクリン",
+              "chinese": "溶食兽",
+              "french": "Gloupti"
+          },
+          "type": [
+              "Poison"
+          ],
+          "base": {
+              "HP": 70,
+              "Attack": 43,
+              "Defense": 53,
+              "Sp. Attack": 43,
+              "Sp. Defense": 53,
+              "Speed": 40
+          },
+          "species": "Stomach Pokémon",
+          "description": "Most of Gulpin’s body is made up of its stomach—its heart and brain are very small in comparison. This Pokémon’s stomach contains special enzymes that dissolve anything.",
+          "evolution": {
+              "next": [
+                  [
+                      "317",
+                      "Level 26"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.4 m",
+              "weight": "10.3 kg",
+              "egg": [
+                  "Amorphous"
+              ],
+              "ability": [
+                  [
+                      "Liquid Ooze",
+                      "false"
+                  ],
+                  [
+                      "Sticky Hold",
+                      "false"
+                  ],
+                  [
+                      "Gluttony",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/316.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/316.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/316.png"
+          }
+      },
+      {
+          "id": 317,
+          "name": {
+              "english": "Swalot",
+              "japanese": "マルノーム",
+              "chinese": "吞食兽",
+              "french": "Avaltout"
+          },
+          "type": [
+              "Poison"
+          ],
+          "base": {
+              "HP": 100,
+              "Attack": 73,
+              "Defense": 83,
+              "Sp. Attack": 73,
+              "Sp. Defense": 83,
+              "Speed": 55
+          },
+          "species": "Poison Bag Pokémon",
+          "description": "Swalot has no teeth, so what it eats, it swallows whole, no matter what. Its cavernous mouth yawns widely. An automobile tire could easily fit inside this Pokémon’s mouth.",
+          "evolution": {
+              "prev": [
+                  "316",
+                  "Level 26"
+              ]
+          },
+          "profile": {
+              "height": "1.7 m",
+              "weight": "80 kg",
+              "egg": [
+                  "Amorphous"
+              ],
+              "ability": [
+                  [
+                      "Liquid Ooze",
+                      "false"
+                  ],
+                  [
+                      "Sticky Hold",
+                      "false"
+                  ],
+                  [
+                      "Gluttony",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/317.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/317.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/317.png"
+          }
+      },
+      {
+          "id": 318,
+          "name": {
+              "english": "Carvanha",
+              "japanese": "キバニア",
+              "chinese": "利牙鱼",
+              "french": "Carvanha"
+          },
+          "type": [
+              "Water",
+              "Dark"
+          ],
+          "base": {
+              "HP": 45,
+              "Attack": 90,
+              "Defense": 20,
+              "Sp. Attack": 65,
+              "Sp. Defense": 20,
+              "Speed": 65
+          },
+          "species": "Savage Pokémon",
+          "description": "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food.",
+          "evolution": {
+              "next": [
+                  [
+                      "319",
+                      "Level 30"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "0.8 m",
+              "weight": "20.8 kg",
+              "egg": [
+                  "Water 2"
+              ],
+              "ability": [
+                  [
+                      "Rough Skin",
+                      "false"
+                  ],
+                  [
+                      "Speed Boost",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/318.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/318.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/318.png"
+          }
+      },
+      {
+          "id": 319,
+          "name": {
+              "english": "Sharpedo",
+              "japanese": "サメハダー",
+              "chinese": "巨牙鲨",
+              "french": "Sharpedo"
+          },
+          "type": [
+              "Water",
+              "Dark"
+          ],
+          "base": {
+              "HP": 70,
+              "Attack": 120,
+              "Defense": 40,
+              "Sp. Attack": 95,
+              "Sp. Defense": 40,
+              "Speed": 95
+          },
+          "species": "Brutal Pokémon",
+          "description": "It drinks in seawater and jets it from its rear to propel itself. It’s very sensitive to the scent of blood.",
+          "evolution": {
+              "prev": [
+                  "318",
+                  "Level 30"
+              ]
+          },
+          "profile": {
+              "height": "1.8 m",
+              "weight": "88.8 kg",
+              "egg": [
+                  "Water 2"
+              ],
+              "ability": [
+                  [
+                      "Rough Skin",
+                      "false"
+                  ],
+                  [
+                      "Speed Boost",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/319.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/319.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/319.png"
+          }
+      },
+      {
+          "id": 320,
+          "name": {
+              "english": "Wailmer",
+              "japanese": "ホエルコ",
+              "chinese": "吼吼鲸",
+              "french": "Wailmer"
+          },
+          "type": [
+              "Water"
+          ],
+          "base": {
+              "HP": 130,
+              "Attack": 70,
+              "Defense": 35,
+              "Sp. Attack": 70,
+              "Sp. Defense": 35,
+              "Speed": 60
+          },
+          "species": "Ball Whale Pokémon",
+          "description": "Due to their memories of when they once lived on land, pods of them will, very rarely, wash up on shore.",
+          "evolution": {
+              "next": [
+                  [
+                      "321",
+                      "Level 40"
+                  ]
+              ]
+          },
+          "profile": {
+              "height": "2 m",
+              "weight": "130 kg",
+              "egg": [
+                  "Field",
+                  "Water 2"
+              ],
+              "ability": [
+                  [
+                      "Water Veil",
+                      "false"
+                  ],
+                  [
+                      "Oblivious",
+                      "false"
+                  ],
+                  [
+                      "Pressure",
+                      "true"
+                  ]
+              ],
+              "gender": "50:50"
+          },
+          "image": {
+              "sprite": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/sprites/320.png",
+              "thumbnail": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/thumbnails/320.png",
+              "hires": "https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/320.png"
+          }
+      }
+  ],
+  "links": {
+      "self": "/api/pokemon/8.json",
+      "prev": "/api/pokemon/7.json",
+      "next": "/api/pokemon/9.json",
+      "first": "/api/pokemon/1.json",
+      "last": "/api/pokemon/23.json"
+  },
+  "meta": {
+      "currentPage": 8,
+      "totalPages": 23,
+      "total": 898,
+      "estimatedTotal": 898,
+      "page": {
+          "size": 40,
+          "total": 898,
+          "estimatedTotal": 898
+      }
+  }
+}
