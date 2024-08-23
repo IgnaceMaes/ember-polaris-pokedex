@@ -1,7 +1,5 @@
 import RequestManager from '@ember-data/request';
 import BaseStore, { CacheHandler } from '@ember-data/store';
-import Fetch from '@ember-data/request/fetch';
-import { JsonSuffixHandler } from 'ember-polaris-pokedex/utils/handlers';
 import { CachePolicy } from '@ember-data/request-utils';
 import {
   registerDerivations,
@@ -17,6 +15,10 @@ import {
 } from '@warp-drive/schema-record/hooks';
 import type { SchemaRecord } from '@warp-drive/schema-record/record';
 
+// import { WorkerFetch } from '@warp-drive/experiments/worker-fetch';
+import { JsonSuffixHandler } from 'ember-polaris-pokedex/utils/handlers';
+import Fetch from '@ember-data/request/fetch';
+
 export default class Store extends BaseStore {
   lifetimes = new CachePolicy({
     apiCacheHardExpires: 1000 * 60 * 60 * 48, // 48 hours
@@ -24,7 +26,15 @@ export default class Store extends BaseStore {
   });
 
   requestManager = new RequestManager()
-    .use([JsonSuffixHandler, Fetch])
+    .use([
+      // new WorkerFetch(
+      //   new SharedWorker(new URL('./basic-worker.ts', import.meta.url), {
+      //     type: 'module',
+      //   }),
+      // ),
+      JsonSuffixHandler,
+      Fetch,
+    ])
     .useCache(CacheHandler);
 
   createSchemaService() {

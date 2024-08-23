@@ -99,18 +99,18 @@
     "edition": "octane"
   },
   "dependencies": {
-    "@ember-data/graph": "5.4.0-alpha.100",
-    "@ember-data/json-api": "5.4.0-alpha.100",
-    "@ember-data/request": "5.4.0-alpha.100",
-    "@ember-data/request-utils": "5.4.0-alpha.100",
-    "@ember-data/rest": "5.4.0-alpha.100",
-    "@ember-data/store": "5.4.0-alpha.100",
-    "@ember-data/tracking": "5.4.0-alpha.100",
-    "@warp-drive/core-types": "0.0.0-alpha.86",
-    "@warp-drive/build-config": "0.0.0-alpha.37",
-    "@warp-drive/schema-record": "0.0.0-alpha.86",
-    "@warp-drive/experiments": "0.0.1-alpha.100",
-    "@warp-drive/ember": "0.0.0-alpha.62",
+    "@ember-data/graph": "5.4.0-alpha.101",
+    "@ember-data/json-api": "5.4.0-alpha.101",
+    "@ember-data/request": "5.4.0-alpha.101",
+    "@ember-data/request-utils": "5.4.0-alpha.101",
+    "@ember-data/rest": "5.4.0-alpha.101",
+    "@ember-data/store": "5.4.0-alpha.101",
+    "@ember-data/tracking": "5.4.0-alpha.101",
+    "@warp-drive/core-types": "0.0.0-alpha.87",
+    "@warp-drive/build-config": "0.0.0-alpha.38",
+    "@warp-drive/schema-record": "0.0.0-alpha.87",
+    "@warp-drive/experiments": "0.0.1-alpha.101",
+    "@warp-drive/ember": "0.0.0-alpha.63",
     "ember-router-scroll": "^4.1.2"
   }
 }
