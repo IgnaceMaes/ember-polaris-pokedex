@@ -30,6 +30,9 @@ export default defineConfig(({ mode }) => {
   const embroiderDeps = optimizeDeps();
   embroiderDeps.exclude = embroiderDeps.exclude ?? [];
   embroiderDeps.exclude.push('!data-worker*')
+  embroiderDeps.exclude.push('!*data-worker')
+
+  console.log(embroiderDeps, embroiderDeps.esbuildOptions.plugins);
 
   return {
     root,
