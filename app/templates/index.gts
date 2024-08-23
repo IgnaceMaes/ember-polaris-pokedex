@@ -66,6 +66,7 @@ export default class IndexTemplate extends Component<IndexTemplateSignature> {
     if (state.isLoading || state.isError) {
       return null;
     }
+    // @ts-expect-error this probably needs a generic on getRequestState to be tweaked
     return new Pages<Pokemon>(state.result!);
   }
 
