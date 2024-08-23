@@ -7,8 +7,9 @@ import {
 } from 'ember-polaris-pokedex/utils/ember-route-template';
 import Component from '@glimmer/component';
 import LoadingBar from 'ember-polaris-pokedex/components/loading-bar';
+// @ts-expect-error untyped
 import didIntersect from 'ember-scroll-modifiers/modifiers/did-intersect';
-import { cached, tracked } from '@glimmer/tracking';
+import { cached } from '@glimmer/tracking';
 
 import type { Document } from '@ember-data/store';
 import { service } from '@ember/service';
