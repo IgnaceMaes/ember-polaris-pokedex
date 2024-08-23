@@ -8,11 +8,11 @@ import type { CacheCapabilitiesManager } from '@ember-data/store/types';
 import { CachePolicy } from '@ember-data/request-utils';
 import { SchemaService } from '@warp-drive/schema-record/schema';
 import { register } from '../schemas/pokemon';
-import { JsonSuffixHandler } from '../utils/handlers';
+import { PokemonHandler } from '../utils/handlers';
 
 class WorkerStore extends Store {
   requestManager = new RequestManager()
-    .use([JsonSuffixHandler, Fetch])
+    .use([PokemonHandler, Fetch])
     .useCache(CacheHandler);
 
   lifetimes = new CachePolicy({
