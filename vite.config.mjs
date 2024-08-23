@@ -32,8 +32,6 @@ export default defineConfig(({ mode }) => {
   embroiderDeps.exclude.push('!data-worker*')
   embroiderDeps.exclude.push('!*data-worker')
 
-  console.log(embroiderDeps, embroiderDeps.esbuildOptions.plugins);
-
   return {
     root,
     cacheDir: resolve("node_modules", ".vite"),
