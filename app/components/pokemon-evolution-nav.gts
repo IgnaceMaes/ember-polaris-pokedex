@@ -11,8 +11,16 @@ export function getPokemonById(pokemons: Pokemon[], id: string) {
   return pokemons.find((pokemon) => pokemon.id === id);
 }
 
+// https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/005.png
+function getHiresImageForId(id: string) {
+  return `https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/${id.padStart(
+    3,
+    '0',
+  )}.png`;
+}
+
 export default class PokemonEvolutionNav extends Component<{
-  Args: { pokemon: Pokemon; allPokemon: Pokemon[] };
+  Args: { pokemon: Pokemon };
 }> {
   @service declare router: RouterService;
 
@@ -37,10 +45,7 @@ export default class PokemonEvolutionNav extends Component<{
   };
 
   preloadImageForPokemonId = (pokemonId: string) => {
-    const pokemon = getPokemonById(this.args.allPokemon, pokemonId);
-    if (pokemon) {
-      preloadImage(pokemon.image.hires);
-    }
+    preloadImage(getHiresImageForId(pokemonId));
   };
 
   <template>
