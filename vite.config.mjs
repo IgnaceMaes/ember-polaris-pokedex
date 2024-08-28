@@ -69,6 +69,9 @@ export default defineConfig(({ mode }) => {
             ? { tests: resolve(root, "tests/index.html") }
             : undefined),
         },
+        output: {
+          hoistTransitiveImports: false
+        }
       },
     },
     css: {
