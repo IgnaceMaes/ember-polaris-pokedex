@@ -5,7 +5,7 @@ export const PokemonHandler: Handler = {
   async request<T>(context: StoreRequestContext, next: NextFn<T>) {
     let { request } = context;
 
-    if (request.url?.endsWith('.json')) {
+    if (request.url && !request.url.endsWith('.json')) {
       request = Object.assign({}, request, {
         url: request.url + '.json',
       });
