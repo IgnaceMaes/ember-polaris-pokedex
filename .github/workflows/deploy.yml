@@ -1,0 +1,60 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Deploy Github Pages
+
+concurrency:
+  group: "gh-pages"
+  cancel-in-progress: true
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  push:
+    branches: [ "master" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    - uses: actions/checkout@v3
+    - uses: pnpm/action-setup@c3b53f6a16e57305370b4ae5a540c2077a1d50dd # tag=v2.2.4
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 19
+        cache: 'pnpm'
+    - name: Install Dependencies
+      shell: bash
+      run: pnpm install --prefer-offline
+    - name: Build
+      run: pnpm run build
+    # - name: CompressFiles
+    #   uses: runspired/ghaction-CompressFiles@master
+    #   with:
+    #     path: dist
+    #     extensions: '.js,.css,.html'
+    #     tools: 'brotli'
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: dist
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
