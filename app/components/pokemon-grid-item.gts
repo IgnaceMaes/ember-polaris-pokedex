@@ -75,6 +75,8 @@ export default class PokemonGridItem extends Component<PokemonSignature> {
           src={{this.thumbnailUrl}}
           alt='{{@pokemon.name.english}} thumbnail'
         />
+      {{else}}
+        <div class='data-pokemon-thumbnail-loading'></div>
       {{/if}}
       <span class='mt-4 text-lg font-medium'>{{@pokemon.name.english}}</span>
     </button>
