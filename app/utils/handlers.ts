@@ -3,10 +3,12 @@ import type { StoreRequestContext } from '@ember-data/store';
 
 export const PokemonHandler: Handler = {
   async request<T>(context: StoreRequestContext, next: NextFn<T>) {
-    const { request } = context;
+    let { request } = context;
 
     if (request.url?.endsWith('.json')) {
-      return next(request);
+      request = Object.assign({}, request, {
+        url: request.url + '.json',
+      });
     }
 
     // in the findRecord case, we can check the cache first
@@ -38,10 +40,6 @@ export const PokemonHandler: Handler = {
       }
     }
 
-    const updatedRequest = Object.assign({}, request, {
-      url: request.url + '.json',
-    });
-
-    return next(updatedRequest);
+    return next(request);
   },
 };
