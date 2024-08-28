@@ -31,4 +31,4 @@ class WorkerStore extends Store {
   }
 }
 
-new DataWorker(WorkerStore);
+new DataWorker(WorkerStore, { persisted: true });

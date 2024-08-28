@@ -5,7 +5,7 @@ import type RouterService from '@ember/routing/router-service';
 import { service } from '@ember/service';
 import { fn } from '@ember/helper';
 import { on } from '@ember/modifier';
-import { preloadImage } from 'ember-polaris-pokedex/components/pokemon-grid-item';
+import type { ImageFetch } from '@warp-drive/experiments/image-fetch';
 
 export function getPokemonById(pokemons: Pokemon[], id: string) {
   return pokemons.find((pokemon) => pokemon.id === id);
@@ -23,6 +23,7 @@ export default class PokemonEvolutionNav extends Component<{
   Args: { pokemon: Pokemon };
 }> {
   @service declare router: RouterService;
+  @service declare images: ImageFetch;
 
   transitionToPokemonDetails = (
     pokemonId: string,
@@ -45,7 +46,9 @@ export default class PokemonEvolutionNav extends Component<{
   };
 
   preloadImageForPokemonId = (pokemonId: string) => {
-    preloadImage(getHiresImageForId(pokemonId));
+    const url = getHiresImageForId(pokemonId);
+    this.images.load(url);
+    // preloadImage(getHiresImageForId(pokemonId));
   };
 
   <template>

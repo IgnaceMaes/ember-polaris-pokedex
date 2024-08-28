@@ -7,12 +7,13 @@ export default class PokemonRoute extends Route {
   @service declare store: Store;
 
   model(params: { pokemon_id: string }) {
+    const req = findRecord('pokemon', params.pokemon_id, {
+      resourcePath: `pokemon/single`,
+    });
+    req.url += '.json';
+
     return {
-      pokemonRequest: this.store.request(
-        findRecord('pokemon', params.pokemon_id, {
-          resourcePath: `api/pokemon/single`,
-        }),
-      ),
+      pokemonRequest: this.store.request(req),
       id: params.pokemon_id,
     };
   }

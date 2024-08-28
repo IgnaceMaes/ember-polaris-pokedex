@@ -76,9 +76,21 @@ export default class IndexTemplate extends Component<IndexTemplateSignature> {
       return;
     }
     const page = this.pageCollection.pages.at(-1);
-    const result = await page?.next();
+
+    // temporary hack since we don't have a real API and so can't make the origins on the links pre-set
+    // usually you'd just call `page.next()` here
+    const link = page!.links?.next;
+    if (!link) {
+      return;
+    }
+    const result = await this.store.request({
+      url: window.location.origin + link,
+      method: 'GET',
+    });
     if (result) {
-      this.pageCollection.addPage(result);
+      // @ts-expect-error need to figure out how to juggle identity with / vs origin
+      // normally content would be auto-typed from the initial request due to calling `next`
+      this.pageCollection.addPage(result.content!);
     }
   };
 

@@ -10,7 +10,7 @@ export default class ApplicationRoute extends Route {
   model() {
     return {
       pokemonRequest: this.store.request(
-        query<Pokemon>('pokemon', {}, { resourcePath: 'api/pokemon/list' }),
+        query<Pokemon>('pokemon', {}, { resourcePath: 'pokemon/list.json' }),
       ),
     };
   }
