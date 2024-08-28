@@ -1,20 +1,29 @@
 import Component from '@glimmer/component';
 import { get } from '@ember/helper';
-import type PokemonModel from 'ember-polaris-pokedex/models/pokemon';
+import type { Pokemon } from 'ember-polaris-pokedex/schemas/pokemon';
 import type RouterService from '@ember/routing/router-service';
 import { service } from '@ember/service';
 import { fn } from '@ember/helper';
 import { on } from '@ember/modifier';
-import { preloadImage } from 'ember-polaris-pokedex/components/pokemon-grid-item';
+import type { ImageFetch } from '@warp-drive/experiments/image-fetch';
 
-export function getPokemonById(pokemons: PokemonModel[], id: string) {
-  return pokemons.find((pokemon) => pokemon.id!.toString() === id);
+export function getPokemonById(pokemons: Pokemon[], id: string) {
+  return pokemons.find((pokemon) => pokemon.id === id);
+}
+
+// https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/005.png
+function getHiresImageForId(id: string) {
+  return `https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/${id.padStart(
+    3,
+    '0',
+  )}.png`;
 }
 
 export default class PokemonEvolutionNav extends Component<{
-  Args: { pokemon: PokemonModel; allPokemon: PokemonModel[] };
+  Args: { pokemon: Pokemon };
 }> {
   @service declare router: RouterService;
+  @service declare images: ImageFetch;
 
   transitionToPokemonDetails = (
     pokemonId: string,
@@ -37,10 +46,9 @@ export default class PokemonEvolutionNav extends Component<{
   };
 
   preloadImageForPokemonId = (pokemonId: string) => {
-    const pokemon = getPokemonById(this.args.allPokemon, pokemonId);
-    if (pokemon) {
-      preloadImage(pokemon.image.hires);
-    }
+    const url = getHiresImageForId(pokemonId);
+    this.images.load(url);
+    // preloadImage(getHiresImageForId(pokemonId));
   };
 
   <template>
