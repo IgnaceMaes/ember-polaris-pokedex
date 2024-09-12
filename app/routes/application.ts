@@ -1,6 +1,6 @@
 import Route from '@ember/routing/route';
 import { service } from '@ember/service';
-import { query } from '@ember-data/rest/request';
+import { query } from '@ember-data/json-api/request';
 import type StoreService from '@ember-data/store';
 import type { Pokemon } from 'ember-polaris-pokedex/schemas/pokemon';
 
@@ -9,7 +9,9 @@ export default class ApplicationRoute extends Route {
 
   model() {
     return {
-      pokemonRequest: this.store.request(query<Pokemon>('pokemon')),
+      pokemonRequest: this.store.request(
+        query<Pokemon>('pokemon', {}, { resourcePath: 'pokemon/list.json' }),
+      ),
     };
   }
 }

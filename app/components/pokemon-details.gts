@@ -4,7 +4,7 @@ import PokemonTypeBadge from 'ember-polaris-pokedex/components/pokemon-type-badg
 import PokemonEvolutionNav from 'ember-polaris-pokedex/components/pokemon-evolution-nav';
 
 export default class PokemonDetails extends Component<{
-  Args: { pokemon: PokemonModel; allPokemon: PokemonModel[] };
+  Args: { pokemon: Pokemon };
 }> {
   <template>
     <div
@@ -36,7 +36,7 @@ export default class PokemonDetails extends Component<{
       </div>
     </div>
 
-    <PokemonEvolutionNav @pokemon={{@pokemon}} @allPokemon={{@allPokemon}} />
+    <PokemonEvolutionNav @pokemon={{@pokemon}} />
 
     {{! prettier-ignore }}
     <style>
