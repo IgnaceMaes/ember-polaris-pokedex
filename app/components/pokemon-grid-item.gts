@@ -1,7 +1,7 @@
 import { fn } from '@ember/helper';
 import { on } from '@ember/modifier';
 import Component from '@glimmer/component';
-import type PokemonModel from 'ember-polaris-pokedex/models/pokemon';
+import type { Pokemon } from 'ember-polaris-pokedex/schemas/pokemon';
 import { service } from '@ember/service';
 import type RouterService from '@ember/routing/router-service';
 
@@ -11,13 +11,13 @@ export function preloadImage(imageUrl: string) {
 }
 
 interface PokemonSignature {
-  Args: { pokemon: PokemonModel };
+  Args: { pokemon: Pokemon };
 }
 
 export default class PokemonGridItem extends Component<PokemonSignature> {
   @service declare router: RouterService;
 
-  transitionToPokemonDetails = (pokemon: PokemonModel, event: MouseEvent) => {
+  transitionToPokemonDetails = (pokemon: Pokemon, event: MouseEvent) => {
     // Fallback for browsers that don't support this API:
     if (!document.startViewTransition) {
       this.router.transitionTo('pokemon.pokemon', pokemon.id?.toString());

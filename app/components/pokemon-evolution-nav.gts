@@ -1,6 +1,6 @@
 import Component from '@glimmer/component';
 import { get } from '@ember/helper';
-import type PokemonModel from 'ember-polaris-pokedex/models/pokemon';
+import type { Pokemon } from 'ember-polaris-pokedex/schemas/pokemon';
 import type RouterService from '@ember/routing/router-service';
 import { service } from '@ember/service';
 import { fn } from '@ember/helper';
