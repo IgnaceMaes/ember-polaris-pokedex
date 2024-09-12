@@ -48,12 +48,11 @@ export default class PokemonGridItem extends Component<PokemonSignature> {
 
   @cached
   get thumbnailUrl() {
-    return this.args.pokemon.image.thumbnail;
-    // const state = getPromiseState(this.thumbnailRequest);
-    // if (state.isError || state.isPending) {
-    //   return null;
-    // }
-    // return state.result;
+    const state = getPromiseState(this.thumbnailRequest);
+    if (state.isError || state.isPending) {
+      return null;
+    }
+    return state.result;
   }
 
   <template>
