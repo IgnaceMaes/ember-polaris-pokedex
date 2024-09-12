@@ -11,6 +11,12 @@ import type { CacheCapabilitiesManager } from '@ember-data/store/types';
 
 import { PokemonHandler } from 'ember-polaris-pokedex/utils/pokemon-api-handler';
 import { register as registerPokemon } from 'ember-polaris-pokedex/schemas/pokemon';
+import type { StableRecordIdentifier } from '@warp-drive/core-types';
+import type { SchemaRecord } from '@warp-drive/schema-record/record';
+import {
+  instantiateRecord,
+  teardownRecord,
+} from '@warp-drive/schema-record/hooks';
 
 export default class Store extends BaseStore {
   requestManager = new RequestManager()
@@ -33,5 +39,16 @@ export default class Store extends BaseStore {
     registerPokemon(schema);
 
     return schema;
+  }
+
+  instantiateRecord(
+    identifier: StableRecordIdentifier,
+    createRecordArgs: { [key: string]: unknown },
+  ) {
+    return instantiateRecord(this, identifier, createRecordArgs);
+  }
+
+  teardownRecord(record: SchemaRecord): void {
+    teardownRecord(record);
   }
 }
