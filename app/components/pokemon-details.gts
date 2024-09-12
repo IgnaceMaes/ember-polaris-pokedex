@@ -1,20 +1,44 @@
 import Component from '@glimmer/component';
-import type PokemonModel from 'ember-polaris-pokedex/models/pokemon';
+import type { Pokemon } from 'ember-polaris-pokedex/schemas/pokemon';
 import PokemonTypeBadge from 'ember-polaris-pokedex/components/pokemon-type-badge';
 import PokemonEvolutionNav from 'ember-polaris-pokedex/components/pokemon-evolution-nav';
+import { service } from '@ember/service';
+import type { ImageFetch } from '@warp-drive/experiments/image-fetch';
+import { cached } from '@glimmer/tracking';
+import { getPromiseState } from '@warp-drive/ember';
 
 export default class PokemonDetails extends Component<{
-  Args: { pokemon: PokemonModel; allPokemon: PokemonModel[] };
+  Args: { pokemon: Pokemon };
 }> {
+  @service declare images: ImageFetch;
+
+  @cached
+  get detailImageRequest() {
+    return this.images.load(this.args.pokemon.image.hires);
+  }
+
+  @cached
+  get detailImageUrl() {
+    const state = getPromiseState(this.detailImage);
+    if (state.isError || state.isPending) {
+      return null;
+    }
+    return state.result;
+  }
+
   <template>
     <div
       class='pokemon-details flex flex-col justify-center gap-16 md:flex-row'
     >
-      <img
-        class='max-size-96 full-embed aspect-square size-96 animate-wiggle drop-shadow-2xl [animation-delay:_0.2s]'
-        src={{@pokemon.image.hires}}
-        alt={{@pokemon.name.english}}
-      />
+      {{#if this.detailImageUrl}}
+        <img
+          class='max-size-96 full-embed aspect-square size-96 animate-wiggle drop-shadow-2xl [animation-delay:_0.2s]'
+          src={{this.detailImageUrl}}
+          alt={{@pokemon.name.english}}
+        />
+      {{else}}
+        <div class='data-pokemon-thumbnail-loading'></div>
+      {{/if}}
       <div class='max-w-96'>
         <h2 class='text-4xl font-medium'>{{@pokemon.name.english}}</h2>
         <p class='my-2 text-lg italic text-slate-700'>
@@ -36,7 +60,7 @@ export default class PokemonDetails extends Component<{
       </div>
     </div>
 
-    <PokemonEvolutionNav @pokemon={{@pokemon}} @allPokemon={{@allPokemon}} />
+    <PokemonEvolutionNav @pokemon={{@pokemon}} />
 
     {{! prettier-ignore }}
     <style>

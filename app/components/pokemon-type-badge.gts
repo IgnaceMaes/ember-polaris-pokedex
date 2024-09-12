@@ -1,4 +1,4 @@
-import type { PokemonType } from 'ember-polaris-pokedex/models/pokemon';
+import type { PokemonType } from 'ember-polaris-pokedex/schemas/pokemon';
 import { get } from '@ember/helper';
 import type { TOC } from '@ember/component/template-only';
 import {
