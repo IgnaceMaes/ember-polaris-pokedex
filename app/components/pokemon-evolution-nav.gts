@@ -7,12 +7,16 @@ import { fn } from '@ember/helper';
 import { on } from '@ember/modifier';
 import { preloadImage } from 'ember-polaris-pokedex/components/pokemon-grid-item';
 
-export function getPokemonById(pokemons: PokemonModel[], id: string) {
-  return pokemons.find((pokemon) => pokemon.id!.toString() === id);
+// https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/005.png
+function getHiresImageForId(id: string) {
+  return `https://raw.githubusercontent.com/IgnaceMaes/pokemon-data.json/master/images/pokedex/hires/${id.padStart(
+    3,
+    '0',
+  )}.png`;
 }
 
 export default class PokemonEvolutionNav extends Component<{
-  Args: { pokemon: PokemonModel; allPokemon: PokemonModel[] };
+  Args: { pokemon: Pokemon };
 }> {
   @service declare router: RouterService;
 
@@ -37,10 +41,8 @@ export default class PokemonEvolutionNav extends Component<{
   };
 
   preloadImageForPokemonId = (pokemonId: string) => {
-    const pokemon = getPokemonById(this.args.allPokemon, pokemonId);
-    if (pokemon) {
-      preloadImage(pokemon.image.hires);
-    }
+    const url = getHiresImageForId(pokemonId);
+    preloadImage(url);
   };
 
   <template>
