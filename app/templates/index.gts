@@ -7,6 +7,8 @@ import {
 } from 'ember-polaris-pokedex/utils/ember-route-template';
 import Component from '@glimmer/component';
 import LoadingBar from 'ember-polaris-pokedex/components/loading-bar';
+// @ts-expect-error untyped
+import didIntersect from 'ember-scroll-modifiers/modifiers/did-intersect';
 import { cached } from '@glimmer/tracking';
 
 import type { Document } from '@ember-data/store';
@@ -50,6 +52,11 @@ class Pages<T> {
   }
 }
 
+const observerOptions = {
+  rootMargin: '750px',
+  threshold: 0,
+};
+
 @RouteTemplate
 export default class IndexTemplate extends Component<IndexTemplateSignature> {
   @service declare store: Store;
@@ -85,6 +92,9 @@ export default class IndexTemplate extends Component<IndexTemplateSignature> {
           {{#each this.pageCollection.data as |pokemon|}}
             <PokemonGridItem @pokemon={{pokemon}} />
           {{/each}}
+          <div
+            {{didIntersect onEnter=this.lastReached options=observerOptions}}
+          ></div>
         </div>
       </:content>
       <:loading>

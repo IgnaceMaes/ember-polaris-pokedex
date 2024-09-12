@@ -109,7 +109,8 @@
     "@warp-drive/build-config": "0.0.0-alpha.45",
     "@warp-drive/schema-record": "0.0.0-alpha.94",
     "@warp-drive/ember": "0.0.0-alpha.70",
-    "ember-router-scroll": "^4.1.2"
+    "ember-router-scroll": "^4.1.2",
+    "ember-scroll-modifiers": "^7.2.0"
   },
   "packageManager": "pnpm@9.9.0",
   "volta": {
