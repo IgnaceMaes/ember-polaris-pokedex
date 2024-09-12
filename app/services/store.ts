@@ -1,8 +1,10 @@
+import JSONAPICache from '@ember-data/json-api';
 import RequestManager from '@ember-data/request';
 import { CachePolicy } from '@ember-data/request-utils';
 import Fetch from '@ember-data/request/fetch';
-
 import BaseStore, { CacheHandler } from '@ember-data/store';
+import type { CacheCapabilitiesManager } from '@ember-data/store/types';
+
 import { PokemonHandler } from 'ember-polaris-pokedex/utils/pokemon-api-handler';
 
 export default class Store extends BaseStore {
@@ -14,4 +16,8 @@ export default class Store extends BaseStore {
     apiCacheHardExpires: 1000 * 60 * 60 * 48, // 48 hours
     apiCacheSoftExpires: 1000 * 60 * 60, // 1 hour
   });
+
+  createCache(capabilites: CacheCapabilitiesManager) {
+    return new JSONAPICache(capabilites);
+  }
 }
