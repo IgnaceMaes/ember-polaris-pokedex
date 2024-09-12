@@ -1,3 +1,8 @@
-import BaseStore from '@ember-data/store';
+import RequestManager from '@ember-data/request';
+import Fetch from '@ember-data/request/fetch';
 
-export default class Store extends BaseStore {}
+import BaseStore, { CacheHandler } from '@ember-data/store';
+
+export default class Store extends BaseStore {
+  requestManager = new RequestManager().use([Fetch]).useCache(CacheHandler);
+}
