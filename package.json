@@ -107,6 +107,7 @@
     "@ember-data/tracking": "5.4.0-alpha.108",
     "@warp-drive/core-types": "0.0.0-alpha.94",
     "@warp-drive/build-config": "0.0.0-alpha.45",
+    "@warp-drive/experiments": "0.0.1-alpha.108",
     "@warp-drive/schema-record": "0.0.0-alpha.94",
     "@warp-drive/ember": "0.0.0-alpha.70",
     "ember-router-scroll": "^4.1.2",

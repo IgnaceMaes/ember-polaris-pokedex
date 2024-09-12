@@ -38,6 +38,9 @@ importers:
       '@warp-drive/ember':
         specifier: 0.0.0-alpha.70
         version: 0.0.0-alpha.70(3mjksuftbhhoqo3tqvhgwehdu4)
+      '@warp-drive/experiments':
+        specifier: 0.0.1-alpha.108
+        version: 0.0.1-alpha.108(gpfpjyvcyymawyhztnketn7r4a)
       '@warp-drive/schema-record':
         specifier: 0.0.0-alpha.94
         version: 0.0.0-alpha.94(lm6w3cfrdy5t2eghgqok2jdwra)
@@ -2049,6 +2052,19 @@ packages:
       ember-provide-consume-context: ^0.3.1
     peerDependenciesMeta:
       ember-provide-consume-context:
+        optional: true
+
+  '@warp-drive/experiments@0.0.1-alpha.108':
+    resolution: {integrity: sha512-1B9Vl8moMOH8rIA46fRez8Y0cba2l+AxhynNneMJC+r76CI5/KH2xt4c/P7iDScIy3hNU/4nURoPW6iZsj4rKw==}
+    engines: {node: '>= 18.20.3'}
+    peerDependencies:
+      '@ember-data/request': 5.4.0-alpha.108
+      '@ember-data/request-utils': 5.4.0-alpha.108
+      '@ember-data/store': 5.4.0-alpha.108
+      '@sqlite.org/sqlite-wasm': 3.46.0-build2
+      '@warp-drive/core-types': 0.0.0-alpha.94
+    peerDependenciesMeta:
+      '@sqlite.org/sqlite-wasm':
         optional: true
 
   '@warp-drive/schema-record@0.0.0-alpha.94':
@@ -9212,6 +9228,18 @@ snapshots:
       '@ember-data/store': 5.4.0-alpha.108(@ember-data/request-utils@5.4.0-alpha.108(@ember/string@3.1.1)(@glint/template@1.4.1-unstable.01b8deb)(@warp-drive/core-types@0.0.0-alpha.94(@glint/template@1.4.1-unstable.01b8deb)))(@ember-data/request@5.4.0-alpha.108(@glint/template@1.4.1-unstable.01b8deb)(@warp-drive/core-types@0.0.0-alpha.94(@glint/template@1.4.1-unstable.01b8deb)))(@ember-data/tracking@5.4.0-alpha.108(@glint/template@1.4.1-unstable.01b8deb)(@warp-drive/core-types@0.0.0-alpha.94(@glint/template@1.4.1-unstable.01b8deb))(ember-source@5.10.2(@glimmer/component@1.1.2(@babel/core@7.25.2))(@glint/template@1.4.1-unstable.01b8deb)(rsvp@4.8.5)(webpack@5.93.0)))(@glint/template@1.4.1-unstable.01b8deb)(@warp-drive/core-types@0.0.0-alpha.94(@glint/template@1.4.1-unstable.01b8deb))
       '@ember-data/tracking': 5.4.0-alpha.108(@glint/template@1.4.1-unstable.01b8deb)(@warp-drive/core-types@0.0.0-alpha.94(@glint/template@1.4.1-unstable.01b8deb))(ember-source@5.10.2(@glimmer/component@1.1.2(@babel/core@7.25.2))(@glint/template@1.4.1-unstable.01b8deb)(rsvp@4.8.5)(webpack@5.93.0))
       '@ember/test-waiters': 3.1.0
+      '@embroider/macros': 1.16.5(@glint/template@1.4.1-unstable.01b8deb)
+      '@warp-drive/build-config': 0.0.0-alpha.45(@glint/template@1.4.1-unstable.01b8deb)
+      '@warp-drive/core-types': 0.0.0-alpha.94(@glint/template@1.4.1-unstable.01b8deb)
+    transitivePeerDependencies:
+      - '@glint/template'
+      - supports-color
+
+  '@warp-drive/experiments@0.0.1-alpha.108(gpfpjyvcyymawyhztnketn7r4a)':
+    dependencies:
+      '@ember-data/request': 5.4.0-alpha.108(@glint/template@1.4.1-unstable.01b8deb)(@warp-drive/core-types@0.0.0-alpha.94(@glint/template@1.4.1-unstable.01b8deb))
+      '@ember-data/request-utils': 5.4.0-alpha.108(@ember/string@3.1.1)(@glint/template@1.4.1-unstable.01b8deb)(@warp-drive/core-types@0.0.0-alpha.94(@glint/template@1.4.1-unstable.01b8deb))
+      '@ember-data/store': 5.4.0-alpha.108(@ember-data/request-utils@5.4.0-alpha.108(@ember/string@3.1.1)(@glint/template@1.4.1-unstable.01b8deb)(@warp-drive/core-types@0.0.0-alpha.94(@glint/template@1.4.1-unstable.01b8deb)))(@ember-data/request@5.4.0-alpha.108(@glint/template@1.4.1-unstable.01b8deb)(@warp-drive/core-types@0.0.0-alpha.94(@glint/template@1.4.1-unstable.01b8deb)))(@ember-data/tracking@5.4.0-alpha.108(@glint/template@1.4.1-unstable.01b8deb)(@warp-drive/core-types@0.0.0-alpha.94(@glint/template@1.4.1-unstable.01b8deb))(ember-source@5.10.2(@glimmer/component@1.1.2(@babel/core@7.25.2))(@glint/template@1.4.1-unstable.01b8deb)(rsvp@4.8.5)(webpack@5.93.0)))(@glint/template@1.4.1-unstable.01b8deb)(@warp-drive/core-types@0.0.0-alpha.94(@glint/template@1.4.1-unstable.01b8deb))
       '@embroider/macros': 1.16.5(@glint/template@1.4.1-unstable.01b8deb)
       '@warp-drive/build-config': 0.0.0-alpha.45(@glint/template@1.4.1-unstable.01b8deb)
       '@warp-drive/core-types': 0.0.0-alpha.94(@glint/template@1.4.1-unstable.01b8deb)
