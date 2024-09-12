@@ -7,3 +7,8 @@
     font-family: "Pixelify Sans", system-ui, sans-serif;
   }
 }
+
+div.data-pokemon-thumbnail-loading {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
